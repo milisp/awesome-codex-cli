@@ -1,14 +1,17 @@
-# Awesome Codex CLI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
+![icon](icon.png)
+
+# Awesome Codex CLI 🚀
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/milisp/awesome-codex-cli?style=social)](https://github.com/milisp/awesome-codex-cli/stargazers)
 
 A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI - the lightweight coding agent that runs in your terminal.
 
-<div align="center">
-  
   [Codex CLI](https://github.com/openai/codex) |
   [Codex Web](https://chatgpt.com/codex) |
-  [Codexia](https://github.com/milisp/codexia)
+  [Codexia GUI](https://github.com/milisp/codexia)
 </div>
 
 ## What is OpenAI Codex CLI?
