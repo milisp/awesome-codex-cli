@@ -97,8 +97,8 @@ codex --profile gemini
 - [Codexia](https://github.com/milisp/codexia) - Modern GUI for OpenAI Codex CLI with multi-session support and real-time streaming (Tauri v2)
 
 ### IDE Integrations
-- **VS Code**: Run in integrated terminal, create custom tasks
-- **Aider Composer**: VS Code extension for Codex-like functionality
+- **[Codex VS Code Extension](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)**: Codex is OpenAI's coding agent that helps you write, review, and ship code faster. Use it side-by-side in your IDE or delegate larger tasks to the cloud.
+- **[Codexia VS Code Extension](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)**: A VS Code extension that provides a chat interface for the OpenAI Codex CLI, allowing you to interact with AI coding assistants directly from your editor.
 
 ## Use Cases
 
