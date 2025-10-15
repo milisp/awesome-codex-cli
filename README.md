@@ -25,8 +25,8 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ### GUI & MCP
 - [codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
-- [codexia-zen](https://github.com/milisp/codexia-zen) - A powerful GUI and Toolkit for Codex CLI
-- [MCP-Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
+- [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
+- [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
 
 ### Session manager
 - [crystal](https://github.com/stravu/crystal) - Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
