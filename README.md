@@ -23,6 +23,9 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ## Tools
 
+## setup tool
+- [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
+
 ### GUI & MCP
 - [codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
 - [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
@@ -80,9 +83,6 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 ### Official Web Interface
 - [Codex Web](https://chatgpt.com/codex) - Official cloud-based agent with web interface
 - Cloud Codex - Sandbox environments preloaded with repositories (ChatGPT Pro/Enterprise/Team/Plus users)
-
-### GUI Desktop Applications
-- [Codexia](https://github.com/milisp/codexia) - Modern GUI for OpenAI Codex CLI with multi-session support and real-time streaming (Tauri v2)
 
 ### IDE Integrations
 - **[Codex VS Code Extension](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt)**: Codex is OpenAI's coding agent that helps you write, review, and ship code faster. Use it side-by-side in your IDE or delegate larger tasks to the cloud.
