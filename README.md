@@ -23,13 +23,14 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ## Tools
 
-## setup tool
-- [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
-
 ### GUI & MCP
 - [codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
 - [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
+
+### setup tool
+- [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
+- [codex-universal](https://github.com/openai/codex-universal) - Base docker image used in Codex environments
 
 ### Session manager
 - [crystal](https://github.com/stravu/crystal) - Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
@@ -54,6 +55,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, Github Copilot, Gemini CLI and Qwen Code.
 - [vibekit](https://github.com/superagent-ai/vibekit) - Run Claude Code, Gemini, Codex — or any coding agent — in a clean, isolated sandbox with sensitive data redaction and observability baked in.
 - [dotai](https://github.com/udecode/dotai) - Context Manager for Claude Code Plugins + Codex + Cursor.
+- [zcf](https://github.com/UfoMiao/zcf) - Zero-config, one-click setup for Claude Code & Codex with bilingual support, intelligent agent system and personalized AI assistant
 
 #### Editor
 - [zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
