@@ -21,6 +21,27 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 > [!TIP]
 > **⭐ Star the repo and follow [milisp](https://github.com/milisp) on Github for more project**.
 
+## Agents.md
+
+- [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
+- These are the rules to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek/status/1965113557160484961)
+```md
+# When you need to call tools from the shell, **use this rubric**:
+
+- Find Files: `fd`
+- Find Text: `rg` (ripgrep)
+- Find Code Structure (TS/TSX): `ast-grep`
+  - **Default to TypeScript:**
+    - `.ts` → `ast-grep --lang ts -p '<pattern>'`
+    - `.tsx` (React) → `ast-grep --lang tsx -p '<pattern>'`
+  - For other languages, set `--lang` appropriately (e.g., `--lang rust`).
+- Select among matches: pipe to `fzf`
+- JSON: `jq`
+- YAML/XML: `yq`
+
+If ast-grep is available avoid tools `rg` or `grep` unless a plain‑text search is explicitly requested.
+```
+
 ## Tools
 
 ### GUI & MCP
