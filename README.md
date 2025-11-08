@@ -5,7 +5,7 @@
 [![Follow on 𝕏](https://img.shields.io/badge/𝕏-@lisp__mi-1c9bf0)](http://x.com/intent/follow?screen_name=lisp_mi)
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/codex/)
 
-A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI - the lightweight coding agent that runs in your terminal.
+A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI
 
 <div align="center">
 
@@ -21,31 +21,16 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 > [!TIP]
 > **⭐ Star the repo and follow [milisp](https://github.com/milisp) on Github for more project**.
 
-## Agents.md
+- [milisp/codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
+
+## Agents.md & Rules
 
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
-- These are the rules to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek/status/1965113557160484961)
-```md
-# When you need to call tools from the shell, **use this rubric**:
-
-- Find Files: `fd`
-- Find Text: `rg` (ripgrep)
-- Find Code Structure (TS/TSX): `ast-grep`
-  - **Default to TypeScript:**
-    - `.ts` → `ast-grep --lang ts -p '<pattern>'`
-    - `.tsx` (React) → `ast-grep --lang tsx -p '<pattern>'`
-  - For other languages, set `--lang` appropriately (e.g., `--lang rust`).
-- Select among matches: pipe to `fzf`
-- JSON: `jq`
-- YAML/XML: `yq`
-
-If ast-grep is available avoid tools `rg` or `grep` unless a plain‑text search is explicitly requested.
-```
+- [These are the rules](Agents.md) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek/status/1965113557160484961)
 
 ## Tools
 
 ### GUI & MCP
-- [codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
 - [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
 
