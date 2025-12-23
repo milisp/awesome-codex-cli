@@ -23,6 +23,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 > **⭐ Star the repo and follow [milisp](https://github.com/milisp) on Github for more project**.
 
 - [milisp/codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
+- [milisp/agent-insights](https://github.com/milisp/agent-insights) - Cli agent session insights
 
 ## Agents.md & Rules
 
@@ -43,6 +44,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [crystal](https://github.com/stravu/crystal) - Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
 - [vibe-kanban](https://github.com/BloopAI/vibe-kanban) - Kanban board to manage your AI coding agents
 - [ccmanager](https://github.com/kbwo/ccmanager) - Coding Agent Session Manager that supports Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI
+- [codmate](https://github.com/loocor/codmate) - a macOS SwiftUI app for managing CLI AI sessions
 - [agent-sessions](https://github.com/jazzyalex/agent-sessions) - Session browser + usage tracker for Codex CLI and Claude Code. Search ALL past sessions, filter by folder·repo, resume instantly
 - [codexsm](https://github.com/milisp/codexsm) - Codex session manager, Cross platform GUI. rename, view, delete session file. one click resume session
 
