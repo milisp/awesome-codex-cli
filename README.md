@@ -53,6 +53,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - CodexFlow is an enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
 - [Codex-webui](https://github.com/harryneopotter/Codex-webui) - A minimal webui to run Codex-CLI locally with a UI, session resume and persistent memory (Un-official)
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Free, local, open-source GUI app for Gemini CLI — Better Chat UI, File Management, AI image editing, multi-agent support, multi-LLMs
+- [Untether](https://github.com/littlebearapps/untether) - Telegram bridge for Codex CLI (and 5 other agents). Send tasks by voice, stream progress, toggle approval policy (full auto/safe) via inline buttons
 
 ### Development Tools
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
