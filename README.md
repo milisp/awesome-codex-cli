@@ -69,6 +69,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [vsync](https://github.com/nicepkg/vsync) - Sync Skills, MCP servers, Agents & Commands across Claude Code, Cursor, OpenCode, and Codex with automatic format conversion (JSON ↔ TOML ↔ JSONC).
 - [just-every/code](https://github.com/just-every/code) - fork of openai/codex focused on real developer ergonomics: Browser integration, multi-agents, theming, and reasoning control — all while staying compatible with upstream.
 - [agnix](https://github.com/avifenesh/agnix) - Linter for AI agent configurations. Validates AGENTS.md, .codex/config.toml, skills, hooks, and MCP configs with 156 rules, auto-fix, and editor integration.
+- [caliber](https://github.com/rely-ai-org/caliber) - CLI that fingerprints your codebase and generates AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md, skills, MCPs) for Claude Code, Cursor, and Codex. Scores your setup 0–100.
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
