@@ -74,6 +74,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
+- [BurnRate](https://github.com/burnrate-dev/burnrate) - AI coding cost analytics CLI that tracks usage and costs across 7 providers (Claude Code, Cursor, Copilot, Windsurf, Aider, Cline, Codex) with a real-time dashboard, 46 optimization rules, and rate limit monitoring.
 
 #### Editor
 - [zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
