@@ -55,6 +55,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Free, local, open-source GUI app for Gemini CLI — Better Chat UI, File Management, AI image editing, multi-agent support, multi-LLMs
 - [Untether](https://github.com/littlebearapps/untether) - Telegram bridge for Codex CLI (and 5 other agents). Send tasks by voice, stream progress, toggle approval policy (full auto/safe) via inline buttons
 - [IM.codes](https://github.com/im4codes/imcodes) - The IM for agents: a mobile/web control layer for Codex CLI and other terminal-based coding agents, with terminal access, file browsing, git views, localhost preview, notifications, and multi-agent workflows.
+- [Onepilot](https://onepilotapp.com) - Native iOS SSH terminal for Codex CLI and Claude Code. Full PTY, GitHub integration, localhost forwarding, live file editing, and one-click AI agent deployment via OpenClaw. [App Store](https://apps.apple.com/app/onepilot-ai-terminal/id6743826919).
 
 ### Development Tools
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
