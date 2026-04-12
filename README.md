@@ -76,6 +76,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [bernstein](https://github.com/chernistry/bernstein) - Parallel multi-agent orchestrator — spawns Codex CLI, Claude Code, and Gemini CLI simultaneously on isolated git worktrees, verifies with tests, auto-commits working code. Zero LLM tokens on coordination.
 - [ru-text](https://github.com/talkstream/ru-text) - Russian text quality — ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence.
 - [TokRepo](https://github.com/henu-wang/tokrepo) - Canonical GitHub landing page for the TokRepo open registry, with links to a Codex-compatible skill repo, MCP server, and installable AI assets such as prompts, workflows, and MCP configs.
+- [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
