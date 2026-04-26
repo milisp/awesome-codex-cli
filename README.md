@@ -35,6 +35,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 ### GUI & MCP
 - [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 ### setup tool
 - [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
@@ -60,6 +61,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 ### Development Tools
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
+- [unslop](https://github.com/MohamedAbdallah-14/unslop) - CLI and MCP server that removes AI writing patterns from agent-generated text. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and lint-only audit mode.
 - [brooks-lint](https://github.com/hyhmrright/brooks-lint) - AI code reviews grounded in six classic engineering books — decay risk diagnostics with book citations, severity labels, and four analysis modes (PR review, architecture audit, tech debt, test quality).
 - [Claudable](https://github.com/opactorai/Claudable) - Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 - [claude-squad](https://github.com/smtg-ai/claude-squad) - Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp.
