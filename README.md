@@ -82,6 +82,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [TokRepo](https://github.com/henu-wang/tokrepo) - Canonical GitHub landing page for the TokRepo open registry, with links to a Codex-compatible skill repo, MCP server, and installable AI assets such as prompts, workflows, and MCP configs.
 - [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge base compiler. Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill and MCP server; works with Codex CLI, Claude Code, and OpenCode.
+- [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Codex CLI alongside Claude Code, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, and reviewed conversation-to-skill learning. MCP-native (server and client). Electron desktop app, CLI, and Docker.
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
