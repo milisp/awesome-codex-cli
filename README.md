@@ -37,6 +37,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
+- [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - Reasoning Harness MCP server. Library of 679 cognitive operations engineered in natural language across four harnesses (reasoning, code, anti-deception, memory). Each call retrieves a task-matched scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before responding. Free tier 100 calls.
 ### setup tool
 - [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
 - [codex-universal](https://github.com/openai/codex-universal) - Base docker image used in Codex environments
