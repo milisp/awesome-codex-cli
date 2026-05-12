@@ -44,6 +44,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ### Session manager
 - [crystal](https://github.com/stravu/crystal) - Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
+- [Parallel Code](https://github.com/johannesjo/parallel-code) - Desktop app for running Codex CLI, Claude Code, and Gemini CLI agents side by side in separate git worktrees.
 - [vibe-kanban](https://github.com/BloopAI/vibe-kanban) - Kanban board to manage your AI coding agents
 - [ccmanager](https://github.com/kbwo/ccmanager) - Coding Agent Session Manager that supports Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI
 - [codmate](https://github.com/loocor/codmate) - a macOS SwiftUI app for managing CLI AI sessions
