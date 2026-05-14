@@ -6,38 +6,93 @@
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/codex/)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zAjtD4kf5K)
 
-A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI
+A curated list of Agent skill, awesome resources, tools, and tutorials for OpenAI Codex CLI
 
 <div align="center">
 
   [Codex CLI](https://github.com/openai/codex) |
-  [Codex Web](https://chatgpt.com/codex) |
-  [Codexia GUI](https://github.com/milisp/codexia)
+  [Codex App and Web](https://chatgpt.com/codex) |
 </div>
+
+- [Features](#features)
+- [Agent Skills](#agent-skills)
+  - [General](#general)
+- [Workflows & Knowledge Guides](#workflows--knowledge-guides-)
+- [Tools](#tools)
+  - [GUI & MCP](#gui--mcp)
+  - [setup tool](#setup-tool)
+  - [Session manager](#session-manager)
+  - [WebUI \& App](#webui--app)
+  - [Development Tools](#development-tools)
+  - [Stat](#stat)
+    - [Editor](#editor)
+    - [Termial](#termial)
+    - [System](#system)
+- [Official Resources](#official-resources)
+  - [Documentation](#documentation)
+  - [Blog Posts & Tutorials](#blog-posts--tutorials)
+- [GUI & Web Interface Extensions](#gui--web-interface-extensions)
+  - [Official Web Interface](#official-web-interface)
+  - [IDE Integrations](#ide-integrations)
+- [Use Cases](#use-cases)
+  - [Development Tasks](#development-tasks)
+  - [Specialized Tasks](#specialized-tasks)
+- [Community](#community)
+  - [Discussions](#discussions)
+  - [Learning Resources](#learning-resources)
+  - [Community Projects](#community-projects)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## What is OpenAI Codex CLI?
 
 OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
-> [!TIP]
-> **⭐ Star the repo and follow [milisp](https://github.com/milisp) on Github for more project**.
+## Features
 
-- [milisp/codexia](https://github.com/milisp/codexia) - A powerful GUI and Toolkit for Codex CLI
-- [milisp/agent-insights](https://github.com/milisp/agent-insights) - Cli agent session insights
+- [codexia](https://github.com/milisp/codexia) - Agent workstation for Codex CLI and Claude Code
 
-## Agents.md & Rules
+## Agent Skills
+
+> Agent skills are model-controlled configurations (files, scripts, resources, etc.) that enable Claude Code to perform specialized tasks requiring specific knowledge or capabilities.
+
+### General
 
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
-- [These are the rules](Agents.md) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek/status/1965113557160484961)
+- [Codex Skills](https://github.com/openai/skills) - Skills Catalog for Codex
+- [Codex Skills](https://github.com/Dimillian/Skills) - Codex Skills by Dimillian
+- [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
+- [AI Agent, AI Spy](https://youtu.be/0ANECpNdt-4) by [Whittaker & Tiwari](https://signalfoundation.org/) - Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing. [warning: YouTube link].
+- [cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) by [akin-ozer](https://github.com/akin-ozer) - A practical agent skill pack for DevOps work in Claude Code and Codex.
+- [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
+- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) by [K-Dense](https://github.com/K-Dense-AI/) - "A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing." That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.
+- [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
+- [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
+- [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit) by [Vlad Goncharov](https://github.com/LeoVS09) - Hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint focused on improving agent result quality.
+- [read-only-postgres](https://github.com/jawwadfirdousi/agent-skills) by [jawwadfirdousi](https://github.com/jawwadfirdousi) - Read-only PostgreSQL query skill for Claude Code. Executes SELECT/SHOW/EXPLAIN/WITH queries across configured databases with strict validation, timeouts, and row limits. Supports multiple connections with descriptions for database selection.
+- [Superpowers](https://github.com/obra/superpowers) by [Jesse Vincent](https://github.com/obra) - A strong bundle of core competencies for software engineering, with good coverage of a large portion of the SDLC - from planning, reviewing, testing, debugging... Well written, well organized, and adaptable. The author refers to them as "superpowers", but many of them are just consolidating engineering best practices - which sometimes does feel like a superpower when working with Claude Code.
+- [Trail of Bits Security Skills](https://github.com/trailofbits/skills) by [Trail of Bits](https://github.com/trailofbits) - A very professional collection of over a dozen security-focused skills for code auditing and vulnerability detection. Includes skills for static analysis with CodeQL and Semgrep, variant analysis across codebases, fix verification, and differential code review.
+- [TÂCHES Claude Code Resources](https://github.com/glittercowboy/taches-cc-resources) by [TÂCHES](https://github.com/glittercowboy) - A well-balanced, "down-to-Earth" set of sub agents, skills, and commands,  that are well-organized, easy to read, and a healthy focus on "meta"-skills/agents, like "skill-auditor", hook creation, etc. - the kind of things you can adapt to your workflow, and not the other way around.
+- [Web Assets Generator Skill](https://github.com/alonw0/web-asset-generator) by [Alon Wolenitz](https://github.com/alonw0) - Easily generate web assets from Claude Code including favicons, app icons (PWA), and social media meta images (Open Graph) for Facebook, Twitter, WhatsApp, and LinkedIn. Handles image resizing, text-to-image generation, emojis, and provides proper HTML meta tags.
+- [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
+
+## Workflows & Knowledge Guides 🧠
+
+> A workflow is a tightly coupled set of Codex-native resources that facilitate specific projects
+
+- [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
 
 ## Tools
 
 ### GUI & MCP
 - [codexia-zen](https://github.com/milisp/codexia-zen) - a minimalist design GUI for OpenAI Codex CLI
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI
-- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
+
+### MCP server
+- [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - Reasoning Harness MCP server. Library of 679 cognitive operations engineered in natural language across four harnesses (reasoning, code, anti-deception, memory). Each call retrieves a task-matched scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before responding. Free tier 100 calls.
+
 ### setup tool
 - [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
 - [codex-universal](https://github.com/openai/codex-universal) - Base docker image used in Codex environments
@@ -53,6 +108,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ### WebUI & App
 - [happy](https://github.com/slopus/happy) - Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
+- [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - An app to monitor the (Codex) situation
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - CodexFlow is an enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
 - [Codex-webui](https://github.com/harryneopotter/Codex-webui) - A minimal webui to run Codex-CLI locally with a UI, session resume and persistent memory (Un-official)
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Free, local, open-source GUI app for Gemini CLI — Better Chat UI, File Management, AI image editing, multi-agent support, multi-LLMs
@@ -69,7 +125,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [Claudable](https://github.com/opactorai/Claudable) - Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 - [claude-squad](https://github.com/smtg-ai/claude-squad) - Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp.
 - [async-code](https://github.com/ObservedObserver/async-code) - Use Claude Code / CodeX CLI to perform multiple tasks in parallel with a Codex-style UI. Your personal codex/cursor-background agent. 
-- [cc-switch](https://github.com/farion1231/cc-switch) - 一个用于管理和切换 Claude Code 和 Codex 不同供应商配置的桌面应用
+- [cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.
 - [ruler](https://github.com/intellectronica/ruler) - Ruler — apply the same rules to all coding agents
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, Github Copilot, Gemini CLI and Qwen Code.
 - [vibekit](https://github.com/superagent-ai/vibekit) - Run Claude Code, Gemini, Codex — or any coding agent — in a clean, isolated sandbox with sensitive data redaction and observability baked in.
@@ -89,6 +145,7 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
+- [CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
 
@@ -115,10 +172,10 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - [Medium Tutorial](https://medium.com/ai-software-engineer/how-to-install-and-use-openai-codex-cli-in-2-minutes-29e9fdd0e8c5) - Quick 2-minute setup guide
 - [OpenReplay Integration Guide](https://blog.openreplay.com/integrate-openais-codex-cli-tool-development-workflow/) - How to integrate Codex CLI into your development workflow
 
-## GUI & Web Interface Extensions
+## Web Interface Extensions
 
 ### Official Web Interface
-- [Codex Web](https://chatgpt.com/codex) - Official cloud-based agent with web interface
+- [Codex](https://chatgpt.com/codex) - Official cloud-based agent with web interface
 - Cloud Codex - Sandbox environments preloaded with repositories (ChatGPT Pro/Enterprise/Team/Plus users)
 
 ### IDE Integrations
@@ -128,16 +185,18 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 ## Use Cases
 
 ### Development Tasks
-- **Refactoring**: Modernize legacy code and improve structure
-- **Testing**: Generate comprehensive test suites
-- **Bug Fixes**: Identify and resolve issues quickly
-- **Documentation**: Generate and maintain code documentation
-- **Feature Development**: Scaffold new features and components
+- **Refactoring**: Modernize legacy code and improve structure.
+- **Testing**: Generate comprehensive test suites.
+- **Bug Fixes**: Identify and resolve issues quickly.
+- **Documentation**: Generate and maintain code documentation.
+- **Feature Development**: Scaffold new features and components.
 
 ### Specialized Tasks
-- **Frontend Development**: React components, CSS generation, responsive designs
-- **Data Analysis**: Dataset exploration, Python scripting, ML projects
-- **Code Understanding**: Legacy code analysis, code reviews, architecture insights
+- **Frontend Development**: React components, CSS generation, responsive designs.
+- **Data Analysis**: Dataset exploration, Python scripting, ML projects.
+- **Code Understanding**: Legacy code analysis and architecture insights.
+
+---
 
 ## Community
 
@@ -150,27 +209,20 @@ OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
 - Community tutorials and examples (contribute yours!)
 
 ### Community Projects
-- [Plux](https://github.com/milisp/plux) - AI finder/explorer with visual file tree and one-click @files to AI context
-- [awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt) - Curated list of Claude Desktop Extensions
-- [awesome-gpt-oss](https://github.com/milisp/awesome-gpt-oss) - Curated GPT open-source resources and tools
-- [awesome-chatgpt-claude-agents](https://github.com/milisp/awesome-chatgpt-claude-agents) - A curated collection of awesome ChatGPT & Claude agents, subagents, and AI-powered development tools
+- **[Plux](https://github.com/milisp/plux)** - AI finder/explorer with visual file tree.
+- **[awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt)** - Curated list of Claude Desktop Extensions.
+- **[awesome-gpt-oss](https://github.com/milisp/awesome-gpt-oss)** - Curated GPT open-source resources.
+- **[awesome-chatgpt-claude-agents](https://github.com/milisp/awesome-chatgpt-claude-agents)** - Collection of awesome agents and AI development tools.
+
+---
 
 ## Contributing
 
-This is an awesome list! Contributions are welcome. Please:
-
-1. Read the [contribution guidelines](contributing.md) first
-2. Check existing resources to avoid duplicates
-3. Ensure links are working and relevant
-4. Follow the established format
-5. Submit a pull request with clear descriptions
-
-## Related Projects
-
-- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer
-- [Cursor](https://cursor.sh/) - AI-powered code editor
-- [Continue](https://continue.dev/) - Open-source AI code assistant
-- [Codeium](https://codeium.com/) - Free AI code completion
+Contributions are welcome! Please:
+1. Read the [contribution guidelines](contributing.md).
+2. Check existing resources to avoid duplicates.
+3. Ensure links are working and relevant.
+4. Submit a pull request with clear descriptions.
 
 ## License
 
