@@ -224,6 +224,9 @@ Contributions are welcome! Please:
 3. Ensure links are working and relevant.
 4. Submit a pull request with clear descriptions.
 
+## Growing thanks to you
+[![Stargazers over time](https://starchart.cc/milisp/awesome-codex-cli.svg?variant=adaptive)](https://starchart.cc/milisp/awesome-codex-cli)
+
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
