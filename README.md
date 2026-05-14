@@ -8,12 +8,6 @@
 
 A curated list of Agent skill, awesome resources, tools, and tutorials for OpenAI Codex CLI
 
-<div align="center">
-
-  [Codex CLI](https://github.com/openai/codex) |
-  [Codex App and Web](https://chatgpt.com/codex) |
-</div>
-
 - [Features](#features)
 - [Agent Skills](#agent-skills)
   - [General](#general)
@@ -46,7 +40,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 
 ## What is OpenAI Codex CLI?
 
-OpenAI Codex CLI is Lightweight coding agent that runs in your terminal
+[OpenAI Codex CLI](https://github.com/openai/codex) is Lightweight coding agent that runs in your terminal
 
 ## Features
 
