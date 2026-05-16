@@ -122,6 +122,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [async-code](https://github.com/ObservedObserver/async-code) - Use Claude Code / CodeX CLI to perform multiple tasks in parallel with a Codex-style UI. Your personal codex/cursor-background agent. 
 - [cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.
 - [ruler](https://github.com/intellectronica/ruler) - Ruler — apply the same rules to all coding agents
+- [Akephalos](https://github.com/sunnja69/akephalos) - Local-first, markdown-first `.akephalos` passport and MCP stdio server for portable agent preferences, tool notes, rules, project context, and durable memories across Codex, Claude Code, Cursor, Hermes, OpenClaw, MCP clients, and machines via plain files/Git.
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, Github Copilot, Gemini CLI and Qwen Code.
 - [vibekit](https://github.com/superagent-ai/vibekit) - Run Claude Code, Gemini, Codex — or any coding agent — in a clean, isolated sandbox with sensitive data redaction and observability baked in.
 - [dotai](https://github.com/udecode/dotai) - Context Manager for Claude Code Plugins + Codex + Cursor.
