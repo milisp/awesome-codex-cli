@@ -70,6 +70,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [TÂCHES Claude Code Resources](https://github.com/glittercowboy/taches-cc-resources) by [TÂCHES](https://github.com/glittercowboy) - A well-balanced, "down-to-Earth" set of sub agents, skills, and commands,  that are well-organized, easy to read, and a healthy focus on "meta"-skills/agents, like "skill-auditor", hook creation, etc. - the kind of things you can adapt to your workflow, and not the other way around.
 - [Web Assets Generator Skill](https://github.com/alonw0/web-asset-generator) by [Alon Wolenitz](https://github.com/alonw0) - Easily generate web assets from Claude Code including favicons, app icons (PWA), and social media meta images (Open Graph) for Facebook, Twitter, WhatsApp, and LinkedIn. Handles image resizing, text-to-image generation, emojis, and provides proper HTML meta tags.
 - [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
+- [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) by [Anton Kogut](https://github.com/acogood) - A growth-strategy skill pack for Codex and Claude Code: point it at a product URL and it researches your competitors and buyers, then writes 7-9 unconventional acquisition tactics (synthesis.md), each fusing 2-3 growth mechanisms from fresh case studies. Reviewer-gated, Apache-2.0, Perplexity-optional.
 
 ## Workflows & Knowledge Guides 🧠
 
