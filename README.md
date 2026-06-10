@@ -100,7 +100,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [vibe-kanban](https://github.com/BloopAI/vibe-kanban) - Kanban board to manage your AI coding agents
 - [ccmanager](https://github.com/kbwo/ccmanager) - Coding Agent Session Manager that supports Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI
 - [codmate](https://github.com/loocor/codmate) - a macOS SwiftUI app for managing CLI AI sessions
-- [agent-sessions](https://github.com/jazzyalex/agent-sessions) - Session browser + usage tracker for Codex CLI and Claude Code. Search ALL past sessions, filter by folder·repo, resume instantly
+- [agent-sessions](https://github.com/jazzyalex/agent-sessions) - Local-first macOS app for browsing and full-text searching Codex session history alongside other local coding-agent transcripts; resume is available where the underlying CLI supports it.
 - [codexsm](https://github.com/milisp/codexsm) - Codex session manager, Cross platform GUI. rename, view, delete session file. one click resume session
 - [agentbox](https://github.com/madarco/agentbox) - Run multiple Codex (and Claude Code / OpenCode) sessions in parallel, each in its own sandboxed box — local Docker or cloud VMs (Hetzner/Daytona/Vercel/E2B). Sub-1s checkpoint starts, per-box browser + VS Code, and a dashboard to switch between boxes.
 
