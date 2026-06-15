@@ -8,7 +8,7 @@
 
 A curated list of Agent skill, awesome resources, tools, and tutorials for OpenAI Codex CLI
 
-- [Features](#features)
+- [🆕 Newly Added](#-newly-added)
 - [Agent Skills](#agent-skills)
   - [General](#general)
 - [Workflows & Knowledge Guides](#workflows--knowledge-guides-)
@@ -40,11 +40,17 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 
 ## What is OpenAI Codex CLI?
 
-[OpenAI Codex CLI](https://github.com/openai/codex) is Lightweight coding agent that runs in your terminal
-
-## Features
-
+- [OpenAI Codex CLI](https://github.com/openai/codex) is Lightweight coding agent that runs in your terminal
 - [codexia](https://github.com/milisp/codexia) - Agent workstation for Codex CLI and Claude Code
+
+## 🆕 Newly Added
+
+> 🚀 **Want your Server/Skill featured inside the Codexia Desktop App?**
+> Submit a PR to our main repo [milisp/codexia](https://github.com/milisp/codexia) to add it directly to the built-in Marketplace!
+
+### 🧠 Newly Added Agent Skills
+
+### 🛠️ Newly Added MCP Servers
 
 ## Agent Skills
 
