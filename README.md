@@ -97,6 +97,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp)
 - [click-to-mcp](https://github.com/Coding-Dev-Tools/click-to-mcp) - Auto-wrap any Python Click/Typer CLI as an MCP server. Zero-code transformation that introspects CLI commands and exposes them as MCP tools. Works with Codex CLI, Claude Code, and any MCP client. `pip install click-to-mcp` - Reasoning Harness MCP server. Library of 679 cognitive operations engineered in natural language across four harnesses (reasoning, code, anti-deception, memory). Each call retrieves a task-matched scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before responding. Free tier 100 calls.
 - [claude-codex-bridge](https://github.com/jackcongmac/claude-codex-bridge) - Bidirectional MCP bridge for Codex CLI and Claude Code collaboration, with persistent Claude sessions and shared collaboration files.
+- [AccInt](https://github.com/maxbaluev/accreted-intelligence) - Local-first MCP work memory for Codex CLI, Claude Code, OpenCode, and Cursor with scored retrieval, commitment tracking, and outcome-based credit across sessions.
 
 ### setup tool
 - [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
