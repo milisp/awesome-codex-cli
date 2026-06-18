@@ -123,6 +123,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [Onepilot](https://onepilotapp.com) - Native iOS SSH terminal for Codex CLI and Claude Code. Full PTY, GitHub integration, localhost forwarding, live file editing, and one-click AI agent deployment via OpenClaw. [App Store](https://apps.apple.com/app/onepilot-ai-terminal/id6743826919).
 - [ToutKit](https://github.com/toutkit/toutkit) - Desktop notebook with a built-in terminal that runs Codex CLI alongside Claude Code and Gemini; an in-app webview renders whatever the agent writes inline, and each note is a self-contained folder with its own SQLite, files, and scripts. Local-first, Electron, AGPL-3.0.
 - [Codex on Telegram](https://github.com/leoshenzh/codex-on-telegram) - Self-hosted macOS bridge that drives your local Codex CLI (or Claude Code) sessions from Telegram. Attach to a session already running on your machine, approve permission prompts in chat, run per-topic parallel sessions, and resume the same session after a restart.
+- [Agent Island](https://github.com/tristan666666/agent-island) - Native macOS notch companion for Claude/Codex sessions. Shows running / your turn / stuck state in the notch and can auto-resume a selected long-running session after the limit window resets.
 
 ### Development Tools
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
