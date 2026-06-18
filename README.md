@@ -50,6 +50,8 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 
 ### 🧠 Newly Added Agent Skills
 
+- [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
+
 ### 🛠️ Newly Added MCP Servers
 
 ## Agent Skills
@@ -66,6 +68,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [AI Agent, AI Spy](https://youtu.be/0ANECpNdt-4) by [Whittaker & Tiwari](https://signalfoundation.org/) - Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing. [warning: YouTube link].
 - [cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) by [akin-ozer](https://github.com/akin-ozer) - A practical agent skill pack for DevOps work in Claude Code and Codex.
 - [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
+- [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
 - [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) by [K-Dense](https://github.com/K-Dense-AI/) - "A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing." That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.
 - [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
