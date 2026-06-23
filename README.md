@@ -165,6 +165,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 
 ### Stat
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
+- [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for Codex CLI, Claude Code, OpenCode, Cursor, and Pi histories with cost analytics, skill/hook usage, workflow extraction, dashboard, and MCP access.
 - [CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
