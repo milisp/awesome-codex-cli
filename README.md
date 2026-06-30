@@ -137,7 +137,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor: meta-agent builder, A2A Hub routing, local ontology, and memory/security gates.
 - [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local macOS app for listening to Claude Code and Codex agents, with Global Mix, blocker alerts, and BYOK narration.
 - [Relay Baton](https://github.com/guorunjie/codex-relay-baton-guardian) - Local Codex Desktop/CLI recovery monitor for long-running tasks. Detects compact failures and context-window overflow, then queues audited handoff bundles.
-- [codex-fixes](https://github.com/zhuhaow/codex-fixes) - Community-maintained CLI for diagnosing known Codex bugs and applying platform-scoped workarounds.
+- [codex-fixes](https://github.com/zhuhaow/codex-fixes) - Checks your local Codex install for known issues and runs the matching community-maintained fix scripts.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
 - [unslop](https://github.com/MohamedAbdallah-14/unslop) - CLI and MCP server that removes AI writing patterns from agent-generated text. Works with Codex, Claude Code, Gemini CLI, and Cursor. Five intensity levels and lint-only audit mode.
 - [brooks-lint](https://github.com/hyhmrright/brooks-lint) - AI code reviews grounded in six classic engineering books — decay risk diagnostics with book citations, severity labels, and four analysis modes (PR review, architecture audit, tech debt, test quality).
