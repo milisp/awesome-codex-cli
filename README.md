@@ -87,6 +87,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 > A workflow is a tightly coupled set of Codex-native resources that facilitate specific projects
 
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
+- [Nika](https://github.com/supernovae-st/nika-agents) by [Thibaut Melen](https://github.com/ThibautMelen) - Codex plugin for Nika workflows: `/nika:check`, `/nika:explain`, `/nika:new` + authoring skill + read-only MCP oracle — audit `.nika.yaml` DAGs (schema, permits, honest cost floor) before a single token is spent.
 
 ## Tools
 
