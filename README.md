@@ -51,6 +51,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 ### 🧠 Newly Added Agent Skills
 
 - [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
+- [breaking-coding-chaos](https://github.com/bo-cao/breaking-coding-chaos) by [bo-cao](https://github.com/bo-cao) - Human-in-the-loop dual-loop control-plane skill suite for coding agents: throughline progress on disk, plan-spar alignment, then minimal clean-cut implement. Works with Codex CLI, Claude Code, Cursor, Grok, OpenCode, Hermes, OpenClaw.
 
 ### 🛠️ Newly Added MCP Servers
 
