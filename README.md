@@ -103,6 +103,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [claude-codex-bridge](https://github.com/jackcongmac/claude-codex-bridge) - Bidirectional MCP bridge for Codex CLI and Claude Code collaboration, with persistent Claude sessions and shared collaboration files.
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) - Local-first MCP work memory for Codex CLI, Claude Code, OpenCode, and Cursor with scored retrieval, commitment tracking, and outcome-based credit across sessions.
 - [Vestige](https://github.com/samvallad33/vestige) - Local-first cognitive memory MCP server that gives Codex CLI persistent recall across sessions. SQLite storage, FSRS-6 retention with active forgetting so old context decays instead of piling up, prediction-error gating, and hybrid retrieval. Single Rust binary, npm install -g vestige-mcp-server.
+- [UIZZE](https://uizze.com) - Hosted MCP server for Codex that returns real iOS and web UI references, design contracts, and UI critiques to help stop generic AI UI slop; also supports Claude Code and Cursor.
 
 ### setup tool
 - [codex-1up](https://github.com/regenrek/codex-1up) - equips your Codex CLI coding agent with powerful tools.
