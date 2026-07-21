@@ -50,6 +50,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 
 ### 🧠 Newly Added Agent Skills
 
+- [Codex Skin Pack Installer](https://github.com/ChannelerH/codex-skin-packs) by [ChannelerH](https://github.com/ChannelerH) - Codex plugin and Skill for installing verified public-safe Codex desktop skin packs, with release downloads, theme validation, and restore guidance.
 - [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
 
 ### 🛠️ Newly Added MCP Servers
@@ -63,6 +64,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
 - [Codex Skills](https://github.com/openai/skills) - Skills Catalog for Codex
 - [Codex Skills](https://github.com/Dimillian/Skills) - Codex Skills by Dimillian
+- [Codex Skin Pack Installer](https://github.com/ChannelerH/codex-skin-packs) by [ChannelerH](https://github.com/ChannelerH) - Codex plugin and Skill for installing verified public-safe Codex desktop skin packs, with release downloads, theme validation, and restore guidance.
 - [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
 - [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
 - [AI Agent, AI Spy](https://youtu.be/0ANECpNdt-4) by [Whittaker & Tiwari](https://signalfoundation.org/) - Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing. [warning: YouTube link].
