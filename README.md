@@ -179,6 +179,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
+- [autoqq](https://github.com/Migiht/autoqq) - Linux systemd timer that pre-warms Codex CLI, Claude Code, or opencode rate-limit windows before you sit down.
 
 #### Editor
 - [zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
