@@ -121,6 +121,7 @@ A curated list of Agent skill, awesome resources, tools, and tutorials for OpenA
 - [codexsm](https://github.com/milisp/codexsm) - Codex session manager, Cross platform GUI. rename, view, delete session file. one click resume session
 - [agentbox](https://github.com/madarco/agentbox) - Run multiple Codex (and Claude Code / OpenCode) sessions in parallel, each in its own sandboxed box — local Docker or cloud VMs (Hetzner/Daytona/Vercel/E2B). Sub-1s checkpoint starts, per-box browser + VS Code, and a dashboard to switch between boxes.
 - [Orca](https://onorca.dev) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own git worktree, with built-in terminal and diff review.
+- [Orkas](https://orkas.ai?source=gh_codex) - Open-source, local-first multi-agent desktop workspace that coordinates Codex with Claude Code, OpenCode, Cline, and specialist agents from one chat. [Source](https://github.com/Orkas-AI/Orkas)
 
 ### WebUI & App
 - [happy](https://github.com/slopus/happy) - Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
