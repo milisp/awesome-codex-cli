@@ -94,6 +94,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [Codex Skins](https://codexskins.org) - One-click wallpaper/theme gallery for the OpenAI Codex desktop app. Reversible full-window CDP theme injection, macOS/Windows. Open-source engine (MIT).
+- [Threadlines](https://github.com/Threadlines/threadlines) - Local-first cross-platform desktop workspace for Codex CLI and Claude Code with persistent threads, an approval-gated browser, files, terminals, source control, provider switching, and session recovery.
 
 ### MCP server
 
