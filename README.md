@@ -19,6 +19,7 @@ A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex
   - [MCP server](#mcp-server)
   - [setup tool](#setup-tool)
   - [Session manager](#session-manager)
+  - [Account switcher](#account-switcher)
   - [WebUI \& App](#webui--app)
   - [Development Tools](#development-tools)
   - [Stat](#stat)
@@ -122,6 +123,10 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [codexsm](https://github.com/milisp/codexsm) - Codex session manager, cross-platform GUI. Rename, view, or delete session files, with one-click session resume.
 - [agentbox](https://github.com/madarco/agentbox) - Run multiple Codex (and Claude Code / OpenCode) sessions in parallel, each in its own sandboxed box — local Docker or cloud VMs (Hetzner/Daytona/Vercel/E2B). Sub-1s checkpoint starts, per-box browser + VS Code, and a dashboard to switch between boxes.
 - [Orca](https://onorca.dev) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own Git worktree, with built-in terminal and diff review.
+
+### Account switcher
+
+- [codex-account](https://github.com/frndchagas/codex-account) - Switch between multiple Codex accounts without signing out — never revokes tokens, keeps every account signed in, and syncs refreshed tokens back into saved profiles. Single-file bash script.
 
 ### WebUI & App
 
