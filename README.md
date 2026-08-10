@@ -180,6 +180,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Codex CLI alongside Claude Code, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, and reviewed conversation-to-skill learning. MCP-native (server and client). Electron desktop app, CLI, and Docker.
 - [Alfred](https://github.com/luminik-io/alfred-os) - Self-hosted runtime that turns scoped GitHub issues into reviewed pull requests through autonomous Codex CLI and Claude Code agents. Per-firing Git worktrees, label-driven state machine (agent:implement → agent:in-flight → agent:pr-open → agent:done), role-based engine routing across Codex and Claude, and Slack reporting. Python, MIT, macOS/Linux.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
+- [Agent Plugins Directory](https://agentpluginsdirectory.com) - Directory of 524 Agent Plugins, each verified by fetching its `plugin.json` and checking it against the official Agent Plugins 1.0.0 schema, plus a free browser-based validator for `plugin.json` and `mcp.json`. Agent Plugins install in Codex CLI and in ChatGPT, Cursor, Copilot, VS Code and Kiro from the same directory.
 
 ### Stat
 
