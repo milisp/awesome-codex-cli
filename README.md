@@ -155,6 +155,7 @@ Recently added, actively maintained entries live at the top of each section belo
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
 - [Agent Plugins Directory](https://agentpluginsdirectory.com) - Directory of 524 Agent Plugins, each verified by fetching its `plugin.json` and checking it against the official Agent Plugins 1.0.0 schema, plus a free browser-based validator for `plugin.json` and `mcp.json`. Agent Plugins install in Codex CLI and in ChatGPT, Cursor, Copilot, VS Code and Kiro from the same directory.
 - [Claudexor](https://github.com/razzant/claudexor) - Local-first control plane that runs Codex alongside Claude Code, Cursor, and OpenCode, with profile-aware quota routing, best-of-N runs, and cross-family review.
+- [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for skills, tools, and context for AI agents, available to Codex through a remote OAuth MCP server.
 
 ### Stat
 
