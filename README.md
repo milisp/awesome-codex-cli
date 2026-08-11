@@ -153,9 +153,11 @@ Recently added, actively maintained entries live at the top of each section belo
 - [Alfred](https://github.com/luminik-io/alfred-os) - Self-hosted runtime that turns scoped GitHub issues into reviewed pull requests through autonomous Codex CLI and Claude Code agents. Per-firing Git worktrees, label-driven state machine (agent:implement → agent:in-flight → agent:pr-open → agent:done), role-based engine routing across Codex and Claude, and Slack reporting. Python, MIT, macOS/Linux.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
 - [Agent Plugins Directory](https://agentpluginsdirectory.com) - Directory of 524 Agent Plugins, each verified by fetching its `plugin.json` and checking it against the official Agent Plugins 1.0.0 schema, plus a free browser-based validator for `plugin.json` and `mcp.json`. Agent Plugins install in Codex CLI and in ChatGPT, Cursor, Copilot, VS Code and Kiro from the same directory.
+- [Claudexor](https://github.com/razzant/claudexor) - Local-first control plane that runs Codex alongside Claude Code, Cursor, and OpenCode, with profile-aware quota routing, best-of-N runs, and cross-family review.
 
 ### Stat
 
+- [codex-patch-overlay](https://github.com/salty-flower/codex-patch-overlay) - Patched Codex CLI builds carrying community-requested features upstream hasn't merged (live TUI reasoning streaming, completion sound, WebP image input). Ships ready-to-run macOS/Linux binaries plus a Nix overlay, refreshed each upstream release.
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for Codex CLI, Claude Code, OpenCode, Cursor, and Pi histories with cost analytics, skill/hook usage, workflow extraction, dashboard, and MCP access.
 - [CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
