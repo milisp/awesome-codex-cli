@@ -143,6 +143,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [ToutKit](https://github.com/toutkit/toutkit) - Desktop notebook with a built-in terminal that runs Codex CLI alongside Claude Code and Gemini; an in-app webview renders whatever the agent writes inline, and each note is a self-contained folder with its own SQLite, files, and scripts. Local-first, Electron, AGPL-3.0.
 - [Codex on Telegram](https://github.com/leoshenzh/codex-on-telegram) - Self-hosted macOS bridge that drives your local Codex CLI (or Claude Code) sessions from Telegram. Attach to a session already running on your machine, approve permission prompts in chat, run per-topic parallel sessions, and resume the same session after a restart.
 - [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Codex, Claude Code, Antigravity, Grok and Cursor: local working/stalled/your-turn state, your-turn alerts, and provider usage with on-device cost estimates. macOS and Windows, no account, no telemetry.
+- [Sillage](https://github.com/MarlBurroW/sillage) - Self-hosted, MIT-licensed, mobile-first web UI that drives the native Codex and Claude Code CLIs on your own machine (replaces the terminal, not the agent). Sessions that outlive the client via a server-side event journal, full-text search over every conversation, an IDE panel (file explorer, editor, diffs, terminal), worktrees, and an installable PWA with push. Single Docker container.
 
 ### Development Tools
 
