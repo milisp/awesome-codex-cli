@@ -117,6 +117,7 @@ Recently added, actively maintained entries live at the top of each section belo
 
 ### Development Tools
 
+- [Plux](https://milisp.dev/plux) - Double-tap Shift to keep the text you have selected, or a screenshot, without leaving the window you're in. One click puts it into Codex, Codexia, iTerm2, Ghostty, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
 - [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
 - [Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor: meta-agent builder, A2A Hub routing, local ontology, and memory/security gates.
