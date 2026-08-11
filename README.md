@@ -5,14 +5,12 @@
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/codex/)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zAjtD4kf5K)
 
-A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex CLI.
+A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex CLI — hand-picked and reviewed, not auto-collected.
 
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
 - [🆕 Newly Added](#-newly-added)
-- [Agent Skills](#agent-skills)
-  - [General](#general)
 - [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 - [Tools](#tools)
   - [GUI & MCP](#gui--mcp)
@@ -24,8 +22,10 @@ A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex
   - [Development Tools](#development-tools)
   - [Stat](#stat)
   - [Editor](#editor)
-  - [Termial](#termial)
+  - [Terminal](#terminal)
   - [System](#system)
+- [Agent Skills](#agent-skills)
+  - [General](#general)
 - [Official Resources](#official-resources)
   - [Documentation](#documentation)
   - [Blog Posts & Tutorials](#blog-posts--tutorials)
@@ -48,37 +48,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ## 🆕 Newly Added
 
-> 🚀 **Want your Server/Skill featured inside the Codexia Desktop App?**
-> Submit a PR to the main Codexia repository to add it directly to the built-in marketplace.
-
-## Agent Skills
-
-> Agent skills are model-controlled configurations (files, scripts, resources, etc.) that enable Claude Code to perform specialized tasks requiring specific knowledge or capabilities.
-
-### General
-
-- [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
-- [Codex Skills](https://github.com/openai/skills) - A catalog of reusable skills for Codex.
-- [Codex Skills](https://github.com/Dimillian/Skills) - A skill collection maintained by Dimillian.
-- [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
-- [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
-- [AI Agent, AI Spy](https://youtu.be/0ANECpNdt-4) by [Whittaker & Tiwari](https://signalfoundation.org/) - Members from the Signal Foundation with some really great tips and tricks on how to turn your operating system into an instrument of total surveillance, and why some companies are doing this really awesome thing (YouTube link).
-- [cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) by [akin-ozer](https://github.com/akin-ozer) - A practical agent skill pack for DevOps work in Claude Code and Codex.
-- [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
-- [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
-- [NotFair](https://github.com/nowork-studio/NotFair) by [nowork-studio](https://github.com/nowork-studio) - Seventeen host-agnostic SKILL.md workflows for SEO, GEO, Google Ads, and Meta Ads, plus an open-source local goal agent that supports Codex.
-- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) by [K-Dense](https://github.com/K-Dense-AI/) - "A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing." That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.
-- [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
-- [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
-- [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit) by [Vlad Goncharov](https://github.com/LeoVS09) - Hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint focused on improving agent result quality.
-- [Everything OpenAI Codex](https://github.com/mturac/everything-openai-codex) by [Mehmet Turac](https://github.com/mturac) - Open-source Codex workflow system with agents, skills, commands, hooks, memory patterns, install profiles, and validation checks for repeatable coding sessions.
-- [read-only-postgres](https://github.com/jawwadfirdousi/agent-skills) by [jawwadfirdousi](https://github.com/jawwadfirdousi) - Read-only PostgreSQL query skill for Claude Code. Executes SELECT/SHOW/EXPLAIN/WITH queries across configured databases with strict validation, timeouts, and row limits. Supports multiple connections with descriptions for database selection.
-- [Superpowers](https://github.com/obra/superpowers) by [Jesse Vincent](https://github.com/obra) - A strong bundle of core competencies for software engineering, with good coverage of a large portion of the SDLC - from planning, reviewing, testing, debugging... Well written, well organized, and adaptable. The author refers to them as "superpowers", but many of them are just consolidating engineering best practices - which sometimes does feel like a superpower when working with Claude Code.
-- [Trail of Bits Security Skills](https://github.com/trailofbits/skills) by [Trail of Bits](https://github.com/trailofbits) - A very professional collection of over a dozen security-focused skills for code auditing and vulnerability detection. Includes skills for static analysis with CodeQL and Semgrep, variant analysis across codebases, fix verification, and differential code review.
-- [TÂCHES Claude Code Resources](https://github.com/glittercowboy/taches-cc-resources) by [TÂCHES](https://github.com/glittercowboy) - A well-balanced, "down-to-Earth" set of sub agents, skills, and commands,  that are well-organized, easy to read, and a healthy focus on "meta"-skills/agents, like "skill-auditor", hook creation, etc. - the kind of things you can adapt to your workflow, and not the other way around.
-- [Web Assets Generator Skill](https://github.com/alonw0/web-asset-generator) by [Alon Wolenitz](https://github.com/alonw0) - Easily generate web assets from Claude Code including favicons, app icons (PWA), and social media meta images (Open Graph) for Facebook, Twitter, WhatsApp, and LinkedIn. Handles image resizing, text-to-image generation, emojis, and provides proper HTML meta tags.
-- [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
-- [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) by [Anton Kogut](https://github.com/acogood) - A growth-strategy skill pack for Codex and Claude Code: point it at a product URL and it researches your competitors and buyers, then writes 7-9 unconventional acquisition tactics (synthesis.md), each fusing 2-3 growth mechanisms from fresh case studies. Reviewer-gated, Apache-2.0, Perplexity-optional.
+Recently added, actively maintained entries live at the top of each section below.
 
 ## Workflows & Knowledge Guides 🧠
 
@@ -194,7 +164,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
-### Termial
+### Terminal
 
 - [ghostty](https://github.com/ghostty-org/ghostty) - 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 - [Tmux](https://github.com/tmux/tmux) - Source code for the terminal multiplexer.
@@ -202,6 +172,29 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### System
 
 - [omarchy](https://github.com/basecamp/omarchy) - Opinionated Arch/Hyprland setup.
+
+## Agent Skills
+
+> Agent skills are model-controlled configurations (files, scripts, resources, etc.) that enable Codex CLI to perform specialized tasks requiring specific knowledge or capabilities.
+
+### General
+
+- [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
+- [Codex Skills](https://github.com/openai/skills) - A catalog of reusable skills for Codex.
+- [Codex Skills](https://github.com/Dimillian/Skills) - A skill collection maintained by Dimillian.
+- [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
+- [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
+- [cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) by [akin-ozer](https://github.com/akin-ozer) - A practical agent skill pack for DevOps work in Claude Code and Codex.
+- [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
+- [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
+- [NotFair](https://github.com/nowork-studio/NotFair) by [nowork-studio](https://github.com/nowork-studio) - Seventeen host-agnostic SKILL.md workflows for SEO, GEO, Google Ads, and Meta Ads, plus an open-source local goal agent that supports Codex.
+- [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) by [K-Dense](https://github.com/K-Dense-AI/) - "A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing." That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.
+- [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
+- [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
+- [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit) by [Vlad Goncharov](https://github.com/LeoVS09) - Hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint focused on improving agent result quality.
+- [Everything OpenAI Codex](https://github.com/mturac/everything-openai-codex) by [Mehmet Turac](https://github.com/mturac) - Open-source Codex workflow system with agents, skills, commands, hooks, memory patterns, install profiles, and validation checks for repeatable coding sessions.
+- [Trail of Bits Security Skills](https://github.com/trailofbits/skills) by [Trail of Bits](https://github.com/trailofbits) - A very professional collection of over a dozen security-focused skills for code auditing and vulnerability detection. Includes skills for static analysis with CodeQL and Semgrep, variant analysis across codebases, fix verification, and differential code review.
+- [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
 
 ## Official Resources
 
