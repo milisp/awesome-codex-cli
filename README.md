@@ -5,12 +5,20 @@
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/codex/)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zAjtD4kf5K)
 
-A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex CLI — hand-picked and reviewed, not auto-collected.
+> A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex CLI — hand-picked and reviewed, not auto-collected.
+
+---
+
+### ✨ Featured Tool
+
+- **[Plux](https://milisp.dev/plux)** - Double-tap Shift to keep "I need this". One click puts it into ChatGPT/Codex, Codexia, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
+- **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
+
+---
 
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
-- [🆕 Newly Added](#-newly-added)
 - [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 - [Tools](#tools)
   - [GUI & MCP](#gui--mcp)
@@ -44,11 +52,6 @@ A curated list of agent skills, resources, tools, and tutorials for OpenAI Codex
 ## What is OpenAI Codex CLI
 
 OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
-[Codexia](https://github.com/milisp/codexia) is an agent workstation for Codex CLI and Claude Code.
-
-## 🆕 Newly Added
-
-Recently added, actively maintained entries live at the top of each section below.
 
 ## Workflows & Knowledge Guides 🧠
 
