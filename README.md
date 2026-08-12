@@ -9,7 +9,9 @@
 
 ---
 
-### ✨ Featured Tool
+> 💡 **Maintained by [@lisp_mi](https://x.com/lisp_mi)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for updates on building in public, AI-assisted coding, and project progress!
+
+### ✨ Featured Tools
 
 - **[Plux](https://milisp.dev/plux)** - Double-tap Shift to keep "I need this". One click puts it into ChatGPT/Codex, Codexia, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
 - **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
