@@ -81,6 +81,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) - Local-first MCP work memory for Codex CLI, Claude Code, OpenCode, and Cursor with scored retrieval, commitment tracking, and outcome-based credit across sessions.
 - [Vestige](https://github.com/samvallad33/vestige) - Local-first cognitive memory MCP server that gives Codex CLI persistent recall across sessions. SQLite storage, FSRS-6 retention with active forgetting so old context decays instead of piling up, prediction-error gating, and hybrid retrieval. Single Rust binary, npm install -g vestige-mcp-server.
 - [GoodMemory](https://github.com/hjqcan/GoodMemory) - Local-first, auditable memory for Codex CLI and Claude Code. `goodmemory setup` installs scoped recall hooks and read-only MCP inspection; SQLite persistence is the default, while optional writeback stays reviewable and reversible.
+- [Skillselion](https://github.com/skillselion/skillselion-mcp) - On-demand skill loader for Codex CLI and Claude Code. Searches a catalog of community agent skills, MCP servers and marketplaces ranked by install count, then materializes the matching SKILL.md plus its bundled scripts into the session mid-task; `synthesize_skills` merges the top matches into one provenance-tagged digest. `npx -y skillselion-mcp`, stdio, read-only, no API key.
 
 ### setup tool
 
