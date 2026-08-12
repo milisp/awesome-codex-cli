@@ -9,7 +9,7 @@
 
 ---
 
-> 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for updates on building in public, AI-assisted coding, and project progress!
+> 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
 
 ### ✨ Featured Tools
 
