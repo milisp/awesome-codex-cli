@@ -86,6 +86,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [codex-1up](https://github.com/regenrek/codex-1up) - Equips your Codex CLI coding agent with powerful tools.
 - [codex-universal](https://github.com/openai/codex-universal) - Base Docker image used in Codex environments.
+- [SandBase CLI](https://github.com/sandbaseai/cli) - Auto-configures Codex with a secure MCP bridge to 2,000+ AI tools and 200+ models using one API key, including web search, multimodal generation, and cloud sandbox workflows.
 
 ### Session manager
 
