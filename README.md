@@ -62,6 +62,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [AGENTS.md Practical Guide (Korean)](https://github.com/soul-sol/agents-md-guide-ko) by [soul-sol](https://github.com/soul-sol) - Korean guide to Codex instruction discovery, nested overrides, repository boundaries, completion criteria, and ready-to-use single-service, monorepo, and library examples.
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
 - [Nika](https://github.com/supernovae-st/nika-agents) by [Thibaut Melen](https://github.com/ThibautMelen) - Codex plugin for Nika workflows: `/nika:check`, `/nika:explain`, `/nika:new` + authoring skill + read-only MCP oracle — audit `.nika.yaml` DAGs (schema, permits, honest cost floor) before a single token is spent.
+- [DeepSeek Mini-Router](https://github.com/hccccc01333/codex-deepseek-mini-router) - Fixes DeepSeek weak default reasoning inside Codex with task-aware spec/react/flash working contracts, trusted-hook injection, and a bundled skill fallback.
 
 ## Tools
 
