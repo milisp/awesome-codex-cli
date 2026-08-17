@@ -15,6 +15,7 @@
 
 - **[Plux](https://milisp.dev/plux)** - Double-tap Shift to keep "I need this". One click puts it into ChatGPT/Codex, Codexia, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
 - **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
+- **[gstack](https://github.com/garrytan/gstack)** - Garry Tan's own agent setup: 23 opinionated skills acting as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA. First-class Codex CLI host (`--host codex`, installs to `~/.codex/skills/`), plus a `/codex` skill that uses Codex CLI as an independent cross-model reviewer.
 
 ---
 
@@ -74,6 +75,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### MCP server
 
+- [GBrain](https://github.com/garrytan/gbrain) - Persistent brain layer for Codex CLI: synthesis, graph traversal, and gap analysis over your own corpus, so the agent stops being amnesiac about everything that is not code. `codex plugin marketplace add garrytan/gbrain@codex-plugin`; PGLite, no server.
 - [Ouroboros](https://github.com/Q00/ouroboros) - Agent OS for repeatable AI coding workflows. It turns vague goals into executable Seeds through an interview, then runs staged, budgeted evaluation loops with Codex CLI or 12 other runtimes.
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp)
@@ -198,6 +200,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
 - [Codex Skills](https://github.com/openai/skills) - A catalog of reusable skills for Codex.
+- [gstack](https://github.com/garrytan/gstack) - A 23-skill suite covering planning, design review, shipping, canary, QA, and retros. Installs to `~/.codex/skills/` via `--host codex`; the `/codex` skill runs Codex CLI as an adversarial second-opinion reviewer against Claude's findings.
 - [Codex Skills](https://github.com/Dimillian/Skills) - A skill collection maintained by Dimillian.
 - [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
 - [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
