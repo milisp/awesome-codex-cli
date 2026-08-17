@@ -74,6 +74,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### MCP server
 
+- [Ouroboros](https://github.com/Q00/ouroboros) - Agent OS for repeatable AI coding workflows. It turns vague goals into executable Seeds through an interview, then runs staged, budgeted evaluation loops with Codex CLI or 12 other runtimes.
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp)
 - [click-to-mcp](https://github.com/Coding-Dev-Tools/click-to-mcp) - Auto-wrap any Python Click/Typer CLI as an MCP server. Zero-code transformation that introspects CLI commands and exposes them as MCP tools. Works with Codex CLI, Claude Code, and any MCP client. `pip install click-to-mcp` - Reasoning Harness MCP server. Library of 679 cognitive operations engineered in natural language across four harnesses (reasoning, code, anti-deception, memory). Each call retrieves a task-matched scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before responding. Free tier 100 calls.
