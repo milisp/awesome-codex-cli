@@ -165,6 +165,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Claudexor](https://github.com/razzant/claudexor) - Local-first control plane that runs Codex alongside Claude Code, Cursor, and OpenCode, with profile-aware quota routing, best-of-N runs, and cross-family review.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for skills, tools, and context for AI agents, available to Codex through a remote OAuth MCP server.
 - [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs entirely inside GitHub Actions — cron-scheduled Markdown skills, self-healing (a health skill files issues, a repair skill fixes them by PR), and fleet-replicating. Runs its skills on Codex CLI, one of six supported coding-agent harnesses (Codex, Claude Code, Grok, Pi, Vibe, Kimi), through a single adapter. MIT.
+- [codex-healthkit](https://github.com/Ishikawa-Hidekazu/codex-healthkit) - On-demand, metadata-only health reports for Codex CLI session storage and SQLite WAL growth, with explicit before/after comparisons and no credential, database-content, or transcript reads.
 
 ### Stat
 
