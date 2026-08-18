@@ -52,7 +52,6 @@
   - [Discussions](#discussions)
   - [Learning Resources](#learning-resources)
   - [Community Projects](#community-projects)
-- [Growing thanks to you](#growing-thanks-to-you)
 
 ## What is OpenAI Codex CLI
 
@@ -284,7 +283,3 @@ Contributions are welcome! Please:
 2. Check existing resources to avoid duplicates.
 3. Ensure links are working and relevant.
 4. Submit a pull request with clear descriptions.
-
-## Growing thanks to you
-
-[![Stargazers over time](https://starchart.cc/milisp/awesome-codex-cli.svg?variant=adaptive)](https://starchart.cc/milisp/awesome-codex-cli)
