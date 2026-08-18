@@ -34,8 +34,3 @@
 - [ ] Real Codex CLI integration, not just a "supports Codex" mention.
 - [ ] No duplicate; one entry in one section.
 - [ ] One factual line, no marketing copy.
-
-## 🤖 Human Check
-> A one-line answer, to filter out automated spam submissions.
-
-**What do you actually use Codex CLI for day-to-day?**
