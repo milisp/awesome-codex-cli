@@ -13,8 +13,11 @@
 
 ### ✨ Featured Tools
 
+> Hand-picked by the maintainer, and includes the maintainer's own projects.
+
 - **[Plux](https://milisp.dev/plux)** - Double-tap Shift to keep "I need this". One click puts it into ChatGPT/Codex, Codexia, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
 - **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
+- **[gstack](https://github.com/garrytan/gstack)** - Garry Tan's own agent setup: 23 opinionated skills acting as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA. First-class Codex CLI host (`--host codex`, installs to `~/.codex/skills/`), plus a `/codex` skill that uses Codex CLI as an independent cross-model reviewer.
 
 ---
 
@@ -67,13 +70,13 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### GUI & MCP
 
-- [codexia-zen](https://github.com/milisp/codexia-zen) - A minimalist design GUI for OpenAI Codex CLI.
 - [MCP Linker](https://github.com/milisp/mcp-linker) - GUI for managing MCP configs for Codex CLI.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [Codex Skins](https://codexskins.org) - One-click wallpaper/theme gallery for the OpenAI Codex desktop app. Reversible full-window CDP theme injection, macOS/Windows. Open-source engine (MIT).
 
 ### MCP server
 
+- [GBrain](https://github.com/garrytan/gbrain) - Persistent brain layer for Codex CLI: synthesis, graph traversal, and gap analysis over your own corpus, so the agent stops being amnesiac about everything that is not code. `codex plugin marketplace add garrytan/gbrain@codex-plugin`; PGLite, no server.
 - [Ouroboros](https://github.com/Q00/ouroboros) - Agent OS for repeatable AI coding workflows. It turns vague goals into executable Seeds through an interview, then runs staged, budgeted evaluation loops with Codex CLI or 12 other runtimes.
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp)
@@ -98,7 +101,6 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [codmate](https://github.com/loocor/codmate) - A macOS SwiftUI app for managing CLI AI sessions.
 - [agent-sessions](https://github.com/jazzyalex/agent-sessions) - Local-first macOS app for browsing and full-text searching Codex session history alongside other local coding-agent transcripts; resume is available where the underlying CLI supports it.
 - [cctop](https://github.com/st0012/cctop) - Keyboard-first macOS menubar monitor for Codex CLI sessions. Shows which runs are working, waiting, or need approval, jumps back to the exact terminal pane, and also supports Codex Desktop, Claude Code, opencode, and pi.
-- [codexsm](https://github.com/milisp/codexsm) - Codex session manager, cross-platform GUI. Rename, view, or delete session files, with one-click session resume.
 - [agentbox](https://github.com/madarco/agentbox) - Run multiple Codex (and Claude Code / OpenCode) sessions in parallel, each in its own sandboxed box — local Docker or cloud VMs (Hetzner/Daytona/Vercel/E2B). Sub-1s checkpoint starts, per-box browser + VS Code, and a dashboard to switch between boxes.
 - [Orca](https://onorca.dev) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own Git worktree, with built-in terminal and diff review.
 - [GraphCode](https://github.com/scgopi/GraphCode) - macOS app that arranges Codex, Claude Code, and Copilot CLI sessions into a graph. Each node is a live terminal you can attach to mid-run; each edge is a hand-off, message, or spawn that fires while you're away. Sessions survive app quits and reboots.
@@ -125,7 +127,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Development Tools
 
-- [Plux](https://milisp.dev/plux) - Double-tap Shift to keep the text you have selected, or a screenshot, without leaving the window you're in. One click puts it into Codex, Codexia, iTerm2, Ghostty, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
+- [Plux](https://milisp.dev/plux) - Double-tap Shift to keep the text or screenshot you have selected, without leaving the window you're in. One click puts it into ChatGPT/Codex, Codexia, iTerm2, Ghostty, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
 - [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
 - [Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor: meta-agent builder, A2A Hub routing, local ontology, and memory/security gates.
@@ -165,7 +167,6 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Claudexor](https://github.com/razzant/claudexor) - Local-first control plane that runs Codex alongside Claude Code, Cursor, and OpenCode, with profile-aware quota routing, best-of-N runs, and cross-family review.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for skills, tools, and context for AI agents, available to Codex through a remote OAuth MCP server.
 - [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs entirely inside GitHub Actions — cron-scheduled Markdown skills, self-healing (a health skill files issues, a repair skill fixes them by PR), and fleet-replicating. Runs its skills on Codex CLI, one of six supported coding-agent harnesses (Codex, Claude Code, Grok, Pi, Vibe, Kimi), through a single adapter. MIT.
-- [codex-healthkit](https://github.com/Ishikawa-Hidekazu/codex-healthkit) - On-demand, metadata-only health reports for Codex CLI session storage and SQLite WAL growth, with explicit before/after comparisons and no credential, database-content, or transcript reads.
 
 ### Stat
 
@@ -198,6 +199,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
 - [Codex Skills](https://github.com/openai/skills) - A catalog of reusable skills for Codex.
+- [gstack](https://github.com/garrytan/gstack) - A 23-skill suite covering planning, design review, shipping, canary, QA, and retros. Installs to `~/.codex/skills/` via `--host codex`; the `/codex` skill runs Codex CLI as an adversarial second-opinion reviewer against Claude's findings.
 - [Codex Skills](https://github.com/Dimillian/Skills) - A skill collection maintained by Dimillian.
 - [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
 - [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
@@ -238,7 +240,6 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### IDE Integrations
 
 - [Codex VS Code Extension](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) - Codex is OpenAI's coding agent that helps you write, review, and ship code faster. Use it side-by-side in your IDE or delegate larger tasks to the cloud.
-- [Codexia VS Code Extension](https://github.com/milisp/codexia-vscode) - A VS Code extension that provides a chat interface for the OpenAI Codex CLI, allowing you to interact with AI coding assistants directly from your editor.
 
 ## Use Cases
 
@@ -269,7 +270,6 @@ Community tutorials and examples are welcome.
 
 ### Community Projects
 
-- [Plux](https://github.com/milisp/plux) - AI finder/explorer with visual file tree.
 - [awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt) - Curated list of Claude Desktop Extensions.
 - [awesome-gpt-oss](https://github.com/milisp/awesome-gpt-oss) - Curated GPT open-source resources.
 - [awesome-chatgpt-claude-agents](https://github.com/milisp/awesome-chatgpt-claude-agents) - Collection of awesome agents and AI development tools.

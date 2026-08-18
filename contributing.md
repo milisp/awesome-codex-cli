@@ -12,9 +12,19 @@ Contributions are welcome! Please follow the standard GitHub pull request workfl
 
 ## Inclusion Criteria
 
-To keep this list useful, a submitted project should meet at least one of these:
+**Show that someone other than you is using it.** Recent commits, a nice README, and self-run benchmarks show effort, not usage — they don't count on their own.
 
-- 10+ GitHub stars, or meaningful package downloads (npm/PyPI/etc.), showing real adoption.
-- Clear evidence of active use (recent commits, real user feedback, a working demo) even if new.
+Any one of these works:
 
-Brand-new or low-traction projects may still be considered with a maintainer's discretion if the description makes a strong case for why it's genuinely useful — but the burden is on the PR to explain that, not just link the repo.
+- Meaningful weekly downloads (npm/PyPI/crates).
+- Forks, issues, or PRs from people outside your team.
+- Stars with matching forks/watchers/issues — a star count with zeros next to it reads as inorganic.
+- An external write-up, or a well-known project that uses it.
+
+Also:
+
+- Real Codex CLI support — an actual install path or integration, not a "supports Codex" line in the README.
+- One entry, one section. Featured is curated by the maintainer.
+- One factual line, no marketing copy.
+
+No adoption yet? Ship it, get users, come back — that's a normal place for a new project to be.
