@@ -35,9 +35,7 @@
 - [ ] No duplicate; one entry in one section.
 - [ ] One factual line, no marketing copy.
 
-## 🤖 Anti-Bot / Human Verification
-> To ensure quality contributions and filter out automated spam agents, please answer the quick question below:
+## 🤖 Human Check
+> A one-line answer, to filter out automated spam submissions.
 
-**Which AI tools or shell workflows do you currently use day-to-day?**
-- [ ] Codexia
-- [ ] Codex
+**What do you actually use Codex CLI for day-to-day?**
