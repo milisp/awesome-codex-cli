@@ -15,7 +15,7 @@
 
 > Hand-picked by the maintainer, and includes the maintainer's own projects.
 
-- **[Plux](https://milisp.dev/plux)** - Double-tap Shift to keep "I need this". One click puts it into ChatGPT/Codex, Codexia, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
+- **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
 - **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
 - **[gstack](https://github.com/garrytan/gstack)** - Garry Tan's own agent setup: 23 opinionated skills acting as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA. First-class Codex CLI host (`--host codex`, installs to `~/.codex/skills/`), plus a `/codex` skill that uses Codex CLI as an independent cross-model reviewer.
 
@@ -126,7 +126,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Development Tools
 
-- [Plux](https://milisp.dev/plux) - Double-tap Shift to keep the text or screenshot you have selected, without leaving the window you're in. One click puts it into ChatGPT/Codex, Codexia, iTerm2, Ghostty, Claude or Cursor — app focused, input filled, ready to send, never submitted for you. macOS and Windows.
+- [Plux](https://milisp.dev/plux) - Capture now with a shortcut. Turn it into a todo, send it to AI anytime.
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
 - [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
 - [Hephaestus](https://github.com/agentlas-ai/Hephaestus) - Open Agent OS for Claude Code, Codex, and Cursor: meta-agent builder, A2A Hub routing, local ontology, and memory/security gates.
