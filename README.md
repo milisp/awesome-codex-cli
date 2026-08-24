@@ -264,6 +264,7 @@ legacy code and architecture.
 ### Learning Resources
 
 - [Apidog Blog](https://apidog.com/blog/openai-codex-cli/) - Open source coding agent overview.
+- [ChatGPT Plus / Pro and Codex Guide (Chinese)](https://github.com/momochoog/gpt-daichong) - MIT-licensed Chinese guide to choosing ChatGPT Plus or Pro for Codex, separating ChatGPT subscriptions from API billing, and checking payment, order, and credential-safety steps; maintained by AIXiamo.
 
 Community tutorials and examples are welcome.
 
