@@ -165,6 +165,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Ouroboros (razzant)](https://github.com/razzant/ouroboros) - Self-hosted AI agent runtime with a headless CLI, persistent memory, reviewed self-modification, and Codex CLI integration.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for skills, tools, and context for AI agents, available to Codex through a remote OAuth MCP server.
 - [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs entirely inside GitHub Actions — cron-scheduled Markdown skills, self-healing (a health skill files issues, a repair skill fixes them by PR), and fleet-replicating. Runs its skills on Codex CLI, one of six supported coding-agent harnesses (Codex, Claude Code, Grok, Pi, Vibe, Kimi), through a single adapter. MIT.
+- [twoperson](https://github.com/ahm3dwasim/twoperson) - A two-person rule for two AI coding agents: the builder (e.g. Claude Code) publishes a review packet and the reviewer (e.g. Codex) records a verdict; the schema refuses "pushed without a review ref" and "approved without a commit sha", so an approval is bound to one commit and goes stale on rebase. Stop-hook installer, credential scan, git-worktree aware. Pure Python, MIT.
 
 ### Stat
 
