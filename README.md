@@ -19,6 +19,7 @@
 - **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
 - **[Codexia](https://github.com/milisp/codexia)** - Agent Workstation for Codex CLI and claude code
 - **[gstack](https://github.com/garrytan/gstack)** - Garry Tan's own agent setup: 23 opinionated skills acting as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA. First-class Codex CLI host (`--host codex`, installs to `~/.codex/skills/`), plus a `/codex` skill that uses Codex CLI as an independent cross-model reviewer.
+- **[productship.lol](https://productship.lol)** - Ultra-lean discovery directory & showcase platform for AI tools, skills, and creations.
 
 ---
 
