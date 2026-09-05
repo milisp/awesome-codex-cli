@@ -107,6 +107,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### Account switcher
 
 - [codex-account](https://github.com/frndchagas/codex-account) - Switch between multiple Codex accounts without signing out — never revokes tokens, keeps every account signed in, and syncs refreshed tokens back into saved profiles. Single-file bash script.
+- [Codex Account Switcher](https://github.com/liuzhao1225/codex-account-switcher) - Native macOS menu bar app that switches the active Codex Desktop and newly started Codex CLI account locally, with no Terminal commands or config-file editing.
 
 ### WebUI & App
 
