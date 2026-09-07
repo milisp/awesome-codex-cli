@@ -110,6 +110,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### WebUI & App
 
+- [bbbbb](https://github.com/xxsang/bbbbb) - iPhone inbox for Codex CLI task updates through a notification skill, with unresolved items in Attention and completions in Activity; free core with an optional paid upgrade.
 - [happy](https://github.com/slopus/happy) - Mobile and Web client for Codex and Claude Code, with real-time voice and encryption.
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - An app to monitor the Codex situation.
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - An enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
