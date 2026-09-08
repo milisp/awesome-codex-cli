@@ -85,6 +85,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Agent QA](https://github.com/vostride/agent-qa) - The self-improving QA agent for software teams. Run `agent-qa mcp` to let Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and guide fixes with persistent test memory.
 - [Vestige](https://github.com/samvallad33/vestige) - Local-first cognitive memory MCP server that gives Codex CLI persistent recall across sessions. SQLite storage, FSRS-6 retention with active forgetting so old context decays instead of piling up, prediction-error gating, and hybrid retrieval. Single Rust binary, npm install -g vestige-mcp-server.
 - [GoodMemory](https://github.com/hjqcan/GoodMemory) - Local-first, auditable memory for Codex CLI and Claude Code. `goodmemory setup` installs scoped recall hooks and read-only MCP inspection; SQLite persistence is the default, while optional writeback stays reviewable and reversible.
+- [ContextStream](https://contextstream.io) - Remote MCP server for shared project context across Codex CLI, Claude Code, Cursor, and Grok. Endpoint: https://mcp.contextstream.io/mcp. Repo: https://github.com/contextstream/mcp-server.
 
 ### setup tool
 
