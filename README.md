@@ -126,6 +126,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Codex, Claude Code, Antigravity, Grok and Cursor: local working/stalled/your-turn state, your-turn alerts, and provider usage with on-device cost estimates. macOS and Windows, no account, no telemetry.
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell. For Claude Code, needs-you is shown separately from done, read from the CLI's own hooks.
 - [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch, where Allow, Deny or one of the prompt's options is a single tap and the answer goes back into the session, through each CLI's own hooks. Free tier; the AI Coding module is part of Crest Pro, $19.99 once.
+- [Orchestrator](https://github.com/zachealy1/orchestrator) - Free, MIT-licensed macOS workspace connecting Codex conversations and subagent inspection with repository browsing, Kanban tasks and local code review.
 
 ### Development Tools
 
