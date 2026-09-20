@@ -286,4 +286,3 @@ Contributions are welcome! Please:
 2. Check existing resources to avoid duplicates.
 3. Ensure links are working and relevant.
 4. Submit a pull request with clear descriptions.
-
