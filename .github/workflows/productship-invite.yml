@@ -1,4 +1,4 @@
-name: Invite merged PR author to ProductShip.lol
+name: Invite PR author to ProductShip.lol
 
 on:
   pull_request_target:
@@ -8,11 +8,11 @@ permissions:
   pull-requests: write
 
 jobs:
-  invite:
+  invite-merged:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: Comment invite
+      - name: Comment invite (merged)
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
@@ -20,3 +20,16 @@ jobs:
             🎉 Thanks for the contribution, @${{ github.event.pull_request.user.login }}!
 
             If you'd like more eyes on what you just shipped, feel free to submit it to [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting.
+
+  invite-closed:
+    if: github.event.pull_request.merged == false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment invite (not merged)
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Thanks for opening this, @${{ github.event.pull_request.user.login }} — this didn't fit this list's inclusion criteria, but that's not a verdict on the project itself.
+
+            If it's something you shipped, you're welcome to post it on [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting, no adoption/stars bar to clear.
