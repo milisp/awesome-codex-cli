@@ -1,0 +1,22 @@
+name: Invite merged PR author to ProductShip.lol
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  invite:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment invite
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            🎉 Thanks for the contribution, @${{ github.event.pull_request.user.login }}!
+
+            If you'd like more eyes on what you just shipped, feel free to submit it to [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting.
