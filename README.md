@@ -184,6 +184,9 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Zero-config local dashboard for observing Codex CLI sessions, tokens, and costs alongside 20+ other agent runtimes.
 - [session-top](https://github.com/jerryxff26-alt/session-top) - Local htop-style TUI for Codex CLI sessions: quota windows, top consumers, and explainable usage drops from on-disk rollouts.
 
+- [NextReset](https://nextreset.ai/) - Independent, source-linked Codex reset history, official incident updates, and a browser-local personal reset timer.
+
+
 ### Editor
 
 - [zed](https://github.com/zed-industries/zed) - Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
