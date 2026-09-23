@@ -66,6 +66,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [AGENTS.md Practical Guide (Korean)](https://github.com/soul-sol/agents-md-guide-ko) by [soul-sol](https://github.com/soul-sol) - Korean guide to Codex instruction discovery, nested overrides, repository boundaries, completion criteria, and ready-to-use single-service, monorepo, and library examples.
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
 - [Nika](https://github.com/supernovae-st/nika-agents) by [Thibaut Melen](https://github.com/ThibautMelen) - Codex plugin for Nika workflows: `/nika:check`, `/nika:explain`, `/nika:new` + authoring skill + read-only MCP oracle — audit `.nika.yaml` DAGs (schema, permits, honest cost floor) before a single token is spent.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Codex CLI's own system prompts and tool schemas, recorded off the wire and dated: `gpt-5.6-luna` 20,815 characters / 3 tools, `gpt-5.6-sol` 23,354 / 9, plus `gpt-6-astra`. Each file carries the command that reproduces it, so you can check what your Codex version actually sends before writing an AGENTS.md against it.
 
 ## Tools
 
