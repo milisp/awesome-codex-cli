@@ -176,6 +176,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Stat
 
+- [Lunavect](https://github.com/lovach/Lunavect) - macOS menu bar app with live Codex CLI and Claude Code session status, weekly and five-hour usage limits, desktop widgets and activity statistics.
 - [codex-patch-overlay](https://github.com/salty-flower/codex-patch-overlay) - Patched Codex CLI builds carrying community-requested features upstream hasn't merged (live TUI reasoning streaming, completion sound, WebP image input). Ships ready-to-run macOS/Linux binaries plus a Nix overlay, refreshed each upstream release.
 - [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for Codex CLI, Claude Code, OpenCode, Cursor, and Pi histories with cost analytics, skill/hook usage, workflow extraction, dashboard, and MCP access.
