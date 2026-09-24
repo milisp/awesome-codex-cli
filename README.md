@@ -11,7 +11,7 @@
 
 > 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
 
-> 📣 **Want your product in front of Codex CLI users?** [Sponsor this list](mailto:sponsor@milisp.dev) or [DM on 𝕏](https://x.com/lisp_mi). Sponsorship is labeled and does not affect inclusion in the curated list.
+> 📣 **Want your product in front of Codex CLI users?** [Sponsor this list](SPONSOR.md) — $29/month, one slot. Sponsorship is labeled and does not affect inclusion in the curated list.
 
 ### ✨ Featured Tools
 
