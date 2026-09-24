@@ -11,6 +11,8 @@
 
 > 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
 
+> 📣 **Want your product in front of Codex CLI users?** [Sponsor this list](mailto:sponsor@milisp.dev) or [DM on 𝕏](https://x.com/lisp_mi). Sponsorship is labeled and does not affect inclusion in the curated list.
+
 ### ✨ Featured Tools
 
 > Hand-picked by the maintainer, and includes the maintainer's own projects.

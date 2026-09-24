@@ -33,3 +33,5 @@ jobs:
             Thanks for opening this, @${{ github.event.pull_request.user.login }} — this didn't fit this list's inclusion criteria, but that's not a verdict on the project itself.
 
             If it's something you shipped, you're welcome to post it on [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting, no adoption/stars bar to clear.
+
+            Want guaranteed, labeled placement at the top of this README instead? Sponsor slots are available: sponsor@milisp.dev or [DM on 𝕏](https://x.com/lisp_mi).
