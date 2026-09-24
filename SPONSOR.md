@@ -9,8 +9,9 @@ One labeled sponsor slot at the top of the [README](README.md), seen by develope
 ## How to book
 
 1. Email **sponsor@milisp.dev** (or DM [@lisp_mi](https://x.com/lisp_mi)) with your product link and the line you want shown.
-2. Once approved, pay via [Polar checkout](https://buy.polar.sh/polar_cl_S9nAjqF2aXMB2GisvGyG2xBSlbB4ulNKWtdbj3dUlfi).
+2. Once approved, you'll receive a private payment link.
 3. Your line goes live within 48 hours of payment.
+4. Payments made without prior approval will be refunded.
 
 ## Rules
 
