@@ -110,6 +110,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### Account switcher
 
 - [codex-account](https://github.com/frndchagas/codex-account) - Switch between multiple Codex accounts without signing out — never revokes tokens, keeps every account signed in, and syncs refreshed tokens back into saved profiles. Single-file bash script.
+- [Codex Account Switcher](https://github.com/liuzhao1225/codex-account-switcher) - Native macOS menu bar app that switches the active Codex Desktop and newly started Codex CLI account locally, with no Terminal commands or config-file editing.
 
 ### WebUI & App
 
@@ -173,6 +174,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs entirely inside GitHub Actions — cron-scheduled Markdown skills, self-healing (a health skill files issues, a repair skill fixes them by PR), and fleet-replicating. Runs its skills on Codex CLI, one of six supported coding-agent harnesses (Codex, Claude Code, Grok, Pi, Vibe, Kimi), through a single adapter. MIT.
 - [great_cto](https://github.com/avelikiy/great_cto) - Ships nine skills and an MCP server to Codex CLI, and runs Codex as a second-opinion reviewer on the same diff from inside Claude Code.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries. Runs Pi and Codex subagents, gives each task a dedicated branch/worktree, and gates merges with a risk-based review queue and receipt-backed changes. MIT, npm @yylo/cli.
+- [Ordewell](https://github.com/ordewell/ordewell) - Terminal CLI and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each carrying its own runner (Codex, Claude Code, OpenCode), model and mode; every task runs as one agent session and counts as done only when its own completion marker appears in that runner's output. Apache-2.0.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 
 ### Stat
