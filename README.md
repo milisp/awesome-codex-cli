@@ -90,6 +90,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [GoodMemory](https://github.com/hjqcan/GoodMemory) - Local-first, auditable memory for Codex CLI and Claude Code. `goodmemory setup` installs scoped recall hooks and read-only MCP inspection; SQLite persistence is the default, while optional writeback stays reviewable and reversible.
 - [ContextStream](https://contextstream.io) - Remote MCP server for shared project context across Codex CLI, Claude Code, Cursor, and Grok. Endpoint: https://mcp.contextstream.io/mcp. Repo: https://github.com/contextstream/mcp-server.
 - [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Codex CLI session below the harness and replays it with the recorded model responses served back; `orca mcp` exposes the recorded runs so an agent can read what an earlier run sent, ran and changed.
+- [Omentir](https://github.com/vanshyadav1408/Omentir) - Remote MCP server for LinkedIn prospecting and outreach: find and score leads, draft messages, run human-paced campaigns, and answer replies. Codex config: `[mcp_servers.omentir]` with `url = "https://omentir.com/api/agent/v1/mcp"` and `bearer_token_env_var = "OMENTIR_API_KEY"`. MIT, self-hostable.
 
 ### setup tool
 
