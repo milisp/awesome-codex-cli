@@ -225,6 +225,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit) by [Vlad Goncharov](https://github.com/LeoVS09) - Hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint focused on improving agent result quality.
 - [Everything OpenAI Codex](https://github.com/mturac/everything-openai-codex) by [Mehmet Turac](https://github.com/mturac) - Open-source Codex workflow system with agents, skills, commands, hooks, memory patterns, install profiles, and validation checks for repeatable coding sessions.
 - [Trail of Bits Security Skills](https://github.com/trailofbits/skills) by [Trail of Bits](https://github.com/trailofbits) - A very professional collection of over a dozen security-focused skills for code auditing and vulnerability detection. Includes skills for static analysis with CodeQL and Semgrep, variant analysis across codebases, fix verification, and differential code review.
+- [Supercov](https://github.com/supercorp-ai/supercov) by [Supercorp](https://github.com/supercorp-ai) - Codex plugin with two skills: one runs the project's existing tests, measures line, branch and MC/DC coverage and writes tests for the untested code, the other scans source for security vulnerabilities.
 - [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
 
 ## Official Resources
