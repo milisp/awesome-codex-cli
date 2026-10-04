@@ -189,6 +189,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Zero-config local dashboard for observing Codex CLI sessions, tokens, and costs alongside 20+ other agent runtimes.
 - [session-top](https://github.com/jerryxff26-alt/session-top) - Local htop-style TUI for Codex CLI sessions: quota windows, top consumers, and explainable usage drops from on-disk rollouts.
+- [Caprock](https://github.com/dspv/caprock) - Local dashboard that reads Codex CLI transcripts alongside Claude Code, OpenCode and Gemini CLI sessions: live activity, token cost per repository at API list prices, loop alerts, and searchable history.
 
 ### Reset Trackers
 
