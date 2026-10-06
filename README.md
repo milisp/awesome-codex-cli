@@ -108,6 +108,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [agentbox](https://github.com/madarco/agentbox) - Run multiple Codex (and Claude Code / OpenCode) sessions in parallel, each in its own sandboxed box — local Docker or cloud VMs (Hetzner/Daytona/Vercel/E2B). Sub-1s checkpoint starts, per-box browser + VS Code, and a dashboard to switch between boxes.
 - [Orca](https://onorca.dev) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own Git worktree, with built-in terminal and diff review.
 - [GraphCode](https://github.com/scgopi/GraphCode) - macOS app that arranges Codex, Claude Code, and Copilot CLI sessions into a graph. Each node is a live terminal you can attach to mid-run; each edge is a hand-off, message, or spawn that fires while you're away. Sessions survive app quits and reboots.
+- [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs Codex CLI and other coding-agent CLIs side by side, each in its own persistent tmux session, with live status, prompts sent without attaching, optional per-session Git worktrees, and a diff review that sends line comments back to the agent.
 
 ### Account switcher
 
