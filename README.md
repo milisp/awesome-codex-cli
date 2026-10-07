@@ -178,6 +178,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries. Runs Pi and Codex subagents, gives each task a dedicated branch/worktree, and gates merges with a risk-based review queue and receipt-backed changes. MIT, npm @yylo/cli.
 - [Ordewell](https://github.com/ordewell/ordewell) - Terminal CLI and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner (Codex, Claude Code, OpenCode), model and mode.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
+- [Lockpaw](https://github.com/sorkila/lockpaw) - macOS menu bar app that covers the screen while Codex keeps running. `lockpaw install-hook codex` adds a notify entry and a PermissionRequest hook, so the locked screen glows when Codex finishes or waits for approval.
 
 ### Stat
 
