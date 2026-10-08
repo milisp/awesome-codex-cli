@@ -29,6 +29,7 @@
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
 - [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
+- [Plugins](#plugins)
 - [Tools](#tools)
   - [GUI & MCP](#gui--mcp)
   - [MCP server](#mcp-server)
@@ -68,6 +69,12 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [AGENTS.md Practical Guide (Korean)](https://github.com/soul-sol/agents-md-guide-ko) by [soul-sol](https://github.com/soul-sol) - Korean guide to Codex instruction discovery, nested overrides, repository boundaries, completion criteria, and ready-to-use single-service, monorepo, and library examples.
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
 - [Nika](https://github.com/supernovae-st/nika-agents) by [Thibaut Melen](https://github.com/ThibautMelen) - Codex plugin for Nika workflows: `/nika:check`, `/nika:explain`, `/nika:new` + authoring skill + read-only MCP oracle — audit `.nika.yaml` DAGs (schema, permits, honest cost floor) before a single token is spent.
+
+## Plugins
+
+> Plugins bundle skills, MCP servers and other resources that Codex CLI installs from a marketplace with `codex plugin add`.
+
+- [Supercov](https://github.com/supercorp-ai/supercov) by [Supercorp](https://github.com/supercorp-ai) - Codex plugin with two skills: one runs the project's existing tests, measures line, branch and MC/DC coverage and writes tests for the untested code, the other scans source for security vulnerabilities.
 
 ## Tools
 
