@@ -24,7 +24,6 @@
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
-- [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 - [Tools](#tools)
   - [GUI & Apps](#gui-apps)
   - [Mobile & Remote Access](#mobile--remote-access)
@@ -48,7 +47,8 @@
     - [Memory & Context](#memory--context)
     - [Utilities](#utilities)
   - [Directories & Registries](#directories--registries)
-- [Official Resources](#official-resources)
+- [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
+- [Resources](#resources)
   - [Documentation](#documentation)
   - [Blog Posts & Tutorials](#blog-posts--tutorials)
 - [Web Interface Extensions](#web-interface-extensions)
@@ -65,18 +65,6 @@
 ## What is OpenAI Codex CLI
 
 OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
-
-## Workflows & Knowledge Guides 🧠
-
-> A workflow is a tightly coupled set of Codex-native resources that facilitate specific projects
-
-- [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
-- [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
-- [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and Qwen Code.
-- [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
-- [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
-- [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
-- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
 
 ## Tools
 
@@ -254,12 +242,23 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Directories & Registries
 
-- [productship.lol](https://productship.lol) - Ultra-lean discovery directory & showcase platform for AI tools, skills, and creations.
 - [TokRepo](https://github.com/henu-wang/tokrepo) - Canonical GitHub landing page for the TokRepo open registry, with links to a Codex-compatible skill repo, MCP server, and installable AI assets such as prompts, workflows, and MCP configs.
 - [Agent Plugins Directory](https://agentpluginsdirectory.com) - Directory of 524 Agent Plugins, each verified by fetching its `plugin.json` and checking it against the official Agent Plugins 1.0.0 schema, plus a free browser-based validator for `plugin.json` and `mcp.json`. Agent Plugins install in Codex CLI and in ChatGPT, Cursor, Copilot, VS Code and Kiro from the same directory.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for skills, tools, and context for AI agents, available to Codex through a remote OAuth MCP server.
 
-## Official Resources
+## Workflows & Knowledge Guides 🧠
+
+> A workflow is a tightly coupled set of Codex-native resources that facilitate specific projects
+
+- [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
+- [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
+- [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and Qwen Code.
+- [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
+- [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
+- [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
+- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
+
+## Resources
 
 ### Documentation
 
