@@ -101,6 +101,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [agent-sessions](https://github.com/jazzyalex/agent-sessions) - Local-first macOS app for browsing and full-text searching Codex session history alongside other local coding-agent transcripts; resume is available where the underlying CLI supports it.
 - [cctop](https://github.com/st0012/cctop) - Keyboard-first macOS menubar monitor for Codex CLI sessions. Shows which runs are working, waiting, or need approval, jumps back to the exact terminal pane, and also supports Codex Desktop, Claude Code, opencode, and pi.
 - [GraphCode](https://github.com/scgopi/GraphCode) - macOS app that arranges Codex, Claude Code, and Copilot CLI sessions into a graph. Each node is a live terminal you can attach to mid-run; each edge is a hand-off, message, or spawn that fires while you're away. Sessions survive app quits and reboots.
+- [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs Codex CLI and other coding-agent CLIs side by side, each in its own persistent tmux session, with live status, prompts sent without attaching, optional per-session Git worktrees, and a diff review that sends line comments back to the agent.
 
 ### Agent Runtimes & Orchestration
 
