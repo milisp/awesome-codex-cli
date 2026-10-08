@@ -130,6 +130,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Switch Codex CLI and Desktop accounts with isolated CODEX_HOME profiles instead of copying auth files by hand.
 - [cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.
 - [opencodex](https://github.com/lidge-jun/opencodex) - Universal provider proxy for Codex — use Claude, Gemini, Grok, GLM, DeepSeek, Kimi, Cursor, and more with the Codex CLI/App/SDK, with multi-account pooling and a GUI dashboard.
+- [aisw](https://github.com/burakdede/aisw) - Rust CLI that keeps each Codex CLI login in its own `CODEX_HOME` profile and switches accounts in one command, alongside Claude Code, Gemini CLI and Antigravity CLI, with per-repository account guards. Docs: [aiswitcher.dev](https://aiswitcher.dev).
 
 ### Usage & Monitoring
 
