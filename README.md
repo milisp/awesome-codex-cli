@@ -159,6 +159,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 #### Rate limit Tracks
 - [WhenResets](https://whenresets.net) - Sourced public ledger of every OpenAI Codex rate-limit reset: 55 records, each linking to the original announcement. Also published as MIT-licensed CSV/JSON.
+- [WhenResets.com](https://whenresets.com/codex-reset-history) - Versioned Codex announcement archive with source links, verification labels, and CSV/JSON exports through a public API.
 
 ### Setup & Config Management
 
