@@ -1,1 +1,1 @@
-{{FILE:/workspace/awesome-codex-cli-readme/README.md}}
+# PLACEHOLDER_LOAD_FROM_FILE
