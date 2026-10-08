@@ -225,6 +225,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
 - [NotFair](https://github.com/nowork-studio/NotFair) by [nowork-studio](https://github.com/nowork-studio) - Seventeen host-agnostic SKILL.md workflows for SEO, GEO, Google Ads, and Meta Ads, plus an open-source local goal agent that supports Codex.
 - [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
+- [assay](https://github.com/awss1i/assay) by [awss1i](https://github.com/awss1i) - Deterministic web-page QA skill. After the agent changes a page, it opens the page in Chromium through Playwright, drives every control, and reports where the page contradicts itself. No tests to write, no LLM. Install with pip install assay-ui.
 
 ### MCP Servers
 
