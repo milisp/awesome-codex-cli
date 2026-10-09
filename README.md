@@ -239,6 +239,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Agent QA](https://github.com/vostride/agent-qa) - The self-improving QA agent for software teams. Run `agent-qa mcp` to let Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and guide fixes with persistent test memory.
 - [VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit) - MCP server that renders 4-6s animated b-roll overlay videos (mp4) for short-form social (LinkedIn, IG Reels, YouTube Shorts, TikTok). Paste your script into Codex CLI / Claude Code / Cursor, the model writes the scene spec and renders the mp4. Built on Remotion + Tabler + Lottie. Free, MIT, local.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
+- [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
 
 ### Directories & Registries
 
