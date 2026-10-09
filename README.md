@@ -13,11 +13,11 @@
 
 ### ✨ Featured Tools
 
-> Hand-picked by the maintainer, and includes the maintainer's own projects.
+> Maintainer picks, including my own projects.
 
-- **[keke](https://github.com/milisp/keke-agent)** - Lightweight coding agent harness built in Rust for zero vendor lock-in. 8 MB, BYOK, Support Codex and grok subscriptions too
+- **[keke](https://github.com/milisp/keke-agent)** - Lightweight Rust coding agent harness. BYOK, 8 MB.
 - **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
-- **[productship.lol](https://productship.lol)** - Ultra-lean discovery directory & showcase platform for AI tools, skills, and creations.
+- **[productship.lol](https://productship.lol)** - Discover and showcase AI tools.
 
 ---
 
