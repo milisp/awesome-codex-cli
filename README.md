@@ -1,8 +1,8 @@
 # Awesome Codex CLI 🚀 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Stars](https://img.shields.io/github/stars/milisp/awesome-codex-cli?style=social)](https://github.com/milisp/awesome-codex-cli/stargazers)
-[![Follow on 𝕏](https://img.shields.io/badge/𝕏-@lisp__mi-1c9bf0)](http://x.com/intent/follow?screen_name=lisp_mi)
-[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/codex/)
+[![Stars](https://img.shields.io/github/stars/milisp/awesome-codex-cli?style=social)](https://github.com/milisp/awesome-codex-cli)
+[![Follow on 𝕏](https://img.shields.io/badge/𝕏-@lisp__mi-1c9bf0)](https://x.com/lisp_mi)
+[![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/codex?style=flat&logo=reddit&label=subreddit)](https://reddit.com/r/codex)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zAjtD4kf5K)
 
 > A curated list of tools, plugins, skills, resources, and tutorials for OpenAI Codex CLI — hand-picked and reviewed, not auto-collected.
@@ -74,8 +74,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - An app to monitor the Codex situation.
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - An enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Open-source desktop client that runs Codex CLI alongside other agent CLIs (Claude Code, Gemini CLI, Qwen Code), with multi-session chat, MCP and ACP support, and local file management.
-- [ToutKit](https://github.com/toutkit/toutkit) - Desktop notebook with a built-in terminal that runs Codex CLI alongside Claude Code and Gemini; an in-app webview renders whatever the agent writes inline, and each note is a self-contained folder with its own SQLite, files, and scripts. Local-first, Electron, AGPL-3.0.
-- [Claudable](https://github.com/opactorai/Claudable) - An open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
+- [Claudable](https://github.com/anymorph-ai/Claudable) - An open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 
 ### Mobile & Remote Access
 
@@ -83,7 +82,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Untether](https://github.com/littlebearapps/untether) - Telegram bridge for Codex CLI (and 5 other agents). Send tasks by voice, stream progress, toggle approval policy (full auto/safe) via inline buttons.
 - [Codex on Telegram](https://github.com/leoshenzh/codex-on-telegram) - Self-hosted macOS bridge that drives your local Codex CLI (or Claude Code) sessions from Telegram. Attach to a session already running on your machine, approve permission prompts in chat, run per-topic parallel sessions, and resume the same session after a restart.
 - [IM.codes](https://github.com/im4codes/imcodes) - The IM for agents: a mobile/web control layer for Codex CLI and other terminal-based coding agents, with terminal access, file browsing, Git views, localhost preview, notifications, and multi-agent workflows.
-- [Onepilot](https://onepilotapp.com) - Native iOS SSH terminal for Codex CLI and Claude Code. Full PTY, GitHub integration, localhost forwarding, live file editing, and one-click AI agent deployment via OpenClaw. [App Store](https://apps.apple.com/app/onepilot-ai-terminal/id6743826919).
+- [Onepilot](https://onepilotapp.com) - Native iOS SSH terminal for Codex CLI and Claude Code. Full PTY, GitHub integration, localhost forwarding, live file editing, and one-click AI agent deployment via OpenClaw.
 - [Redock](https://redock.dev) - Native Android & iOS SSH/Mosh terminal for running Codex CLI on your own host, with tmux session continuity, project shortcuts, reusable actions, and voice input. [App Store](https://apps.apple.com/app/id6763979847) [Google Play](https://play.google.com/store/apps/details?id=com.redock.android).
 - [Mobile SSH](https://mobile-ssh.github.io/) - Android & iOS SSH/SFTP terminal for running Codex and Claude Code on a remote server. Agent Alerts push a phone notification (sound + vibration) the moment the agent needs input, plus a multi-server tmux session manager, Eternal Terminal transport, and multi-address LAN/VPN roaming.
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) - Browser grid of live Claude Code / Codex sessions started with one `npx` command. Each cell is a real PTY with a colour-coded status, tmux-backed persistence, and a git worktree per cell. For Claude Code, needs-you is shown separately from done, read from the CLI's own hooks.
@@ -92,7 +91,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [crystal](https://github.com/stravu/crystal) - Run multiple Codex and Claude Code AI sessions in parallel Git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
 - [Parallel Code](https://github.com/johannesjo/parallel-code) - Desktop app for running Codex CLI, Claude Code, and Gemini CLI agents side by side in separate Git worktrees.
-- [Orca](https://onorca.dev) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own Git worktree, with built-in terminal and diff review.
+- [Orca](https://www.onorca.dev/) - Desktop IDE that runs Codex CLI and other agents (Claude Code, Cursor, Gemini) in parallel, each in its own Git worktree, with built-in terminal and diff review.
 - [vibe-kanban](https://github.com/BloopAI/vibe-kanban) - Kanban board to manage your AI coding agents.
 - [ccmanager](https://github.com/kbwo/ccmanager) - Coding Agent Session Manager that supports Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI.
 - [claude-squad](https://github.com/smtg-ai/claude-squad) - Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp.
@@ -106,11 +105,10 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### Agent Runtimes & Orchestration
 
 - [humanlayer](https://github.com/humanlayer/humanlayer) - The best way to get AI coding agents to solve hard problems in complex codebases.
-- [bernstein](https://github.com/chernistry/bernstein) - Parallel multi-agent orchestrator — spawns Codex CLI, Claude Code, and Gemini CLI simultaneously on isolated Git worktrees, verifies with tests, auto-commits working code. Zero LLM tokens on coordination.
+- [bernstein](https://github.com/sipyourdrink-ltd/bernstein) - Parallel multi-agent orchestrator — spawns Codex CLI, Claude Code, and Gemini CLI simultaneously on isolated Git worktrees, verifies with tests, auto-commits working code. Zero LLM tokens on coordination.
 - [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries. Runs Pi and Codex subagents, gives each task a dedicated branch/worktree, and gates merges with a risk-based review queue and receipt-backed changes. MIT, npm @yylo/cli.
 - [Ordewell](https://github.com/ordewell/ordewell) - Terminal CLI and TUI that turns one goal into an ordered, editable plan of coding agent tasks, each with its own runner (Codex, Claude Code, OpenCode), model and mode.
 - [Claudexor](https://github.com/razzant/claudexor) - Local-first control plane that runs Codex alongside Claude Code, Cursor, and OpenCode, with profile-aware quota routing, best-of-N runs, and cross-family review.
-- [Alfred](https://github.com/luminik-io/alfred-os) - Self-hosted runtime that turns scoped GitHub issues into reviewed pull requests through autonomous Codex CLI and Claude Code agents. Per-firing Git worktrees, label-driven state machine (agent:implement → agent:in-flight → agent:pr-open → agent:done), role-based engine routing across Codex and Claude, and Slack reporting. Python, MIT, macOS/Linux.
 - [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted multi-agent runtime that delegates to Codex CLI alongside Claude Code, Gemini CLI, OpenCode, Copilot CLI, Cursor Agent, Goose, Qwen Code, and Droid. Org chart view, schedules, runtime skills, persistent memory, and reviewed conversation-to-skill learning. MCP-native (server and client). Electron desktop app, CLI, and Docker.
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first Agent OS that packages specialist agents and temporary teams, with a Codex adapter, MCP/A2A routing, and verification gates.
 - [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs entirely inside GitHub Actions — cron-scheduled Markdown skills, self-healing (a health skill files issues, a repair skill fixes them by PR), and fleet-replicating. Runs its skills on Codex CLI, one of six supported coding-agent harnesses (Codex, Claude Code, Grok, Pi, Vibe, Kimi), through a single adapter. MIT.
@@ -134,7 +132,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Usage & Monitoring
 
-- [ccusage](https://github.com/ryoppippi/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
+- [ccusage](https://github.com/ccusage/ccusage) - A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for Codex CLI, Claude Code, OpenCode, Cursor, and Pi histories with cost analytics, skill/hook usage, workflow extraction, dashboard, and MCP access.
 - [CodexBar](https://github.com/steipete/CodexBar) - Show usage stats for OpenAI Codex and Claude Code, without having to login.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI for inspecting AI coding-agent session logs, usage, cost, latency, tool failures, diffs, and CI gates.
@@ -143,7 +141,6 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [session-top](https://github.com/jerryxff26-alt/session-top) - Local htop-style TUI for Codex CLI sessions: quota windows, top consumers, and explainable usage drops from on-disk rollouts.
 - [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Codex, Claude Code, Antigravity, Grok and Cursor: local working/stalled/your-turn state, your-turn alerts, and provider usage with on-device cost estimates. macOS and Windows, no account, no telemetry.
 - [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch, where Allow, Deny or one of the prompt's options is a single tap and the answer goes back into the session, through each CLI's own hooks. Free tier; the AI Coding module is part of Crest Pro, $19.99 once.
-- [Agent FM](https://github.com/agentfm-ai/agent-fm) - Local macOS app for listening to Claude Code and Codex agents, with Global Mix, blocker alerts, and BYOK narration.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
 - [Relay Baton](https://github.com/guorunjie/codex-relay-baton-guardian) - Local Codex Desktop/CLI recovery monitor for long-running tasks. Detects compact failures and context-window overflow, then queues audited handoff bundles.
 
@@ -158,9 +155,9 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [dotai](https://github.com/udecode/dotai) - Context Manager for Claude Code Plugins + Codex + Cursor.
 - [vsync](https://github.com/nicepkg/vsync) - Sync Skills, MCP servers, Agents & Commands across Claude Code, Cursor, OpenCode, and Codex with automatic format conversion (JSON ↔ TOML ↔ JSONC).
 - [Bring Your AI](https://bringyour.ai/claude-code-to-codex) - Local-first Claude Code to Codex migration tool that keeps harness files local, maps AGENTS.md / CLAUDE.md guidance, MCP config, and skills, and records non-equivalent hooks as validation notes.
-- [agnix](https://github.com/avifenesh/agnix) - Linter for AI agent configurations. Validates AGENTS.md, .codex/config.toml, skills, hooks, and MCP configs with 156 rules, auto-fix, and editor integration.
-- [caliber](https://github.com/rely-ai-org/caliber) - CLI that fingerprints your codebase and generates AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md, skills, MCPs) for Claude Code, Cursor, and Codex. Scores your setup 0–100.
-- [Codex Skins](https://codexskins.org) - One-click wallpaper/theme gallery for the OpenAI Codex desktop app. Reversible full-window CDP theme injection, macOS/Windows. Open-source engine (MIT).
+- [agnix](https://github.com/agent-sh/agnix) - Linter for AI agent configurations. Validates AGENTS.md, .codex/config.toml, skills, hooks, and MCP configs with 156 rules, auto-fix, and editor integration.
+- [caliber](https://github.com/caliber-ai-org/ai-setup) - CLI that fingerprints your codebase and generates AI agent configs (CLAUDE.md, .cursor/rules/, AGENTS.md, skills, MCPs) for Claude Code, Cursor, and Codex. Scores your setup 0–100.
+- [Codex Skins](https://www.codexskins.org/) - One-click wallpaper/theme gallery for the OpenAI Codex desktop app. Reversible full-window CDP theme injection, macOS/Windows. Open-source engine (MIT).
 
 ### Forks & Patched Builds
 
@@ -204,8 +201,8 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [gstack](https://github.com/garrytan/gstack) - A 23-skill suite covering planning, design review, shipping, canary, QA, and retros. Installs to `~/.codex/skills/` via `--host codex`; the `/codex` skill runs Codex CLI as an adversarial second-opinion reviewer against Claude's findings.
 - [Everything OpenAI Codex](https://github.com/mturac/everything-openai-codex) by [Mehmet Turac](https://github.com/mturac) - Open-source Codex workflow system with agents, skills, commands, hooks, memory patterns, install profiles, and validation checks for repeatable coding sessions.
 - [Context Engineering Kit](https://github.com/NeoLabHQ/context-engineering-kit) by [Vlad Goncharov](https://github.com/LeoVS09) - Hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint focused on improving agent result quality.
-- [AgentSys](https://github.com/avifenesh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/avifenesh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
-- [These are the rules](https://x.com/kregenrek/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://x.com/kregenrek)
+- [AgentSys](https://github.com/agent-sh/agentsys) by [avifenesh](https://github.com/avifenesh) - Workflow automation system for Claude with a group of useful plugins, agents, and skills. Automates task-to-production workflows, PR management, code cleanup, performance investigation, drift detection, and multi-agent code review. Includes [agnix](https://github.com/agent-sh/agnix) for linting agent configurations. Built on thousands of lines of code with thousands of tests. Uses deterministic detection (regex, AST) with LLM judgment for efficiency. Used on many production systems.
+- [These are the rules](https://x.com/kevinkern/status/1965113557160484961) to make code search faster and more accurate. - [Kevin Kern](https://bsky.app/profile/kevinkern.dev)
 
 #### Domain-Specific
 
@@ -213,7 +210,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Trail of Bits Security Skills](https://github.com/trailofbits/skills) by [Trail of Bits](https://github.com/trailofbits) - A very professional collection of over a dozen security-focused skills for code auditing and vulnerability detection. Includes skills for static analysis with CodeQL and Semgrep, variant analysis across codebases, fix verification, and differential code review.
 - [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) by [K-Dense](https://github.com/K-Dense-AI/) - "A set of ready-to-use Agent Skills for research, science, engineering, analysis, finance and writing." That's their description - modest, simple. That's how you can tell this is really one of the best skills repos on GitHub. If you've ever thought about getting a PhD... just read all of these documents instead. Also I think it IS an AI agent or something? Awesome.
 - [harmony-next.skills](https://github.com/linhay/harmony-next.skills) by [linhay](https://github.com/linhay) - HarmonyOS NEXT developer skill for Codex and other coding agents, with local ArkTS/ArkUI/API references, DevEco Studio workflows, Emulator/HDC automation, UI/UX audit, trace audit, and Empty Ability smoke-test templates.
-- [NotFair](https://github.com/nowork-studio/NotFair) by [nowork-studio](https://github.com/nowork-studio) - Seventeen host-agnostic SKILL.md workflows for SEO, GEO, Google Ads, and Meta Ads, plus an open-source local goal agent that supports Codex.
+- [NotFair](https://github.com/nowork-studio/notfair-plugin) by [nowork-studio](https://github.com/nowork-studio) - Seventeen host-agnostic SKILL.md workflows for SEO, GEO, Google Ads, and Meta Ads, plus an open-source local goal agent that supports Codex.
 - [Codex Small Business Skills](https://github.com/simongonzalezdc/codex-small-business-skills) by [Simon Gonzalez De Cruz](https://github.com/simongonzalezdc) - Apache-2.0 Codex port of Anthropic's Small Business skills, with 31 workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
 - [assay](https://github.com/awss1i/assay) by [awss1i](https://github.com/awss1i) - Deterministic web-page QA skill. After the agent changes a page, it opens the page in Chromium through Playwright, drives every control, and reports where the page contradicts itself. No tests to write, no LLM. Install with pip install assay-ui.
 
@@ -254,7 +251,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 > A workflow is a tightly coupled set of Codex-native resources that facilitate specific projects
 
 - [oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) - OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
-- [ralph-harness](https://github.com/rxdt/py_ralph_frame) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
+- [ralph-harness](https://github.com/rxdt/loopgate_harness) - Minimal repo-local loop scaffold for Codex CLI, Claude Code, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, Git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat.
 - [cc-sdd](https://github.com/gotalab/cc-sdd) - Spec-driven development (SDD) for your team's workflow. High quality commands that enforce structured requirements→design→tasks workflow and steering, transforming how you build with AI. Support Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and Qwen Code.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 - [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
@@ -273,7 +270,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 ### Blog Posts & Tutorials
 
 - [DataCamp Tutorial](https://www.datacamp.com/tutorial/open-ai-codex-cli-tutorial) - Comprehensive tutorial on using Codex CLI.
-- [Blott Studio Guide](https://www.blott.studio/blog/post/openai-codex-cli-build-faster-code-right-from-your-terminal) - Build faster code from your terminal.
+- [Blott Studio Guide](https://www.blott.com/blog/post/openai-codex-cli-build-faster-code-right-from-your-terminal) - Build faster code from your terminal.
 - [Medium Tutorial](https://medium.com/ai-software-engineer/how-to-install-and-use-openai-codex-cli-in-2-minutes-29e9fdd0e8c5) - Quick 2-minute setup guide.
 - [OpenReplay Integration Guide](https://blog.openreplay.com/integrate-openais-codex-cli-tool-development-workflow/) - How to integrate Codex CLI into your development workflow.
 
