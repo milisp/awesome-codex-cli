@@ -240,6 +240,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit) - MCP server that renders 4-6s animated b-roll overlay videos (mp4) for short-form social (LinkedIn, IG Reels, YouTube Shorts, TikTok). Paste your script into Codex CLI / Claude Code / Cursor, the model writes the scene spec and renders the mp4. Built on Remotion + Tabler + Lottie. Free, MIT, local.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
+- [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Indian stock market data for Codex CLI: quotes, financials, shareholding, a 326-ratio screener, FII/DII flows and option chains for about 8,200 NSE and BSE stocks. `npx -y tapetide-mcp` with a free token, or remote at `https://mcp.tapetide.com/mcp`.
 
 ### Directories & Registries
 
