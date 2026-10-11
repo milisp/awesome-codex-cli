@@ -9,18 +9,6 @@
 
 ---
 
-> 💡 **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
-
-### ✨ Featured Tools
-
-> Maintainer picks, including my own projects.
-
-- **[keke](https://github.com/milisp/keke-agent)** - Lightweight Rust coding agent harness. BYOK, 8 MB.
-- **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
-- **[productship.lol](https://productship.lol)** - Discover and showcase AI tools.
-
----
-
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
@@ -322,6 +310,14 @@ Community tutorials and examples are welcome.
 - [awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt) - Curated list of Claude Desktop Extensions.
 - [awesome-gpt-oss](https://github.com/milisp/awesome-gpt-oss) - Curated GPT open-source resources.
 - [awesome-chatgpt-claude-agents](https://github.com/milisp/awesome-chatgpt-claude-agents) - Collection of awesome agents and AI development tools.
+
+### ✨ My projects
+
+> Maintainer picks, my own projects.
+
+- **[keke](https://github.com/milisp/keke-agent)** - Lightweight Rust coding agent harness. BYOK, 8 MB.
+- **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
+- **[productship.lol](https://productship.lol)** - Discover and showcase AI tools.
 
 ---
 
