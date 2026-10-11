@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/codex-pet-banner.gif" alt="The eight built-in Codex Pets animated together — Awesome Codex CLI" width="960">
+</p>
+
 # Awesome Codex CLI 🚀 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![Stars](https://img.shields.io/github/stars/milisp/awesome-codex-cli?style=social)](https://github.com/milisp/awesome-codex-cli)
