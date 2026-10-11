@@ -420,4 +420,4 @@ Contributions are welcome! Please:
 1. Read the [contribution guidelines](contributing.md).
 2. Check existing resources to avoid duplicates.
 3. Ensure links are working and relevant.
-4. Submit a pull request with clear descriptions.
+4. Open an issue using the resource submission or correction form. External submissions are issue-only; maintainers update the list after review.

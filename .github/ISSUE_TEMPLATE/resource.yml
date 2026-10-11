@@ -1,0 +1,61 @@
+name: Submit a resource
+description: Suggest a Codex resource for review. Do not open a pull request.
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Resource submissions are issue-only. Maintainers update the list after review.
+        Read contributing.md first. Low stars alone do not prove low quality, but resources must demonstrate external usage.
+  - type: input
+    id: project
+    attributes:
+      label: Project name and URL
+      description: Link to the canonical repository or project website.
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested README section
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Factual description
+      description: One neutral sentence describing what the resource does.
+    validations:
+      required: true
+  - type: textarea
+    id: integration
+    attributes:
+      label: Codex integration evidence
+      description: Link to implementation files or documentation showing functional Codex support, not just a mention.
+    validations:
+      required: true
+  - type: textarea
+    id: adoption
+    attributes:
+      label: External usage evidence
+      description: Provide verifiable links for stars, downloads, third-party usage, or community activity. Author claims alone are insufficient.
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: Your relationship to the project
+      description: For example, author, contributor, or user.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked the README and existing issues for duplicates.
+          required: true
+        - label: The resource has functional Codex support and working links.
+          required: true
+        - label: I understand that submission does not guarantee inclusion.
+          required: true

@@ -1,0 +1,18 @@
+name: Report a correction
+description: Report a broken link, inaccurate entry, or other repository issue.
+title: "[Correction] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs correcting?
+      description: Link to the affected entry or file and describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested correction
+      description: Include supporting links when available.
+    validations:
+      required: true
