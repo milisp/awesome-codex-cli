@@ -53,7 +53,8 @@ with tempfile.TemporaryDirectory(prefix="codex-pet-banner-") as scratch:
                "-draw", "rectangle 24,26 27,62", "-font", "Helvetica",
                "-fill", "#edf6fc", "-pointsize", "25", "-annotate", "+42+49", "AWESOME CODEX CLI",
                "-fill", "#87a5bc", "-pointsize", "11", "-annotate", "+43+69", "A LITTLE COMPANY FOR YOUR NEXT BIG IDEA.",
-               "-fill", "#62ead5", "-pointsize", "10", "-annotate", "+800+48", "/pets  •  ALL SYSTEMS GO"]
+               "-fill", "#102031", "-draw", "roundrectangle 658,18 936,71 5,5",
+               "-fill", "#62ead5", "-pointsize", "11", "-annotate", "+674+38", "$ codex --model"]
     for index, (_, name) in enumerate(PETS):
         command += ["-fill", "#9bb3c8", "-pointsize", "11", "-gravity", "North",
                     "-annotate", f"{index * 120 + 60 - 480:+d}+199", name]
@@ -63,6 +64,11 @@ with tempfile.TemporaryDirectory(prefix="codex-pet-banner-") as scratch:
     for frame in range(60):
         path = work / f"frame-{frame:03}.png"
         command = ["magick", str(base), "-gravity", "NorthWest"]
+        model = ["gpt-6.1-sol", "gpt-6-astra", "gpt-6-luna"][frame // 20]
+        command += ["-font", "Helvetica", "-pointsize", "13", "-fill", "#d8eaf6",
+                    "-annotate", "+674+46", model]
+        if frame % 10 < 5:
+            command += ["-fill", "#62ead5", "-draw", "rectangle 786,47 791,59"]
         for index, (pet, _) in enumerate(PETS):
             sprite_index = idle_frame(frame * 110 + index * 660)
             command += [str(sprites[pet, sprite_index]), "-geometry", f"+{index * 120 + 12}+90", "-composite"]

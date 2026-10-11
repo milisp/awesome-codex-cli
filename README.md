@@ -31,6 +31,7 @@
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
 - [Start Here](#start-here)
+- [Models](#models)
 - [Tools](#tools)
   - [GUI & Apps](#gui-apps)
   - [Mobile & Remote Access](#mobile--remote-access)
@@ -62,6 +63,7 @@
   - [Blog Posts & Tutorials](#blog-posts--tutorials)
 - [Web Interface Extensions](#web-interface-extensions)
   - [Official Web Interface](#official-web-interface)
+  - [Related OpenAI Products](#related-openai-products)
   - [IDE Integrations](#ide-integrations)
 - [Use Cases](#use-cases)
   - [Development Tasks](#development-tasks)
@@ -79,6 +81,16 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official setup and first-run guide.
 - [Slash Commands](https://developers.openai.com/codex/cli/slash-commands) - Official reference for built-in Codex CLI slash commands.
+
+## Models
+
+| Model | Model ID | Focus |
+| --- | --- | --- |
+| [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) | `gpt-6.1-sol` | Complex coding and agent workflows with a balance of capability and cost. |
+| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | `gpt-6-astra` | The most demanding reasoning, coding, and professional work. |
+| [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | `gpt-6-luna` | Efficient, focused tasks and high-volume workflows. |
+
+See the [official Codex model guide](https://learn.chatgpt.com/docs/models) for availability and the [model selection guide](https://developers.openai.com/api/docs/guides/model-selection) for tradeoffs. Available models depend on your account and configuration. This overview was checked on October 11, 2026.
 
 ## Tools
 
@@ -302,6 +314,11 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Codex](https://chatgpt.com/codex) - Official cloud-based agent with web interface.
 - Cloud Codex - Sandbox environments preloaded with repositories (ChatGPT Pro/Enterprise/Team/Plus users)
+
+### Related OpenAI Products
+
+- [Dots](https://learn.chatgpt.com/docs/dots) - Always-on agents in ChatGPT, powered by GPT-6 Astra, with their own cloud computer and browser. Dots can research, prepare documents, build software, and keep progressing toward goals even when your computer is off. Access is rolling out to eligible accounts.
+- [Pets](https://learn.chatgpt.com/docs/pets) - Animated companions that reflect activity in supported desktop and terminal interfaces. The banner above features the eight built-in Codex Pets.
 
 ### IDE Integrations
 
