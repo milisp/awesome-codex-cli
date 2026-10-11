@@ -32,6 +32,7 @@
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
 - [Start Here](#start-here)
 - [Models](#models)
+- [Pets](#pets)
 - [Tools](#tools)
   - [GUI & Apps](#gui-apps)
   - [Mobile & Remote Access](#mobile--remote-access)
@@ -91,6 +92,25 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 | [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | `gpt-6-luna` | Efficient, focused tasks and high-volume workflows. |
 
 See the [official Codex model guide](https://learn.chatgpt.com/docs/models) for availability and the [model selection guide](https://developers.openai.com/api/docs/guides/model-selection) for tradeoffs. Available models depend on your account and configuration. This overview was checked on October 11, 2026.
+
+## Pets
+
+[Codex Pets](https://learn.chatgpt.com/docs/pets) are optional animated companions that show what your session is doing: running, needing input, ready, or blocked. Choosing a pet changes its appearance without changing the model or its capabilities. Dots, introduced under [Related OpenAI Products](#related-openai-products), are agents that carry out work; Pets provide a visual companion for following activity.
+
+The banner features these eight pets from the [official built-in catalog](https://github.com/openai/codex/blob/main/codex-rs/tui/src/pets/catalog.rs):
+
+| Pet | Look |
+| --- | --- |
+| Codex | Blue coding companion with a terminal face. |
+| Dewey | Bright blue droplet-shaped companion. |
+| Fireball | Orange companion with a flickering flame. |
+| Rocky | Rounded stone companion. |
+| Seedy | Small companion topped with a green sprout. |
+| Stacky | A stack of tiny purple robots. |
+| BSOD | White robot with a blue screen face. |
+| Null Signal | Dark companion with a red NULL display. |
+
+In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker, `/pets codex` to select a pet, or `/pets off` to disable it. Terminal pets require iTerm2 3.6+ or Kitty graphics/Sixel support and are unavailable inside tmux or Zellij. See the [official Pets guide](https://learn.chatgpt.com/docs/pets) for desktop controls and custom pets.
 
 ## Tools
 
@@ -318,7 +338,7 @@ See the [official Codex model guide](https://learn.chatgpt.com/docs/models) for 
 ### Related OpenAI Products
 
 - [Dots](https://learn.chatgpt.com/docs/dots) - Always-on agents in ChatGPT, powered by GPT-6 Astra, with their own cloud computer and browser. Dots can research, prepare documents, build software, and keep progressing toward goals even when your computer is off. Access is rolling out to eligible accounts.
-- [Pets](https://learn.chatgpt.com/docs/pets) - Animated companions that reflect activity in supported desktop and terminal interfaces. The banner above features the eight built-in Codex Pets.
+- [Pets](#pets) - Animated companions, with a built-in family overview and CLI usage above.
 
 ### IDE Integrations
 
