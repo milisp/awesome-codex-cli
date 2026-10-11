@@ -260,6 +260,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
 - [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
 - [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Codex CLI's own system prompts and tool schemas, recorded off the wire per model and dated, with the command to reproduce each capture.
+- [Dory](https://github.com/tjqscott/dory) - Codex project-memory workflow using AGENTS.md directives, linked Markdown wiki pages, and a Python linter to preserve decisions and findings between sessions.
 
 ## Resources
 
