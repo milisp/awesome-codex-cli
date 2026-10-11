@@ -14,13 +14,9 @@ Contributions are welcome! Please follow the standard GitHub pull request workfl
 
 Have a useful Codex slash command guide, reusable prompt/template, skill, plugin, or end-to-end workflow? Please open a pull request to the matching section of `README.md`. Include the project link and a concise, factual description of what it does and how it works with Codex. For commands and templates, link directly to the files or documentation when possible.
 
-For new additions to the list, also add a dated entry at the top of `RECENTLY_ADDED.md` in this format:
+New resources are automatically recorded in `RECENTLY_ADDED.md` after changes reach main. You do not need to edit that file in your PR. Description edits and category moves are not recorded as new additions.
 
-```markdown
-- YYYY-MM-DD — [Resource name](URL) — Short factual description. ([Category](README.md#section-anchor))
-```
-
-Keep the ticker's featured projects a small, manually curated selection. A featured placement is not automatic and does not replace the normal category listing.
+The ticker samples GitHub projects separately; ticker placement does not replace review and inclusion in the curated list.
 
 ## 🚀 Launch Your Agent, MCP Server, or Skill
 

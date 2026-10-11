@@ -2,8 +2,8 @@ name: Update Repo Ticker
 
 on:
   schedule:
-    # Run every 6 hours to refresh starred repos and ticker banner
-    - cron: '0 */6 * * *'
+    # Refresh picks and repository metrics every 6 hours.
+    - cron: '17 */6 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 permissions:

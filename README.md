@@ -13,12 +13,12 @@
 
 ---
 
-## Featured Codex Projects
+## The Codex CLI Ticker - A Sample of Codex CLI Projects Around GitHub
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-ticker.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/repo-ticker-light.svg">
-  <img src="assets/repo-ticker-light.svg" alt="Featured Codex CLI projects" width="720">
+  <img src="assets/repo-ticker-light.svg" alt="Daily Codex Picks — refreshed every 6 hours" width="720">
 </picture>
 
 ## Recently Added
