@@ -104,6 +104,7 @@ Available models depend on your account and configuration. This overview was che
 
 ### GUI & Apps
 
+- [ChatGPT Desktop App](https://learn.chatgpt.com/docs/app) - Official desktop app with ChatGPT and Codex in the product selector. Choose Codex for project-based development with worktrees, an integrated terminal, and Git tools; choose ChatGPT for Chat or Work.
 - [Codexia](https://github.com/milisp/codexia) - Agent Workstation for Codex CLI and claude code
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - An app to monitor the Codex situation.
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - An enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
