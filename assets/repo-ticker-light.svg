@@ -36,18 +36,18 @@
   <path d="M106 71 H626" stroke="#d1d9e0" stroke-dasharray="5 7" opacity="0.5"/>
   <g clip-path="url(#viewportClip)">
     <g class="static-card" transform="translate(114, 0)">
-    <a href="https://github.com/supercorp-ai/supercov" target="_blank">
+    <a href="https://github.com/VoltAgent/awesome-agent-skills" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>supercorp-ai/supercov — 510 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">supercov</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">supercorp-ai · ★ 510</text>
+        <title>VoltAgent/awesome-agent-skills — 35518 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-agent-skills</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">VoltAgent · ★ 35.5k</text>
       </g>
     </a>
-    <a href="https://github.com/samvallad33/vestige" target="_blank">
+    <a href="https://github.com/github/github-mcp-server" target="_blank">
       <g transform="translate(0, 78)" class="project">
-        <title>samvallad33/vestige — 670 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">vestige</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">samvallad33 · ★ 670</text>
+        <title>github/github-mcp-server — 33515 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">github · ★ 33.5k</text>
       </g>
     </a>
     </g>
@@ -60,102 +60,102 @@
         dur="50s"
         repeatCount="indefinite"
       />
-    <a href="https://github.com/supercorp-ai/supercov" target="_blank">
+    <a href="https://github.com/VoltAgent/awesome-agent-skills" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>supercorp-ai/supercov — 510 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">supercov</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">supercorp-ai · ★ 510</text>
+        <title>VoltAgent/awesome-agent-skills — 35518 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-agent-skills</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">VoltAgent · ★ 35.5k</text>
       </g>
     </a>
-    <a href="https://github.com/samvallad33/vestige" target="_blank">
+    <a href="https://github.com/github/github-mcp-server" target="_blank">
       <g transform="translate(28, 78)" class="project">
-        <title>samvallad33/vestige — 670 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">vestige</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">samvallad33 · ★ 670</text>
+        <title>github/github-mcp-server — 33515 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">github · ★ 33.5k</text>
       </g>
     </a>
-    <a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank">
+    <a href="https://github.com/MemPalace/mempalace" target="_blank">
       <g transform="translate(304, 12)" class="project">
-        <title>EveryInc/compound-engineering-plugin — 1450 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">compound-engineerin…</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">EveryInc · ★ 1.4k</text>
+        <title>MemPalace/mempalace — 59508 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">mempalace</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">MemPalace · ★ 59.5k</text>
       </g>
     </a>
-    <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank">
+    <a href="https://github.com/hugohe3/ppt-master" target="_blank">
       <g transform="translate(332, 78)" class="project">
-        <title>Yeachan-Heo/oh-my-codex — 890 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-codex</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 890</text>
+        <title>hugohe3/ppt-master — 60256 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ppt-master</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">hugohe3 · ★ 60.3k</text>
       </g>
     </a>
-    <a href="https://github.com/openai/skills" target="_blank">
+    <a href="https://github.com/bytedance/deer-flow" target="_blank">
       <g transform="translate(608, 12)" class="project">
-        <title>openai/skills — 3200 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">skills</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">openai · ★ 3.2k</text>
+        <title>bytedance/deer-flow — 83687 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">deer-flow</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">bytedance · ★ 83.7k</text>
       </g>
     </a>
-    <a href="https://github.com/Continuum-AI-Corp/OrcaReplay" target="_blank">
+    <a href="https://github.com/zeroclaw-labs/zeroclaw" target="_blank">
       <g transform="translate(636, 78)" class="project">
-        <title>Continuum-AI-Corp/OrcaReplay — 380 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">OrcaReplay</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Continuum-AI-Corp · ★ 380</text>
+        <title>zeroclaw-labs/zeroclaw — 32961 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">zeroclaw</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">zeroclaw-labs · ★ 33.0k</text>
       </g>
     </a>
-    <a href="https://github.com/vostride/agent-qa" target="_blank">
+    <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank">
       <g transform="translate(912, 12)" class="project">
-        <title>vostride/agent-qa — 560 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">agent-qa</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">vostride · ★ 560</text>
+        <title>mukul975/Anthropic-Cybersecurity-Skills — 34233 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">Anthropic-Cybersecu…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">mukul975 · ★ 34.2k</text>
       </g>
     </a>
-    <a href="https://github.com/agent-sh/agnix" target="_blank">
+    <a href="https://github.com/mli/paper-reading" target="_blank">
       <g transform="translate(940, 78)" class="project">
-        <title>agent-sh/agnix — 760 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">agnix</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">agent-sh · ★ 760</text>
+        <title>mli/paper-reading — 33925 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">paper-reading</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">mli · ★ 33.9k</text>
       </g>
     </a>
-    <a href="https://github.com/garrytan/gbrain" target="_blank">
+    <a href="https://github.com/DietrichGebert/ponytail" target="_blank">
       <g transform="translate(1216, 12)" class="project">
-        <title>garrytan/gbrain — 2100 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">gbrain</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">garrytan · ★ 2.1k</text>
+        <title>DietrichGebert/ponytail — 160957 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ponytail</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">DietrichGebert · ★ 161.0k</text>
       </g>
     </a>
-    <a href="https://github.com/fcakyon/claude-codex-settings" target="_blank">
+    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
       <g transform="translate(1244, 78)" class="project">
-        <title>fcakyon/claude-codex-settings — 820 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">claude-codex-settin…</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">fcakyon · ★ 820</text>
+        <title>DeusData/codebase-memory-mcp — 46357 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.4k</text>
       </g>
     </a>
-    <a href="https://github.com/supercorp-ai/supercov" target="_blank">
+    <a href="https://github.com/VoltAgent/awesome-agent-skills" target="_blank">
       <g transform="translate(1520, 12)" class="project">
-        <title>supercorp-ai/supercov — 510 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">supercov</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">supercorp-ai · ★ 510</text>
+        <title>VoltAgent/awesome-agent-skills — 35518 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-agent-skills</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">VoltAgent · ★ 35.5k</text>
       </g>
     </a>
-    <a href="https://github.com/samvallad33/vestige" target="_blank">
+    <a href="https://github.com/github/github-mcp-server" target="_blank">
       <g transform="translate(1548, 78)" class="project">
-        <title>samvallad33/vestige — 670 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">vestige</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">samvallad33 · ★ 670</text>
+        <title>github/github-mcp-server — 33515 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">github · ★ 33.5k</text>
       </g>
     </a>
-    <a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank">
+    <a href="https://github.com/MemPalace/mempalace" target="_blank">
       <g transform="translate(1824, 12)" class="project">
-        <title>EveryInc/compound-engineering-plugin — 1450 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">compound-engineerin…</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">EveryInc · ★ 1.4k</text>
+        <title>MemPalace/mempalace — 59508 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">mempalace</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">MemPalace · ★ 59.5k</text>
       </g>
     </a>
-    <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank">
+    <a href="https://github.com/hugohe3/ppt-master" target="_blank">
       <g transform="translate(1852, 78)" class="project">
-        <title>Yeachan-Heo/oh-my-codex — 890 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-codex</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 890</text>
+        <title>hugohe3/ppt-master — 60256 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ppt-master</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">hugohe3 · ★ 60.3k</text>
       </g>
     </a>
     </g>
