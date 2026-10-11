@@ -241,6 +241,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
 - [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Indian stock market data for Codex CLI: quotes, financials, shareholding, a 326-ratio screener, FII/DII flows and option chains for about 8,200 NSE and BSE stocks. `npx -y tapetide-mcp` with a free token, or remote at `https://mcp.tapetide.com/mcp`.
+- [Blawgy](https://github.com/adamgusky/blawgy-mcp) - Remote MCP server for the Blawgy SEO blogging platform. From Codex CLI, research keywords, manage the content plan, write and update SEO posts, publish to WordPress, Shopify, Webflow, Wix, Framer, Ghost and Duda, and read Search Console traffic and indexing. Streamable HTTP with OAuth or an API key at `https://app.blawgy.com/mcp`; paid plans with a free trial.
 
 ### Directories & Registries
 
