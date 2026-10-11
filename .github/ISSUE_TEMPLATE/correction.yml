@@ -1,6 +1,7 @@
 name: Report a correction
 description: Report a broken link, inaccurate entry, or other repository issue.
 title: "[Correction] "
+labels: [correction]
 body:
   - type: textarea
     id: problem

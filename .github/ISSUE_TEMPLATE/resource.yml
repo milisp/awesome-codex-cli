@@ -1,6 +1,7 @@
 name: Submit a resource
 description: Suggest a Codex resource for review. Do not open a pull request.
 title: "[Resource] "
+labels: [resource-submission, validation-pending]
 body:
   - type: markdown
     attributes:
