@@ -1,14 +1,61 @@
-full_name,stars,watchers,forks,stars_delta,watchers_delta,forks_delta,url
-openai/codex,12500,12500,1200,0,0,0,https://github.com/openai/codex
-openai/skills,3200,3200,340,0,0,0,https://github.com/openai/skills
-EveryInc/compound-engineering-plugin,1450,1450,120,0,0,0,https://github.com/EveryInc/compound-engineering-plugin
-fcakyon/claude-codex-settings,820,820,68,0,0,0,https://github.com/fcakyon/claude-codex-settings
-vostride/agent-qa,560,560,42,0,0,0,https://github.com/vostride/agent-qa
-Continuum-AI-Corp/OrcaReplay,380,380,25,0,0,0,https://github.com/Continuum-AI-Corp/OrcaReplay
-Continuum-AI-Corp/OrcaPromptVault,420,420,30,0,0,0,https://github.com/Continuum-AI-Corp/OrcaPromptVault
-garrytan/gbrain,2100,2100,150,0,0,0,https://github.com/garrytan/gbrain
-samvallad33/vestige,670,670,45,0,0,0,https://github.com/samvallad33/vestige
-Yeachan-Heo/oh-my-codex,890,890,75,0,0,0,https://github.com/Yeachan-Heo/oh-my-codex
-supercorp-ai/supercov,510,510,38,0,0,0,https://github.com/supercorp-ai/supercov
-rxdt/loopgate_harness,340,340,22,0,0,0,https://github.com/rxdt/loopgate_harness
-agent-sh/agnix,760,760,55,0,0,0,https://github.com/agent-sh/agnix
+full_name,stars,forks,stars_delta,forks_delta,url,description
+obra/superpowers,297524,26571,0,0,https://github.com/obra/superpowers,An agentic skills framework & software development methodology that works.
+affaan-m/ECC,277008,41311,0,0,https://github.com/affaan-m/ECC,"The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+avelino/awesome-go,187860,13625,0,0,https://github.com/avelino/awesome-go,"A curated list of awesome Go frameworks, libraries and software"
+DietrichGebert/ponytail,160957,8675,0,0,https://github.com/DietrichGebert/ponytail,Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+farion1231/cc-switch,142765,9511,0,0,https://github.com/farion1231/cc-switch,"A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+garrytan/gstack,135959,20184,0,0,https://github.com/garrytan/gstack,"Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA"
+nextlevelbuilder/ui-ux-pro-max-skill,134760,14321,0,0,https://github.com/nextlevelbuilder/ui-ux-pro-max-skill,An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.
+openai/codex,128659,20198,116159,18998,https://github.com/openai/codex,Lightweight coding agent that runs in your terminal
+jaywcjlove/awesome-mac,115846,9287,0,0,https://github.com/jaywcjlove/awesome-mac, This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
+addyosmani/agent-skills,104840,10939,0,0,https://github.com/addyosmani/agent-skills,Production-grade engineering skills for AI coding agents.
+nexu-io/open-design,100536,11582,0,0,https://github.com/nexu-io/open-design,"🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK."
+paperclipai/paperclip,100215,16888,0,0,https://github.com/paperclipai/paperclip,The open-source app everyone uses to manage agents at work
+punkpeye/awesome-mcp-servers,96120,17415,0,0,https://github.com/punkpeye/awesome-mcp-servers,A collection of MCP servers.
+bytedance/deer-flow,83687,11648,0,0,https://github.com/bytedance/deer-flow,"An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
+tt-a1i/archify,81990,5536,0,0,https://github.com/tt-a1i/archify,"Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more."
+pbakaus/impeccable,79791,4743,0,0,https://github.com/pbakaus/impeccable,The design language that makes your AI harness better at design.
+unslothai/unsloth,77781,7187,0,0,https://github.com/unslothai/unsloth,"Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more."
+ComposioHQ/awesome-claude-skills,76864,9037,0,0,https://github.com/ComposioHQ/awesome-claude-skills,"A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+diegosouzapw/OmniRoute,75206,10862,0,0,https://github.com/diegosouzapw/OmniRoute,"Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by hundreds of contributors"
+career-ops-hq/career-ops,74047,13891,0,0,https://github.com/career-ops-hq/career-ops,"Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more)."
+colbymchenry/codegraph,73724,4752,0,0,https://github.com/colbymchenry/codegraph,"Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+shanraisshan/claude-code-best-practice,67390,6731,0,0,https://github.com/shanraisshan/claude-code-best-practice,from vibe coding to agentic engineering - practice makes claude perfect
+mvanhorn/last30days-skill,63963,5574,0,0,https://github.com/mvanhorn/last30days-skill,"AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+1c7/chinese-independent-developer,61751,5443,0,0,https://github.com/1c7/chinese-independent-developer,👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么
+hugohe3/ppt-master,60256,4746,0,0,https://github.com/hugohe3/ppt-master,"AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He"
+rust-unofficial/awesome-rust,59780,3665,0,0,https://github.com/rust-unofficial/awesome-rust,A curated list of Rust code and resources.
+MemPalace/mempalace,59508,7562,0,0,https://github.com/MemPalace/mempalace,The best-benchmarked open-source AI memory system. And it's free.
+hesreallyhim/awesome-claude-code,55435,4808,0,0,https://github.com/hesreallyhim/awesome-claude-code,"A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins"
+router-for-me/CLIProxyAPI,54831,8363,0,0,https://github.com/router-for-me/CLIProxyAPI,"Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Devin as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini Series, GPT Series, Grok Series, Claude model through API"
+coreyhaines31/marketingskills,54179,8044,0,0,https://github.com/coreyhaines31/marketingskills,"Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+multica-ai/multica,52467,6836,0,0,https://github.com/multica-ai/multica,Make humans and AI agents work as one team — open-source and self-hostable.
+Imbad0202/academic-research-skills,51325,3952,0,0,https://github.com/Imbad0202/academic-research-skills,Academic Research Skills for Claude Code: research → write → review → revise → finalize
+KeygraphHQ/shannon,48751,5586,0,0,https://github.com/KeygraphHQ/shannon,"Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production."
+vectorize-io/hindsight,48344,5998,0,0,https://github.com/vectorize-io/hindsight,Hindsight: Agent Memory That Learns
+sickn33/agentic-awesome-skills,47459,6919,0,0,https://github.com/sickn33/agentic-awesome-skills,"AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
+apache/airflow,47146,17999,0,0,https://github.com/apache/airflow,"Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+DeusData/codebase-memory-mcp,46357,3811,0,0,https://github.com/DeusData/codebase-memory-mcp,"High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies."
+danielmiessler/Fabric,44219,4298,0,0,https://github.com/danielmiessler/Fabric,Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.
+Wei-Shaw/sub2api,43718,9382,0,0,https://github.com/Wei-Shaw/sub2api,Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。
+HKUDS/DeepTutor,41141,5192,0,0,https://github.com/HKUDS/DeepTutor,DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+wshobson/agents,40388,4303,0,0,https://github.com/wshobson/agents,"Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+Yeachan-Heo/oh-my-claudecode,39792,3564,0,0,https://github.com/Yeachan-Heo/oh-my-claudecode,Teams-first Multi-agent orchestration for Claude Code
+volcengine/OpenViking,39667,3131,0,0,https://github.com/volcengine/OpenViking,"Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+microsoft/playwright-mcp,38023,3235,0,0,https://github.com/microsoft/playwright-mcp,Playwright MCP server
+musistudio/claude-code-router,37625,3160,0,0,https://github.com/musistudio/claude-code-router,"One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control."
+sgl-project/sglang,36991,9457,0,0,https://github.com/sgl-project/sglang,SGLang is a high-performance serving framework for large language models and multimodal models.
+JCodesMore/ai-website-cloner-template,36506,5357,0,0,https://github.com/JCodesMore/ai-website-cloner-template,Clone any website with one command using AI coding agents
+VoltAgent/awesome-agent-skills,35518,3831,0,0,https://github.com/VoltAgent/awesome-agent-skills,"A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more."
+HKUDS/Vibe-Trading,35207,5714,0,0,https://github.com/HKUDS/Vibe-Trading,"""Vibe-Trading: Your Personal Trading Agent"""
+can1357/oh-my-pi,35034,3816,0,0,https://github.com/can1357/oh-my-pi,⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
+mukul975/Anthropic-Cybersecurity-Skills,34233,4164,0,0,https://github.com/mukul975/Anthropic-Cybersecurity-Skills,"817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
+openai/codex-plugin-cc,34084,2391,0,0,https://github.com/openai/codex-plugin-cc,Use Codex from Claude Code to review code or delegate tasks.
+alchaincyf/nuwa-skill,34074,4525,0,0,https://github.com/alchaincyf/nuwa-skill,你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.
+mli/paper-reading,33925,2808,0,0,https://github.com/mli/paper-reading,深度学习经典、新论文逐段精读
+Twigpine/openclaude,33729,9110,0,0,https://github.com/Twigpine/openclaude,runs anywhere. uses anything
+github/github-mcp-server,33515,5131,0,0,https://github.com/github/github-mcp-server,GitHub's official MCP Server
+Yeachan-Heo/oh-my-codex,33513,2540,32623,2465,https://github.com/Yeachan-Heo/oh-my-codex,"OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more."
+tashfeenahmed/freellmapi,33230,4594,0,0,https://github.com/tashfeenahmed/freellmapi,"7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+zeroclaw-labs/zeroclaw,32961,4964,0,0,https://github.com/zeroclaw-labs/zeroclaw,"Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀"
+BigPizzaV3/CodexPlusPlus,32007,2044,0,0,https://github.com/BigPizzaV3/CodexPlusPlus,"An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服"
