@@ -176,8 +176,7 @@ Available models depend on your account and configuration. This overview was che
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Zero-config local dashboard for observing Codex CLI sessions, tokens, and costs alongside 20+ other agent runtimes.
 - [session-top](https://github.com/jerryxff26-alt/session-top) - Local htop-style TUI for Codex CLI sessions: quota windows, top consumers, and explainable usage drops from on-disk rollouts.
-- [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Codex, Claude Code, Antigravity, Grok and Cursor: local working/stalled/your-turn state, your-turn alerts, and provider usage with on-device cost estimates. macOS and Windows, no account, no telemetry.
-- [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch, where Allow, Deny or one of the prompt's options is a single tap and the answer goes back into the session, through each CLI's own hooks. Free tier; the AI Coding module is part of Crest Pro, $19.99 once.
+- [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
 - [Relay Baton](https://github.com/guorunjie/codex-relay-baton-guardian) - Local Codex Desktop/CLI recovery monitor for long-running tasks. Detects compact failures and context-window overflow, then queues audited handoff bundles.
 
@@ -208,7 +207,6 @@ Available models depend on your account and configuration. This overview was che
 
 ### Claude Code Interop
 
-- [claude-codex-bridge](https://github.com/jackcongmac/claude-codex-bridge) - Bidirectional MCP bridge for Codex CLI and Claude Code collaboration, with persistent Claude sessions and shared collaboration files.
 - [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
 - [great_cto](https://github.com/avelikiy/great_cto) - Ships nine skills and an MCP server to Codex CLI, and runs Codex as a second-opinion reviewer on the same diff from inside Claude Code.
 
