@@ -60,6 +60,7 @@
   - [Directories & Registries](#directories--registries)
 - [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 - [Resources](#resources)
+  - [Official References](#official-references)
   - [Documentation](#documentation)
   - [Blog Posts & Tutorials](#blog-posts--tutorials)
 - [Web Interface Extensions](#web-interface-extensions)
@@ -82,6 +83,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official setup and first-run guide.
 - [Slash Commands](https://developers.openai.com/codex/cli/slash-commands) - Official reference for built-in Codex CLI slash commands.
+- [Official References](#official-references) - Hooks, configuration, project instructions, skills, and MCP setup.
 
 ### Models
 
@@ -329,6 +331,15 @@ In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker,
 - [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
 
 ## Resources
+
+### Official References
+
+- [Slash Commands](https://learn.chatgpt.com/docs/developer-commands?surface=cli) - Built-in interactive commands, CLI flags, and session controls.
+- [Hooks](https://learn.chatgpt.com/docs/hooks) - Run scripts or MCP tools at lifecycle events for validation, logging, and workflow automation.
+- [Configuration](https://learn.chatgpt.com/docs/config-file/config-basic) - Configure models, permissions, and other settings through user and project `config.toml` files.
+- [AGENTS.md Instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md) - Give Codex repository guidance and directory-specific instructions.
+- [Build Skills](https://learn.chatgpt.com/docs/build-skills) - Package repeatable workflows with `SKILL.md` instructions and supporting resources.
+- [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) - Connect local or remote MCP servers to provide tools and context.
 
 ### Documentation
 
