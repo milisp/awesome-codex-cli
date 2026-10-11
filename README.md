@@ -310,6 +310,7 @@ In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker,
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
 - [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Indian stock market data for Codex CLI: quotes, financials, shareholding, a 326-ratio screener, FII/DII flows and option chains for about 8,200 NSE and BSE stocks. `npx -y tapetide-mcp` with a free token, or remote at `https://mcp.tapetide.com/mcp`.
+- [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp) - MCP server that lets Codex CLI publish the site it built on a free HTTPS link instead of localhost, with no account; for a .com it returns a payment link for the human, and after payment the site goes live on it with no DNS. `codex mcp add dropthehassle --url https://dropthehassle.com/mcp`, or local stdio via `npx -y dropthehassle-mcp`.
 
 ### Directories & Registries
 
