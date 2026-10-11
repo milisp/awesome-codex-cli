@@ -15,11 +15,11 @@
 
 ## Featured Codex Projects
 
-<div align="center">
-
-<img src="assets/repo-ticker.svg" alt="Featured Codex CLI projects" width="100%">
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-ticker.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/repo-ticker-light.svg">
+  <img src="assets/repo-ticker-light.svg" alt="Featured Codex CLI projects" width="720">
+</picture>
 
 ## Recently Added
 
