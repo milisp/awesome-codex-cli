@@ -9,9 +9,24 @@
 
 ---
 
+## Featured Codex Projects
+
+<div align="center">
+
+<img src="assets/repo-ticker.svg" alt="Featured Codex CLI projects" width="100%">
+
+</div>
+
+## Recently Added
+
+[![Recently Added Resources](https://img.shields.io/badge/Recently%20Added-view%20latest%20contributions-238636?style=for-the-badge)](RECENTLY_ADDED.md)
+
+---
+
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
+- [Start Here](#start-here)
 - [Tools](#tools)
   - [GUI & Apps](#gui-apps)
   - [Mobile & Remote Access](#mobile--remote-access)
@@ -27,6 +42,8 @@
   - [Terminal](#terminal)
 - [Customize](#customize)
   - [Plugins](#plugins)
+  - [Prompts & Templates](#prompts--templates)
+  - [Testing & Evaluation](#testing--evaluation)
   - [Agent Skills](#agent-skills)
     - [General](#general)
     - [Domain-Specific](#domain-specific)
@@ -53,6 +70,11 @@
 ## What is OpenAI Codex CLI
 
 OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
+
+## Start Here
+
+- [Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official setup and first-run guide.
+- [Slash Commands](https://developers.openai.com/codex/cli/slash-commands) - Official reference for built-in Codex CLI slash commands.
 
 ## Tools
 
@@ -178,6 +200,16 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
 
+### Prompts & Templates
+
+- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Generates a scoped first-task prompt with constraints and acceptance checks.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Dated captures of Codex CLI system prompts and tool schemas, with reproduction instructions.
+
+### Testing & Evaluation
+
+- [Agent QA](https://github.com/vostride/agent-qa) - Lets Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and use persistent test memory.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records and replays Codex CLI sessions, and exposes recorded runs over MCP for inspection.
+
 ### Agent Skills
 
 > Agent skills are model-controlled configurations (files, scripts, resources, etc.) that enable Codex CLI to perform specialized tasks requiring specific knowledge or capabilities.
@@ -218,13 +250,11 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) - Local-first memory lifecycle layer for AI agents with Rust CLI, SQLite/FTS recall, audit, forgetting, consolidation, and terminal TUI.
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge base compiler. Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill and MCP server; works with Codex CLI, Claude Code, and OpenCode.
 - [ContextStream](https://contextstream.io) - Remote MCP server for shared project context across Codex CLI, Claude Code, Cursor, and Grok. Endpoint: https://mcp.contextstream.io/mcp. Repo: https://github.com/contextstream/mcp-server.
-- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Codex CLI session below the harness and replays it with the recorded model responses served back; `orca mcp` exposes the recorded runs so an agent can read what an earlier run sent, ran and changed.
 
 #### Utilities
 
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [click-to-mcp](https://github.com/Coding-Dev-Tools/click-to-mcp) - Auto-wrap any Python Click/Typer CLI as an MCP server. Zero-code transformation that introspects CLI commands and exposes them as MCP tools. Works with Codex CLI, Claude Code, and any MCP client. `pip install click-to-mcp`
-- [Agent QA](https://github.com/vostride/agent-qa) - The self-improving QA agent for software teams. Run `agent-qa mcp` to let Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and guide fixes with persistent test memory.
 - [VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit) - MCP server that renders 4-6s animated b-roll overlay videos (mp4) for short-form social (LinkedIn, IG Reels, YouTube Shorts, TikTok). Paste your script into Codex CLI / Claude Code / Cursor, the model writes the scene spec and renders the mp4. Built on Remotion + Tabler + Lottie. Free, MIT, local.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
@@ -246,14 +276,11 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 - [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
 - [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
-- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
-- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Codex CLI's own system prompts and tool schemas, recorded off the wire per model and dated, with the command to reproduce each capture.
 
 ## Resources
 
 ### Documentation
 
-- [OpenAI Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official getting started guide.
 - [GitHub Repository](https://github.com/openai/codex) - Official OpenAI Codex CLI repository.
 - [OpenAI Codex Overview](https://openai.com/codex/) - Product overview and features.
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.

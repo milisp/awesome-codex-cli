@@ -1,0 +1,45 @@
+name: Update Repo Ticker
+
+on:
+  schedule:
+    # Run every 6 hours to refresh starred repos and ticker banner
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-ticker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Backup previous metrics snapshot
+        run: |
+          if [ -f data/repo-ticker.csv ]; then
+            cp data/repo-ticker.csv data/repo-ticker-previous.csv
+          fi
+
+      - name: Fetch repository metrics from GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python ticker/fetch_repos.py
+
+      - name: Regenerate ticker SVG
+        run: |
+          python ticker/generate_svg.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/ assets/repo-ticker.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: refresh repo ticker [skip ci]" && git push)

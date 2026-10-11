@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="84" viewBox="0 0 1100 84" role="img" aria-label="Codex CLI Projects">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .card:hover rect:first-child { stroke: #58a6ff; fill: #1c2128; }
+  </style>
+  <defs>
+    <linearGradient id="fadeEdgeLeft" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeEdgeRight" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="viewportClip">
+      <rect x="156" y="0" width="944" height="84"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="1100" height="84" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Left Header Badge -->
+  <g transform="translate(14, 14)">
+    <rect width="130" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="65" y="24" fill="#238636" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">CODEX CLI</text>
+    <text x="65" y="44" fill="#f0f6fc" font-size="12" font-weight="600" text-anchor="middle">FEATURED</text>
+  </g>
+
+  <!-- Ticker Track -->
+  <g clip-path="url(#viewportClip)">
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="160 0"
+        to="-2600 0"
+        dur="46s"
+        repeatCount="indefinite"
+      />
+    <a href="https://github.com/openai/codex" target="_blank">
+      <g transform="translate(0, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">codex</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">openai</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 12.5k</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank">
+      <g transform="translate(276, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">compound-engineer…</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">EveryInc</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 1.4k</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/agent-sh/agnix" target="_blank">
+      <g transform="translate(552, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">agnix</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">agent-sh</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 760</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/Continuum-AI-Corp/OrcaReplay" target="_blank">
+      <g transform="translate(828, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">OrcaReplay</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">Continuum-AI-Co…</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 380</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/garrytan/gbrain" target="_blank">
+      <g transform="translate(1104, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">gbrain</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">garrytan</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 2.1k</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/samvallad33/vestige" target="_blank">
+      <g transform="translate(1380, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">vestige</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">samvallad33</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 670</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/Yeachan-Heo/oh-my-codex" target="_blank">
+      <g transform="translate(1656, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">oh-my-codex</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">Yeachan-Heo</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 890</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/vostride/agent-qa" target="_blank">
+      <g transform="translate(1932, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">agent-qa</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">vostride</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 560</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/rxdt/loopgate_harness" target="_blank">
+      <g transform="translate(2208, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">loopgate_harness</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">rxdt</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 340</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/supercorp-ai/supercov" target="_blank">
+      <g transform="translate(2484, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">supercov</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">supercorp-ai</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 510</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/openai/codex" target="_blank">
+      <g transform="translate(2760, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">codex</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">openai</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 12.5k</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/EveryInc/compound-engineering-plugin" target="_blank">
+      <g transform="translate(3036, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">compound-engineer…</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">EveryInc</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 1.4k</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/agent-sh/agnix" target="_blank">
+      <g transform="translate(3312, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">agnix</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">agent-sh</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 760</text>
+        </g>
+      </g>
+    </a>
+    <a href="https://github.com/Continuum-AI-Corp/OrcaReplay" target="_blank">
+      <g transform="translate(3588, 14)" class="card">
+        <rect width="260" height="56" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+        <text x="14" y="24" fill="#58a6ff" font-size="14" font-weight="600">OrcaReplay</text>
+        <text x="14" y="44" fill="#8b949e" font-size="12">Continuum-AI-Co…</text>
+        <g transform="translate(196, 18)">
+          <rect width="52" height="20" rx="4" fill="#21262d"/>
+          <text x="8" y="14" fill="#e6edf3" font-size="11" font-weight="500">★ 380</text>
+        </g>
+      </g>
+    </a>
+    </g>
+  </g>
+
+  <!-- Side Fading Overlays -->
+  <rect x="156" y="1" width="40" height="82" fill="url(#fadeEdgeLeft)" pointer-events="none"/>
+  <rect x="1050" y="1" width="50" height="82" fill="url(#fadeEdgeRight)" pointer-events="none"/>
+</svg>
