@@ -36,18 +36,18 @@
   <path d="M106 71 H626" stroke="#d1d9e0" stroke-dasharray="5 7" opacity="0.5"/>
   <g clip-path="url(#viewportClip)">
     <g class="static-card" transform="translate(114, 0)">
-    <a href="https://github.com/obra/superpowers" target="_blank">
+    <a href="https://github.com/avelino/awesome-go" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>obra/superpowers — 298202 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 298.2k</text>
+        <title>avelino/awesome-go — 188173 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-go</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">avelino · ★ 188.2k</text>
       </g>
     </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
+    <a href="https://github.com/HKUDS/DeepTutor" target="_blank">
       <g transform="translate(0, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32062 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">BigPizzaV3 · ★ 32.1k</text>
+        <title>HKUDS/DeepTutor — 41262 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">DeepTutor</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">HKUDS · ★ 41.3k</text>
       </g>
     </a>
     </g>
@@ -60,102 +60,102 @@
         dur="50s"
         repeatCount="indefinite"
       />
-    <a href="https://github.com/obra/superpowers" target="_blank">
+    <a href="https://github.com/avelino/awesome-go" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>obra/superpowers — 298202 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 298.2k</text>
+        <title>avelino/awesome-go — 188173 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-go</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">avelino · ★ 188.2k</text>
       </g>
     </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
+    <a href="https://github.com/HKUDS/DeepTutor" target="_blank">
       <g transform="translate(28, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32062 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">BigPizzaV3 · ★ 32.1k</text>
+        <title>HKUDS/DeepTutor — 41262 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">DeepTutor</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">HKUDS · ★ 41.3k</text>
       </g>
     </a>
-    <a href="https://github.com/bytedance/deer-flow" target="_blank">
+    <a href="https://github.com/sgl-project/sglang" target="_blank">
       <g transform="translate(304, 12)" class="project">
-        <title>bytedance/deer-flow — 83759 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">deer-flow</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">bytedance · ★ 83.8k</text>
+        <title>sgl-project/sglang — 37084 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">sglang</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">sgl-project · ★ 37.1k</text>
       </g>
     </a>
-    <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
+    <a href="https://github.com/can1357/oh-my-pi" target="_blank">
       <g transform="translate(332, 78)" class="project">
-        <title>microsoft/playwright-mcp — 38069 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">microsoft · ★ 38.1k</text>
+        <title>can1357/oh-my-pi — 35292 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-pi</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">can1357 · ★ 35.3k</text>
       </g>
     </a>
-    <a href="https://github.com/pbakaus/impeccable" target="_blank">
+    <a href="https://github.com/musistudio/claude-code-router" target="_blank">
       <g transform="translate(608, 12)" class="project">
-        <title>pbakaus/impeccable — 80296 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">impeccable</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">pbakaus · ★ 80.3k</text>
-      </g>
-    </a>
-    <a href="https://github.com/coreyhaines31/marketingskills" target="_blank">
-      <g transform="translate(636, 78)" class="project">
-        <title>coreyhaines31/marketingskills — 54376 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">marketingskills</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">coreyhaines31 · ★ 54.4k</text>
-      </g>
-    </a>
-    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
-      <g transform="translate(912, 12)" class="project">
-        <title>DeusData/codebase-memory-mcp — 46445 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.4k</text>
-      </g>
-    </a>
-    <a href="https://github.com/openai/codex-plugin-cc" target="_blank">
-      <g transform="translate(940, 78)" class="project">
-        <title>openai/codex-plugin-cc — 34136 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codex-plugin-cc</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">openai · ★ 34.1k</text>
-      </g>
-    </a>
-    <a href="https://github.com/DietrichGebert/ponytail" target="_blank">
-      <g transform="translate(1216, 12)" class="project">
-        <title>DietrichGebert/ponytail — 161888 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ponytail</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">DietrichGebert · ★ 161.9k</text>
-      </g>
-    </a>
-    <a href="https://github.com/github/github-mcp-server" target="_blank">
-      <g transform="translate(1244, 78)" class="project">
-        <title>github/github-mcp-server — 33560 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">github · ★ 33.6k</text>
+        <title>musistudio/claude-code-router — 37652 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">claude-code-router</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">musistudio · ★ 37.7k</text>
       </g>
     </a>
     <a href="https://github.com/obra/superpowers" target="_blank">
-      <g transform="translate(1520, 12)" class="project">
-        <title>obra/superpowers — 298202 stars</title>
+      <g transform="translate(636, 78)" class="project">
+        <title>obra/superpowers — 298489 stars</title>
         <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 298.2k</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 298.5k</text>
       </g>
     </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
+    <a href="https://github.com/danielmiessler/Fabric" target="_blank">
+      <g transform="translate(912, 12)" class="project">
+        <title>danielmiessler/Fabric — 44245 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">Fabric</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">danielmiessler · ★ 44.2k</text>
+      </g>
+    </a>
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
+      <g transform="translate(940, 78)" class="project">
+        <title>volcengine/OpenViking — 39818 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">volcengine · ★ 39.8k</text>
+      </g>
+    </a>
+    <a href="https://github.com/vectorize-io/hindsight" target="_blank">
+      <g transform="translate(1216, 12)" class="project">
+        <title>vectorize-io/hindsight — 49094 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">hindsight</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">vectorize-io · ★ 49.1k</text>
+      </g>
+    </a>
+    <a href="https://github.com/hugohe3/ppt-master" target="_blank">
+      <g transform="translate(1244, 78)" class="project">
+        <title>hugohe3/ppt-master — 61550 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ppt-master</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">hugohe3 · ★ 61.5k</text>
+      </g>
+    </a>
+    <a href="https://github.com/avelino/awesome-go" target="_blank">
+      <g transform="translate(1520, 12)" class="project">
+        <title>avelino/awesome-go — 188173 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-go</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">avelino · ★ 188.2k</text>
+      </g>
+    </a>
+    <a href="https://github.com/HKUDS/DeepTutor" target="_blank">
       <g transform="translate(1548, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32062 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">BigPizzaV3 · ★ 32.1k</text>
+        <title>HKUDS/DeepTutor — 41262 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">DeepTutor</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">HKUDS · ★ 41.3k</text>
       </g>
     </a>
-    <a href="https://github.com/bytedance/deer-flow" target="_blank">
+    <a href="https://github.com/sgl-project/sglang" target="_blank">
       <g transform="translate(1824, 12)" class="project">
-        <title>bytedance/deer-flow — 83759 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">deer-flow</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">bytedance · ★ 83.8k</text>
+        <title>sgl-project/sglang — 37084 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">sglang</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">sgl-project · ★ 37.1k</text>
       </g>
     </a>
-    <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
+    <a href="https://github.com/can1357/oh-my-pi" target="_blank">
       <g transform="translate(1852, 78)" class="project">
-        <title>microsoft/playwright-mcp — 38069 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">microsoft · ★ 38.1k</text>
+        <title>can1357/oh-my-pi — 35292 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-pi</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">can1357 · ★ 35.3k</text>
       </g>
     </a>
     </g>
