@@ -36,18 +36,18 @@
   <path d="M106 71 H626" stroke="#30363d" stroke-dasharray="5 7" opacity="0.5"/>
   <g clip-path="url(#viewportClip)">
     <g class="static-card" transform="translate(114, 0)">
-    <a href="https://github.com/zeroclaw-labs/zeroclaw" target="_blank">
+    <a href="https://github.com/MemPalace/mempalace" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>zeroclaw-labs/zeroclaw — 32976 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">zeroclaw</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">zeroclaw-labs · ★ 33.0k</text>
+        <title>MemPalace/mempalace — 59561 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">mempalace</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">MemPalace · ★ 59.6k</text>
       </g>
     </a>
-    <a href="https://github.com/Twigpine/openclaude" target="_blank">
+    <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">
       <g transform="translate(0, 78)" class="project">
-        <title>Twigpine/openclaude — 33830 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">Twigpine · ★ 33.8k</text>
+        <title>mvanhorn/last30days-skill — 64176 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">last30days-skill</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">mvanhorn · ★ 64.2k</text>
       </g>
     </a>
     </g>
@@ -60,102 +60,102 @@
         dur="50s"
         repeatCount="indefinite"
       />
-    <a href="https://github.com/zeroclaw-labs/zeroclaw" target="_blank">
+    <a href="https://github.com/MemPalace/mempalace" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>zeroclaw-labs/zeroclaw — 32976 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">zeroclaw</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">zeroclaw-labs · ★ 33.0k</text>
+        <title>MemPalace/mempalace — 59561 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">mempalace</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">MemPalace · ★ 59.6k</text>
+      </g>
+    </a>
+    <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">
+      <g transform="translate(28, 78)" class="project">
+        <title>mvanhorn/last30days-skill — 64176 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">last30days-skill</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">mvanhorn · ★ 64.2k</text>
+      </g>
+    </a>
+    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
+      <g transform="translate(304, 12)" class="project">
+        <title>DeusData/codebase-memory-mcp — 46530 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">DeusData · ★ 46.5k</text>
+      </g>
+    </a>
+    <a href="https://github.com/jaywcjlove/awesome-mac" target="_blank">
+      <g transform="translate(332, 78)" class="project">
+        <title>jaywcjlove/awesome-mac — 116070 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-mac</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">jaywcjlove · ★ 116.1k</text>
       </g>
     </a>
     <a href="https://github.com/Twigpine/openclaude" target="_blank">
-      <g transform="translate(28, 78)" class="project">
-        <title>Twigpine/openclaude — 33830 stars</title>
+      <g transform="translate(608, 12)" class="project">
+        <title>Twigpine/openclaude — 33836 stars</title>
         <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
         <text x="0" y="47" fill="#8b949e" font-size="14">Twigpine · ★ 33.8k</text>
       </g>
     </a>
-    <a href="https://github.com/alchaincyf/nuwa-skill" target="_blank">
-      <g transform="translate(304, 12)" class="project">
-        <title>alchaincyf/nuwa-skill — 34285 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">nuwa-skill</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">alchaincyf · ★ 34.3k</text>
-      </g>
-    </a>
-    <a href="https://github.com/unslothai/unsloth" target="_blank">
-      <g transform="translate(332, 78)" class="project">
-        <title>unslothai/unsloth — 77950 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">unslothai · ★ 78.0k</text>
-      </g>
-    </a>
-    <a href="https://github.com/wshobson/agents" target="_blank">
-      <g transform="translate(608, 12)" class="project">
-        <title>wshobson/agents — 40619 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">agents</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">wshobson · ★ 40.6k</text>
-      </g>
-    </a>
-    <a href="https://github.com/HKUDS/DeepTutor" target="_blank">
+    <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">
       <g transform="translate(636, 78)" class="project">
-        <title>HKUDS/DeepTutor — 41298 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">DeepTutor</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">HKUDS · ★ 41.3k</text>
+        <title>shanraisshan/claude-code-best-practice — 67521 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">claude-code-best-pr…</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">shanraisshan · ★ 67.5k</text>
+      </g>
+    </a>
+    <a href="https://github.com/career-ops-hq/career-ops" target="_blank">
+      <g transform="translate(912, 12)" class="project">
+        <title>career-ops-hq/career-ops — 74404 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">career-ops</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">career-ops-hq · ★ 74.4k</text>
       </g>
     </a>
     <a href="https://github.com/rust-unofficial/awesome-rust" target="_blank">
-      <g transform="translate(912, 12)" class="project">
-        <title>rust-unofficial/awesome-rust — 59838 stars</title>
+      <g transform="translate(940, 78)" class="project">
+        <title>rust-unofficial/awesome-rust — 59842 stars</title>
         <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-rust</text>
         <text x="0" y="47" fill="#8b949e" font-size="14">rust-unofficial · ★ 59.8k</text>
       </g>
     </a>
-    <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank">
-      <g transform="translate(940, 78)" class="project">
-        <title>mukul975/Anthropic-Cybersecurity-Skills — 34396 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">Anthropic-Cybersecu…</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">mukul975 · ★ 34.4k</text>
-      </g>
-    </a>
-    <a href="https://github.com/github/github-mcp-server" target="_blank">
+    <a href="https://github.com/multica-ai/multica" target="_blank">
       <g transform="translate(1216, 12)" class="project">
-        <title>github/github-mcp-server — 33592 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">github · ★ 33.6k</text>
+        <title>multica-ai/multica — 52719 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">multica</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">multica-ai · ★ 52.7k</text>
       </g>
     </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
+    <a href="https://github.com/apache/airflow" target="_blank">
       <g transform="translate(1244, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32119 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">BigPizzaV3 · ★ 32.1k</text>
+        <title>apache/airflow — 47170 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">airflow</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">apache · ★ 47.2k</text>
       </g>
     </a>
-    <a href="https://github.com/zeroclaw-labs/zeroclaw" target="_blank">
+    <a href="https://github.com/MemPalace/mempalace" target="_blank">
       <g transform="translate(1520, 12)" class="project">
-        <title>zeroclaw-labs/zeroclaw — 32976 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">zeroclaw</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">zeroclaw-labs · ★ 33.0k</text>
+        <title>MemPalace/mempalace — 59561 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">mempalace</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">MemPalace · ★ 59.6k</text>
       </g>
     </a>
-    <a href="https://github.com/Twigpine/openclaude" target="_blank">
+    <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">
       <g transform="translate(1548, 78)" class="project">
-        <title>Twigpine/openclaude — 33830 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">Twigpine · ★ 33.8k</text>
+        <title>mvanhorn/last30days-skill — 64176 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">last30days-skill</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">mvanhorn · ★ 64.2k</text>
       </g>
     </a>
-    <a href="https://github.com/alchaincyf/nuwa-skill" target="_blank">
+    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
       <g transform="translate(1824, 12)" class="project">
-        <title>alchaincyf/nuwa-skill — 34285 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">nuwa-skill</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">alchaincyf · ★ 34.3k</text>
+        <title>DeusData/codebase-memory-mcp — 46530 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">DeusData · ★ 46.5k</text>
       </g>
     </a>
-    <a href="https://github.com/unslothai/unsloth" target="_blank">
+    <a href="https://github.com/jaywcjlove/awesome-mac" target="_blank">
       <g transform="translate(1852, 78)" class="project">
-        <title>unslothai/unsloth — 77950 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">unslothai · ★ 78.0k</text>
+        <title>jaywcjlove/awesome-mac — 116070 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-mac</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">jaywcjlove · ★ 116.1k</text>
       </g>
     </a>
     </g>
