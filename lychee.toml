@@ -1,0 +1,5 @@
+accept = ["200", "206", "403", "405", "429"]
+exclude = [
+  '^https://awesome\.re(/|$)',
+  '^https://github\.com/(launsion-boop/EchoCoding|tristan666666/agent-island|wd041216-bit/10000-mentors-research-workflow)(/|$)',
+]
