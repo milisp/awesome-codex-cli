@@ -138,6 +138,7 @@ Available models depend on your account and configuration. This overview was che
 - [cctop](https://github.com/st0012/cctop) - Keyboard-first macOS menubar monitor for Codex CLI sessions. Shows which runs are working, waiting, or need approval, jumps back to the exact terminal pane, and also supports Codex Desktop, Claude Code, opencode, and pi.
 - [GraphCode](https://github.com/scgopi/GraphCode) - macOS app that arranges Codex, Claude Code, and Copilot CLI sessions into a graph. Each node is a live terminal you can attach to mid-run; each edge is a hand-off, message, or spawn that fires while you're away. Sessions survive app quits and reboots.
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs Codex CLI and other coding-agent CLIs side by side, each in its own persistent tmux session, with live status, prompts sent without attaching, optional per-session Git worktrees, and a diff review that sends line comments back to the agent.
+- [coven](https://github.com/OpenCoven/coven) - Local-first daemon and CLI that runs Codex CLI, Claude Code, and other harnesses as PTY sessions inside explicit project-root boundaries, with SQLite-persisted history and a terminal session browser.
 
 ### Agent Runtimes & Orchestration
 
