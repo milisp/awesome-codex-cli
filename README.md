@@ -113,6 +113,7 @@ Available models depend on your account and configuration. This overview was che
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Open-source desktop client that runs Codex CLI alongside other agent CLIs (Claude Code, Gemini CLI, Qwen Code), with multi-session chat, MCP and ACP support, and local file management.
 - [Claudable](https://github.com/anymorph-ai/Claudable) - An open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 - [Threadlines](https://github.com/Threadlines/threadlines) - Open-source desktop app (macOS, Windows, Linux) that runs Codex CLI through `codex app-server`, with a live browser, terminal, and source control beside each thread, plus session resume after restarts and a phone client.
+- [Blave Agent](https://github.com/Blave-TW/blave-agent) - Open-source desktop app (macOS, Windows) that drives Codex CLI or Claude Code to write, backtest and run trading strategies.
 
 ### Mobile & Remote Access
 
@@ -168,6 +169,7 @@ Available models depend on your account and configuration. This overview was che
 - [cc-switch](https://github.com/farion1231/cc-switch) - A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.
 - [opencodex](https://github.com/lidge-jun/opencodex) - Universal provider proxy for Codex — use Claude, Gemini, Grok, GLM, DeepSeek, Kimi, Cursor, and more with the Codex CLI/App/SDK, with multi-account pooling and a GUI dashboard.
 - [aisw](https://github.com/burakdede/aisw) - Rust CLI that keeps each Codex CLI login in its own `CODEX_HOME` profile and switches accounts in one command, alongside Claude Code, Gemini CLI and Antigravity CLI, with per-repository account guards. Docs: [aiswitcher.dev](https://aiswitcher.dev).
+- [clausona](https://github.com/larcane97/clausona) - Switches between Codex CLI and Claude Code accounts with separate config homes, shares conversation history across accounts so `codex resume` continues a session another account started, and picks an account by 5-hour and weekly usage. macOS and Linux.
 
 ### Usage & Monitoring
 
