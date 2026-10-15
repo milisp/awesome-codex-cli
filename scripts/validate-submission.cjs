@@ -11,6 +11,8 @@ const LABELS = {
 };
 const STATUS = ['validation-pending', 'validation-passed', 'needs-evidence', 'needs-changes', 'manual-review'];
 const MARKER = '<!-- submission-validation -->';
+const MIN_STARS = 100;
+const MIN_AGE_DAYS = 14;
 const REQUIRED = ['Project name and URL', 'Suggested README section', 'Factual description',
   'Codex integration evidence', 'External usage evidence', 'Your relationship to the project'];
 
@@ -60,6 +62,26 @@ function inspect(body, readme) {
   return { evidence, changes, repository };
 }
 
+// Thresholds match contributing.md. A submission below them is labelled for manual review, never closed by the bot.
+function criteria({ stars, ageDays }) {
+  if (stars >= MIN_STARS) return { met: true, reason: `${stars} stars >= ${MIN_STARS}` };
+  if (ageDays !== null && ageDays >= MIN_AGE_DAYS) return { met: true, reason: `${ageDays.toFixed(1)} days >= ${MIN_AGE_DAYS}` };
+  const age = ageDays === null ? 'age unknown' : `${ageDays.toFixed(1)} days`;
+  return { met: false, reason: `${stars} stars < ${MIN_STARS} and ${age} < ${MIN_AGE_DAYS} days` };
+}
+
+// Age is measured from the oldest commit: a repository's creation date can be later than its history.
+async function firstCommitAgeDays(github, { owner, repo }, branch) {
+  const first = await github.rest.repos.listCommits({ owner, repo, sha: branch, per_page: 1 });
+  if (!first.data.length) return null;
+  const last = (first.headers.link || '').match(/[?&]page=(\d+)>;\s*rel="last"/);
+  const oldest = last
+    ? (await github.rest.repos.listCommits({ owner, repo, sha: branch, per_page: 1, page: Number(last[1]) })).data[0]
+    : first.data[0];
+  const ageDays = (Date.now() - new Date(oldest.commit.committer.date).getTime()) / 86400000;
+  return Number.isFinite(ageDays) ? ageDays : null;
+}
+
 async function run({ github, context }) {
   const repo = context.repo;
   for (const [name, [color, description]] of Object.entries(LABELS)) {
@@ -85,14 +107,23 @@ async function run({ github, context }) {
   const result = inspect(issue.body || '', fs.readFileSync('README.md', 'utf8'));
   const notes = [];
   let manual = false;
+  let stars = null, archived = null, ageDays = null, meets = null;
   if (result.repository) {
     try {
       const { data: target } = await github.rest.repos.get(result.repository);
-      notes.push(`GitHub metadata: **${target.stargazers_count} stars**; archived: **${target.archived ? 'yes' : 'no'}**.`);
-      if (target.archived) { manual = true; notes.push('Archived projects require maintainer review.'); }
+      stars = target.stargazers_count;
+      archived = target.archived;
+      if (target.archived) { manual = true; notes.push('Archived project: maintainer review required.'); }
+      if (stars < MIN_STARS) {
+        try { ageDays = await firstCommitAgeDays(github, result.repository, target.default_branch); }
+        catch { notes.push('Commit history could not be read; age not checked.'); }
+      }
+      const verdict = criteria({ stars, ageDays });
+      meets = verdict.met;
+      if (!verdict.met) { manual = true; notes.push(`Below inclusion threshold: ${verdict.reason}. Maintainer decides.`); }
     } catch {
       manual = true;
-      notes.push('GitHub metadata could not be retrieved. A maintainer must check it; this is not a rejection.');
+      notes.push('GitHub metadata could not be retrieved; a maintainer must check it. This is not a rejection.');
     }
   }
   const labels = ['resource-submission'];
@@ -106,15 +137,24 @@ async function run({ github, context }) {
     catch (error) { if (error.status !== 404) throw error; }
   }
   await github.rest.issues.addLabels({ ...repo, issue_number, labels });
-  const problems = [...result.evidence, ...result.changes];
+  const problems = [...result.evidence, ...result.changes, ...notes];
+  const statusLabels = labels.filter(name => name !== 'resource-submission');
+  const summary = { status: statusLabels, stars, archived, ageDays: ageDays === null ? null : Math.round(ageDays), meetsCriteria: meets, problems };
   const body = `${MARKER}\n## Submission checks\n\n` +
-    (problems.length ? problems.map(s => `- ${s}`).join('\n') : 'Required fields and basic duplicate checks passed.') +
-    (notes.length ? '\n\n' + notes.join('\n\n') : '') +
-    '\n\nThese are basic checks, not verification of project quality or approval for inclusion. No stars or age cutoff is applied. Edit this issue to rerun checks.';
+    `**Status:** ${statusLabels.map(name => `\`${name}\``).join(' ')}\n\n` +
+    '| Item | Value |\n|---|---|\n' +
+    `| Stars | ${stars ?? 'unknown'} |\n` +
+    `| Age | ${ageDays === null ? (stars >= MIN_STARS ? 'not needed' : 'unknown') : `${Math.round(ageDays)} days`} |\n` +
+    `| Archived | ${archived === null ? 'unknown' : archived ? 'yes' : 'no'} |\n` +
+    `| Meets criteria | ${meets === null ? 'unknown' : meets ? 'yes' : 'no'} |\n` +
+    `| Problems | ${problems.length} |\n\n` +
+    (problems.length ? problems.map(s => `- ${s}`).join('\n') + '\n\n' : '') +
+    '<details><summary>Raw result (JSON)</summary>\n\n```json\n' + JSON.stringify(summary, null, 2) + '\n```\n\n</details>\n\n' +
+    'Basic checks only, not verification of quality or approval. Maintainers apply the criteria in contributing.md. Edit this issue to rerun checks.';
   const comments = await github.paginate(github.rest.issues.listComments, { ...repo, issue_number, per_page: 100 });
   const previous = comments.find(c => c.user.login === 'github-actions[bot]' && c.body?.includes(MARKER));
   if (previous) await github.rest.issues.updateComment({ ...repo, comment_id: previous.id, body });
   else await github.rest.issues.createComment({ ...repo, issue_number, body });
 }
 
-module.exports = { fields, canonical, inspect, run };
+module.exports = { fields, canonical, inspect, criteria, run };
