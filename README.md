@@ -1,4 +1,8 @@
-# Awesome Codex CLI 🚀 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/codex-pet-banner.gif" alt="The eight built-in Codex Pets animated together — Awesome Codex CLI" width="960">
+</p>
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![Stars](https://img.shields.io/github/stars/milisp/awesome-codex-cli?style=social)](https://github.com/milisp/awesome-codex-cli)
 [![Follow on 𝕏](https://img.shields.io/badge/𝕏-@lisp__mi-1c9bf0)](https://x.com/lisp_mi)
@@ -9,21 +13,25 @@
 
 ---
 
-> 💡 **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
+## The Codex CLI Ticker - A Sample of Codex CLI Projects Around GitHub
 
-### ✨ Featured Tools
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-ticker.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/repo-ticker-light.svg">
+  <img src="assets/repo-ticker-light.svg" alt="Daily Codex Picks — refreshed every 6 hours" width="720">
+</picture>
 
-> Maintainer picks, including my own projects.
+## Recently Added
 
-- **[keke](https://github.com/milisp/keke-agent)** - Lightweight Rust coding agent harness. BYOK, 8 MB.
-- **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
-- **[productship.lol](https://productship.lol)** - Discover and showcase AI tools.
+[![Recently Added Resources](https://img.shields.io/badge/Recently%20Added-view%20latest%20contributions-238636?style=for-the-badge)](RECENTLY_ADDED.md)
 
 ---
 
 ## Contents
 
 - [What is OpenAI Codex CLI](#what-is-openai-codex-cli)
+- [Start Here](#start-here)
+  - [Models](#models)
 - [Tools](#tools)
   - [GUI & Apps](#gui-apps)
   - [Mobile & Remote Access](#mobile--remote-access)
@@ -38,7 +46,10 @@
   - [Claude Code Interop](#claude-code-interop)
   - [Terminal](#terminal)
 - [Customize](#customize)
+  - [Pets](#pets)
   - [Plugins](#plugins)
+  - [Prompts & Templates](#prompts--templates)
+  - [Testing & Evaluation](#testing--evaluation)
   - [Agent Skills](#agent-skills)
     - [General](#general)
     - [Domain-Specific](#domain-specific)
@@ -49,10 +60,12 @@
   - [Directories & Registries](#directories--registries)
 - [Workflows & Knowledge Guides 🧠](#workflows--knowledge-guides-)
 - [Resources](#resources)
+  - [Official References](#official-references)
   - [Documentation](#documentation)
   - [Blog Posts & Tutorials](#blog-posts--tutorials)
 - [Web Interface Extensions](#web-interface-extensions)
   - [Official Web Interface](#official-web-interface)
+  - [Related OpenAI Products](#related-openai-products)
   - [IDE Integrations](#ide-integrations)
 - [Use Cases](#use-cases)
   - [Development Tasks](#development-tasks)
@@ -66,10 +79,34 @@
 
 OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
+## Start Here
+
+- [Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official setup and first-run guide.
+- [Slash Commands](https://developers.openai.com/codex/cli/slash-commands) - Official reference for built-in Codex CLI slash commands.
+- [Official References](#official-references) - Hooks, configuration, project instructions, skills, and MCP setup.
+
+### Models
+
+See the [official Codex model guide](https://learn.chatgpt.com/docs/models) for availability and the [model selection guide](https://developers.openai.com/api/docs/guides/model-selection) for tradeoffs.
+
+<details>
+<summary>Model overview: Sol, Astra, and Luna</summary>
+
+| Model | Model ID | Focus |
+| --- | --- | --- |
+| [GPT-6.1 Sol](https://developers.openai.com/api/docs/models/gpt-6.1-sol) | `gpt-6.1-sol` | Complex coding and agent workflows with a balance of capability and cost. |
+| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | `gpt-6-astra` | The most demanding reasoning, coding, and professional work. |
+| [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | `gpt-6-luna` | Efficient, focused tasks and high-volume workflows. |
+
+Available models depend on your account and configuration. This overview was checked on October 11, 2026.
+
+</details>
+
 ## Tools
 
 ### GUI & Apps
 
+- [ChatGPT Desktop App](https://learn.chatgpt.com/docs/app) - Official desktop app with ChatGPT and Codex in the product selector. Choose Codex for project-based development with worktrees, an integrated terminal, and Git tools; choose ChatGPT for Chat or Work.
 - [Codexia](https://github.com/milisp/codexia) - Agent Workstation for Codex CLI and claude code
 - [CodexMonitor](https://github.com/Dimillian/CodexMonitor) - An app to monitor the Codex situation.
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - An enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
@@ -101,6 +138,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [cctop](https://github.com/st0012/cctop) - Keyboard-first macOS menubar monitor for Codex CLI sessions. Shows which runs are working, waiting, or need approval, jumps back to the exact terminal pane, and also supports Codex Desktop, Claude Code, opencode, and pi.
 - [GraphCode](https://github.com/scgopi/GraphCode) - macOS app that arranges Codex, Claude Code, and Copilot CLI sessions into a graph. Each node is a live terminal you can attach to mid-run; each edge is a hand-off, message, or spawn that fires while you're away. Sessions survive app quits and reboots.
 - [agent-manager](https://github.com/YoanWai/agent-manager) - Terminal UI that runs Codex CLI and other coding-agent CLIs side by side, each in its own persistent tmux session, with live status, prompts sent without attaching, optional per-session Git worktrees, and a diff review that sends line comments back to the agent.
+- [coven](https://github.com/OpenCoven/coven) - Local-first daemon and CLI that runs Codex CLI, Claude Code, and other harnesses as PTY sessions inside explicit project-root boundaries, with SQLite-persisted history and a terminal session browser.
 
 ### Agent Runtimes & Orchestration
 
@@ -139,8 +177,7 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [WhereMyTokens](https://github.com/jeongwookie/WhereMyTokens) - Windows tray app for monitoring Claude Code and Codex token usage, costs, sessions, and rate limits from local JSONL logs.
 - [ClawMetry](https://github.com/vivekchand/clawmetry) - Zero-config local dashboard for observing Codex CLI sessions, tokens, and costs alongside 20+ other agent runtimes.
 - [session-top](https://github.com/jerryxff26-alt/session-top) - Local htop-style TUI for Codex CLI sessions: quota windows, top consumers, and explainable usage drops from on-disk rollouts.
-- [Agent Island](https://github.com/tristan666666/agent-island) - Free, MIT-licensed native companion for Codex, Claude Code, Antigravity, Grok and Cursor: local working/stalled/your-turn state, your-turn alerts, and provider usage with on-device cost estimates. macOS and Windows, no account, no telemetry.
-- [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch, where Allow, Deny or one of the prompt's options is a single tap and the answer goes back into the session, through each CLI's own hooks. Free tier; the AI Coding module is part of Crest Pro, $19.99 once.
+- [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
 - [Relay Baton](https://github.com/guorunjie/codex-relay-baton-guardian) - Local Codex Desktop/CLI recovery monitor for long-running tasks. Detects compact failures and context-window overflow, then queues audited handoff bundles.
 
@@ -171,7 +208,6 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ### Claude Code Interop
 
-- [claude-codex-bridge](https://github.com/jackcongmac/claude-codex-bridge) - Bidirectional MCP bridge for Codex CLI and Claude Code collaboration, with persistent Claude sessions and shared collaboration files.
 - [Codex Skill](https://github.com/skills-directory/skill-codex) by [klaudworks](https://github.com/klaudworks) - Enables users to prompt codex from claude code. Unlike the raw codex mcp server, this skill infers parameters such as model, reasoning effort, sandboxing from your prompt or asks you to specify them. It also simplifies continuing prior codex sessions so that codex can continue with the prior context.
 - [great_cto](https://github.com/avelikiy/great_cto) - Ships nine skills and an MCP server to Codex CLI, and runs Codex as a second-opinion reviewer on the same diff from inside Claude Code.
 
@@ -182,6 +218,32 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 ## Customize
 
+### Pets
+
+[Codex Pets](https://learn.chatgpt.com/docs/pets) are optional animated companions that reflect session activity. The banner above features eight built-in pets.
+
+<details>
+<summary>Meet the Pet family and learn how to use it</summary>
+
+[Codex Pets](https://learn.chatgpt.com/docs/pets) are optional animated companions that show what your session is doing: running, needing input, ready, or blocked. Choosing a pet changes its appearance without changing the model or its capabilities. Dots, introduced under [Related OpenAI Products](#related-openai-products), are agents that carry out work; Pets provide a visual companion for following activity.
+
+The banner features these eight pets from the [official built-in catalog](https://github.com/openai/codex/blob/main/codex-rs/tui/src/pets/catalog.rs):
+
+| Pet | Look |
+| --- | --- |
+| Codex | Blue coding companion with a terminal face. |
+| Dewey | Bright blue droplet-shaped companion. |
+| Fireball | Orange companion with a flickering flame. |
+| Rocky | Rounded stone companion. |
+| Seedy | Small companion topped with a green sprout. |
+| Stacky | A stack of tiny purple robots. |
+| BSOD | White robot with a blue screen face. |
+| Null Signal | Dark companion with a red NULL display. |
+
+In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker, `/pets codex` to select a pet, or `/pets off` to disable it. Terminal pets require iTerm2 3.6+ or Kitty graphics/Sixel support and are unavailable inside tmux or Zellij. See the [official Pets guide](https://learn.chatgpt.com/docs/pets) for desktop controls and custom pets.
+
+</details>
+
 ### Plugins
 
 > Plugins bundle skills, MCP servers and other resources that Codex CLI installs from a marketplace with `codex plugin add`.
@@ -189,6 +251,16 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Supercov](https://github.com/supercorp-ai/supercov) by [Supercorp](https://github.com/supercorp-ai) - Codex plugin with two skills: one runs the project's existing tests, measures line, branch and MC/DC coverage and writes tests for the untested code, the other scans source for security vulnerabilities.
 - [Claude Codex Settings](https://github.com/fcakyon/claude-codex-settings) by [fatih akyon](https://github.com/fcakyon) - A well-organized, well-written set of plugins covering core developer activities, such as working with common cloud platforms like GitHub, Azure, MongoDB, and popular services such as Tavily, Playwright, and more. Clear, not overly-opinionated, and compatible with a few other providers.
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc) - A very pragmatic set of well-designed agents, skills, and commands, built around a discipline of turning past mistakes and errors into lessons and opportunities for future growth and improvement. Good documentation.
+
+### Prompts & Templates
+
+- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Generates a scoped first-task prompt with constraints and acceptance checks.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Dated captures of Codex CLI system prompts and tool schemas, with reproduction instructions.
+
+### Testing & Evaluation
+
+- [Agent QA](https://github.com/vostride/agent-qa) - Lets Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and use persistent test memory.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records and replays Codex CLI sessions, and exposes recorded runs over MCP for inspection.
 
 ### Agent Skills
 
@@ -230,13 +302,11 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Tree Ring Memory](https://terminallylazy.github.io/Tree-Ring-Memory/) - Local-first memory lifecycle layer for AI agents with Rust CLI, SQLite/FTS recall, audit, forgetting, consolidation, and terminal TUI.
 - [SwarmVault](https://github.com/swarmclawai/swarmvault) - Local-first RAG knowledge base compiler. Turns raw docs, research, and code into a persistent markdown wiki, knowledge graph, and hybrid SQLite FTS + embeddings search. Ships a bundled skill and MCP server; works with Codex CLI, Claude Code, and OpenCode.
 - [ContextStream](https://contextstream.io) - Remote MCP server for shared project context across Codex CLI, Claude Code, Cursor, and Grok. Endpoint: https://mcp.contextstream.io/mcp. Repo: https://github.com/contextstream/mcp-server.
-- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a Codex CLI session below the harness and replays it with the recorded model responses served back; `orca mcp` exposes the recorded runs so an agent can read what an earlier run sent, ran and changed.
 
 #### Utilities
 
 - [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset) - MCP server that generates app icons, favicons, OG images, logos, and wordmarks by routing requests across 30+ image generation models. Zero API key needed on first run via free-tier providers.
 - [click-to-mcp](https://github.com/Coding-Dev-Tools/click-to-mcp) - Auto-wrap any Python Click/Typer CLI as an MCP server. Zero-code transformation that introspects CLI commands and exposes them as MCP tools. Works with Codex CLI, Claude Code, and any MCP client. `pip install click-to-mcp`
-- [Agent QA](https://github.com/vostride/agent-qa) - The self-improving QA agent for software teams. Run `agent-qa mcp` to let Codex author and execute natural-language web/mobile tests, inspect artifacts, triage failures, and guide fixes with persistent test memory.
 - [VideoOverlayKit](https://github.com/alichherawalla/video-overlay-kit) - MCP server that renders 4-6s animated b-roll overlay videos (mp4) for short-form social (LinkedIn, IG Reels, YouTube Shorts, TikTok). Paste your script into Codex CLI / Claude Code / Cursor, the model writes the scene spec and renders the mp4. Built on Remotion + Tabler + Lottie. Free, MIT, local.
 - [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data extraction skill & MCP server for AI coding agents. 20 tools: followers, tweets, replies, mentions, lists, hashtags, spaces & more.
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
@@ -258,15 +328,21 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 - [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
 - [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
-- [Codex First Task Prompt Generator](https://ronnie2025.github.io/ai-agent-workbench-starter-pack/codex-first-task-prompt-generator.html) - Free web tool that turns a Codex CLI project goal into a scoped first-task prompt with constraints and acceptance checks.
-- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) by [Continuum AI](https://github.com/Continuum-AI-Corp) - Codex CLI's own system prompts and tool schemas, recorded off the wire per model and dated, with the command to reproduce each capture.
 - [Dory](https://github.com/tjqscott/dory) - Codex project-memory workflow using AGENTS.md directives, linked Markdown wiki pages, and a Python linter to preserve decisions and findings between sessions.
 
 ## Resources
 
+### Official References
+
+- [Slash Commands](https://learn.chatgpt.com/docs/developer-commands?surface=cli) - Built-in interactive commands, CLI flags, and session controls.
+- [Hooks](https://learn.chatgpt.com/docs/hooks) - Run scripts or MCP tools at lifecycle events for validation, logging, and workflow automation.
+- [Configuration](https://learn.chatgpt.com/docs/config-file/config-basic) - Configure models, permissions, and other settings through user and project `config.toml` files.
+- [AGENTS.md Instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md) - Give Codex repository guidance and directory-specific instructions.
+- [Build Skills](https://learn.chatgpt.com/docs/build-skills) - Package repeatable workflows with `SKILL.md` instructions and supporting resources.
+- [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) - Connect local or remote MCP servers to provide tools and context.
+
 ### Documentation
 
-- [OpenAI Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started) - Official getting started guide.
 - [GitHub Repository](https://github.com/openai/codex) - Official OpenAI Codex CLI repository.
 - [OpenAI Codex Overview](https://openai.com/codex/) - Product overview and features.
 - [Agents.md](https://agents.md) - A simple, open format for guiding coding agents, used by over 20k open-source projects.
@@ -284,6 +360,11 @@ OpenAI Codex CLI is a lightweight coding agent that runs in your terminal.
 
 - [Codex](https://chatgpt.com/codex) - Official cloud-based agent with web interface.
 - Cloud Codex - Sandbox environments preloaded with repositories (ChatGPT Pro/Enterprise/Team/Plus users)
+
+### Related OpenAI Products
+
+- [Dots](https://learn.chatgpt.com/docs/dots) - Always-on agents in ChatGPT, powered by GPT-6 Astra, with their own cloud computer and browser. Dots can research, prepare documents, build software, and keep progressing toward goals even when your computer is off. Access is rolling out to eligible accounts.
+- [Pets](#pets) - Animated companions, with a family overview and CLI usage under Customize.
 
 ### IDE Integrations
 
@@ -324,6 +405,14 @@ Community tutorials and examples are welcome.
 - [awesome-gpt-oss](https://github.com/milisp/awesome-gpt-oss) - Curated GPT open-source resources.
 - [awesome-chatgpt-claude-agents](https://github.com/milisp/awesome-chatgpt-claude-agents) - Collection of awesome agents and AI development tools.
 
+### ✨ My projects
+
+> Maintainer picks, my own projects.
+
+- **[keke](https://github.com/milisp/keke-agent)** - Lightweight Rust coding agent harness. BYOK, 8 MB.
+- **[Plux](https://milisp.dev/plux)** - Capture now with a shortcut. Turn it into a todo, send it to (Codex / ChatGPT / Claude) anytime.
+- **[productship.lol](https://productship.lol)** - Discover and showcase AI tools.
+
 ---
 
 ## Contributing
@@ -333,4 +422,8 @@ Contributions are welcome! Please:
 1. Read the [contribution guidelines](contributing.md).
 2. Check existing resources to avoid duplicates.
 3. Ensure links are working and relevant.
-4. Submit a pull request with clear descriptions.
+4. Open an issue using the resource submission or correction form. External submissions are issue-only; maintainers update the list after review.
+
+## Acknowledgements
+
+This list's layout and contribution process were modeled on [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) by [hesreallyhim](https://github.com/hesreallyhim), a curated list for Claude Code. Thanks to its maintainer for the example. This repository is not affiliated with that project.
