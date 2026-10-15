@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="142" viewBox="0 0 640 142" role="img" aria-label="Daily Codex Picks">
+  <title>Daily Codex Picks</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .project:hover text:first-of-type { fill: #0969da; }
+    .static-card { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .ticker-track { display: none; }
+      .static-card { display: inline; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="fadeEdgeLeft" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeEdgeRight" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="viewportClip">
+      <rect x="100" y="0" width="540" height="142"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="640" height="142" rx="8" fill="#ffffff"/>
+  <path d="M8 1 H632 M8 141 H632" stroke="#d1d9e0"/>
+  <rect x="0" y="1" width="92" height="140" rx="8" fill="#f6f8fa"/>
+  <text x="46" y="53" fill="#1f2328" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">CODEX</text>
+  <text x="46" y="75" fill="#59636e" font-size="12" text-anchor="middle">Daily picks</text>
+  <circle cx="46" cy="99" r="3" fill="#0969da"/>
+  <path d="M93 16 V126" stroke="#d1d9e0"/>
+
+  <!-- Ticker Track -->
+  <path d="M106 71 H626" stroke="#d1d9e0" stroke-dasharray="5 7" opacity="0.5"/>
+  <g clip-path="url(#viewportClip)">
+    <g class="static-card" transform="translate(114, 0)">
+    <a href="https://github.com/1c7/chinese-independent-developer" target="_blank">
+      <g transform="translate(0, 12)" class="project">
+        <title>1c7/chinese-independent-developer — 61820 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">chinese-independent…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">1c7 · ★ 61.8k</text>
+      </g>
+    </a>
+    <a href="https://github.com/unslothai/unsloth" target="_blank">
+      <g transform="translate(0, 78)" class="project">
+        <title>unslothai/unsloth — 78071 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">unslothai · ★ 78.1k</text>
+      </g>
+    </a>
+    </g>
+    <g class="ticker-track">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="114 0"
+        to="-1406 0"
+        dur="50s"
+        repeatCount="indefinite"
+      />
+    <a href="https://github.com/1c7/chinese-independent-developer" target="_blank">
+      <g transform="translate(0, 12)" class="project">
+        <title>1c7/chinese-independent-developer — 61820 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">chinese-independent…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">1c7 · ★ 61.8k</text>
+      </g>
+    </a>
+    <a href="https://github.com/unslothai/unsloth" target="_blank">
+      <g transform="translate(28, 78)" class="project">
+        <title>unslothai/unsloth — 78071 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">unslothai · ★ 78.1k</text>
+      </g>
+    </a>
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
+      <g transform="translate(304, 12)" class="project">
+        <title>volcengine/OpenViking — 40012 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">volcengine · ★ 40.0k</text>
+      </g>
+    </a>
+    <a href="https://github.com/Twigpine/openclaude" target="_blank">
+      <g transform="translate(332, 78)" class="project">
+        <title>Twigpine/openclaude — 33915 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">Twigpine · ★ 33.9k</text>
+      </g>
+    </a>
+    <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">
+      <g transform="translate(608, 12)" class="project">
+        <title>shanraisshan/claude-code-best-practice — 67603 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">claude-code-best-pr…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">shanraisshan · ★ 67.6k</text>
+      </g>
+    </a>
+    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
+      <g transform="translate(636, 78)" class="project">
+        <title>DeusData/codebase-memory-mcp — 46666 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.7k</text>
+      </g>
+    </a>
+    <a href="https://github.com/danielmiessler/Fabric" target="_blank">
+      <g transform="translate(912, 12)" class="project">
+        <title>danielmiessler/Fabric — 44280 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">Fabric</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">danielmiessler · ★ 44.3k</text>
+      </g>
+    </a>
+    <a href="https://github.com/wshobson/agents" target="_blank">
+      <g transform="translate(940, 78)" class="project">
+        <title>wshobson/agents — 40855 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">agents</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">wshobson · ★ 40.9k</text>
+      </g>
+    </a>
+    <a href="https://github.com/HKUDS/DeepTutor" target="_blank">
+      <g transform="translate(1216, 12)" class="project">
+        <title>HKUDS/DeepTutor — 41451 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">DeepTutor</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">HKUDS · ★ 41.5k</text>
+      </g>
+    </a>
+    <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">
+      <g transform="translate(1244, 78)" class="project">
+        <title>Yeachan-Heo/oh-my-claudecode — 39937 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-claudecode</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 39.9k</text>
+      </g>
+    </a>
+    <a href="https://github.com/1c7/chinese-independent-developer" target="_blank">
+      <g transform="translate(1520, 12)" class="project">
+        <title>1c7/chinese-independent-developer — 61820 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">chinese-independent…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">1c7 · ★ 61.8k</text>
+      </g>
+    </a>
+    <a href="https://github.com/unslothai/unsloth" target="_blank">
+      <g transform="translate(1548, 78)" class="project">
+        <title>unslothai/unsloth — 78071 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">unslothai · ★ 78.1k</text>
+      </g>
+    </a>
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
+      <g transform="translate(1824, 12)" class="project">
+        <title>volcengine/OpenViking — 40012 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">volcengine · ★ 40.0k</text>
+      </g>
+    </a>
+    <a href="https://github.com/Twigpine/openclaude" target="_blank">
+      <g transform="translate(1852, 78)" class="project">
+        <title>Twigpine/openclaude — 33915 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">Twigpine · ★ 33.9k</text>
+      </g>
+    </a>
+    </g>
+  </g>
+
+  <!-- Side Fading Overlays -->
+  <rect x="100" y="1" width="14" height="140" fill="url(#fadeEdgeLeft)" pointer-events="none"/>
+  <rect x="608" y="1" width="32" height="140" fill="url(#fadeEdgeRight)" pointer-events="none"/>
+</svg>

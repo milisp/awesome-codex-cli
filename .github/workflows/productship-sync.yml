@@ -1,0 +1,25 @@
+# Copy to awesome-codex-cli/.github/workflows/productship-sync.yml.
+# Existing lychee and invite workflows need no changes.
+name: Sync curated products to ProductShip
+on:
+  push:
+    branches: [main]
+    paths: [README.md]
+  workflow_dispatch:
+permissions: {}
+concurrency:
+  group: productship-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Import trusted default-branch README
+        env:
+          IMPORT_TOKEN: ${{ secrets.PRODUCTSHIP_IMPORT_TOKEN }}
+        run: |
+          test -n "$IMPORT_TOKEN"
+          curl --fail-with-body --silent --show-error --retry 2 --max-time 45 \
+            -X POST -H "Authorization: Bearer $IMPORT_TOKEN" \
+            https://productship.lol/api/import/awesome-codex

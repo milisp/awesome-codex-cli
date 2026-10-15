@@ -1,0 +1,39 @@
+name: Invite PR author to ProductShip.lol
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  invite-merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment invite (merged)
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            🎉 Thanks for the contribution, @${{ github.event.pull_request.user.login }}!
+
+            If you'd like more eyes on what you just shipped, feel free to submit it to [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting.
+
+  invite-closed:
+    if: >-
+      github.event.pull_request.merged == false &&
+      contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.pull_request.author_association)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment invite (not merged)
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Thanks for opening this, @${{ github.event.pull_request.user.login }} — this didn't fit this list's inclusion criteria, but that's not a verdict on the project itself.
+
+            If it's something you shipped, you're welcome to post it on [ProductShip.lol](https://productship.lol) — a free "just shipped" feed with upvoting, no adoption/stars bar to clear.
+
+            Want guaranteed, labeled placement at the top of this README instead? See [SPONSOR.md](https://github.com/milisp/awesome-codex-cli/blob/main/SPONSOR.md).
