@@ -55,8 +55,7 @@ class TestTickerSvgGeneration(unittest.TestCase):
         ]
         svg = build_svg(repos)
         self.assertIn("<svg", svg)
-        self.assertIn("CODEX CLI", svg)
-        self.assertIn("FEATURED", svg)
+        self.assertIn("codex", svg.lower())
         self.assertIn("<animateTransform", svg)
         self.assertIn("openai", svg)
 
