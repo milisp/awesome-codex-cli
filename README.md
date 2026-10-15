@@ -421,3 +421,7 @@ Contributions are welcome! Please:
 2. Check existing resources to avoid duplicates.
 3. Ensure links are working and relevant.
 4. Open an issue using the resource submission or correction form. External submissions are issue-only; maintainers update the list after review.
+
+## Acknowledgements
+
+This list's layout and contribution process were modeled on [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) by [hesreallyhim](https://github.com/hesreallyhim), a curated list for Claude Code. Thanks to its maintainer for the example. This repository is not affiliated with that project.

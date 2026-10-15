@@ -6,47 +6,49 @@ body:
   - type: markdown
     attributes:
       value: |
-        Resource submissions are issue-only. Maintainers update the list after review.
-        Read contributing.md first. Low stars alone do not prove low quality, but resources must demonstrate external usage.
+        Submit one resource per issue. Eligible resources are free and open, work with Codex CLI, and have either
+        100+ GitHub stars or a first commit more than 14 days old. See contributing.md for details.
+        The automated check only confirms the form is complete; maintainers make the inclusion decision.
   - type: input
     id: project
     attributes:
       label: Project name and URL
-      description: Link to the canonical repository or project website.
+      description: Canonical repository or project website.
     validations:
       required: true
   - type: input
     id: category
     attributes:
       label: Suggested README section
+      placeholder: "e.g., Session Managers"
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
       label: Factual description
-      description: One neutral sentence describing what the resource does.
+      description: One neutral line on what it does. No marketing.
     validations:
       required: true
   - type: textarea
     id: integration
     attributes:
       label: Codex integration evidence
-      description: Link to implementation files or documentation showing functional Codex support, not just a mention.
+      description: Link to code or docs that show Codex support.
     validations:
       required: true
   - type: textarea
     id: adoption
     attributes:
       label: External usage evidence
-      description: Provide verifiable links for stars, downloads, third-party usage, or community activity. Author claims alone are insufficient.
+      description: Link to the GitHub repo (stars and first-commit date are checked from it), or a third-party listing or download count.
     validations:
       required: true
   - type: input
     id: relationship
     attributes:
       label: Your relationship to the project
-      description: For example, author, contributor, or user.
+      description: Author, contributor, or user.
     validations:
       required: true
   - type: checkboxes
@@ -56,7 +58,7 @@ body:
       options:
         - label: I checked the README and existing issues for duplicates.
           required: true
-        - label: The resource has functional Codex support and working links.
+        - label: The project is free and open, and its Codex support works as described.
           required: true
-        - label: I understand that submission does not guarantee inclusion.
+        - label: I have read contributing.md.
           required: true
