@@ -112,6 +112,7 @@ Available models depend on your account and configuration. This overview was che
 - [CodexFlow](https://github.com/lulu-sk/CodexFlow) - An enhanced GUI tool designed for Codex CLI, focused on improving conversation management and interaction.
 - [AionUi](https://github.com/iOfficeAI/AionUi) - Open-source desktop client that runs Codex CLI alongside other agent CLIs (Claude Code, Gemini CLI, Qwen Code), with multi-session chat, MCP and ACP support, and local file management.
 - [Claudable](https://github.com/anymorph-ai/Claudable) - An open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
+- [Threadlines](https://github.com/Threadlines/threadlines) - Open-source desktop app (macOS, Windows, Linux) that runs Codex CLI through `codex app-server`, with a live browser, terminal, and source control beside each thread, plus session resume after restarts and a phone client.
 
 ### Mobile & Remote Access
 
