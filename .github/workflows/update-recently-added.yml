@@ -1,0 +1,45 @@
+name: Update Recently Added
+
+on:
+  push:
+    branches: [main]
+    paths: [README.md]
+  workflow_dispatch:
+    inputs:
+      before:
+        description: Baseline commit before the additions
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recently-added
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record new resources
+        env:
+          BEFORE: ${{ github.event.before || inputs.before }}
+          AFTER: ${{ github.sha }}
+        run: python scripts/update-recently-added.py --before "$BEFORE" --after "$AFTER"
+      - name: Commit records
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add RECENTLY_ADDED.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: record recently added resources [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
