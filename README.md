@@ -181,6 +181,7 @@ Available models depend on your account and configuration. This overview was che
 - [Crest](https://crestnotch.app/claude-code-notch) - macOS notch app that shows Codex and Claude Code permission requests in the MacBook notch.
 - [EchoCoding](https://github.com/launsion-boop/EchoCoding) - Audio layer for Codex CLI with hook-triggered SFX, ambient soundscape, and optional cloud TTS/ASR voice interaction.
 - [Relay Baton](https://github.com/guorunjie/codex-relay-baton-guardian) - Local Codex Desktop/CLI recovery monitor for long-running tasks. Detects compact failures and context-window overflow, then queues audited handoff bundles.
+- [Caprock](https://github.com/dspv/caprock) - Local dashboard that reads Codex CLI transcripts alongside Claude Code, OpenCode and Gemini CLI sessions: live activity, token cost per repository at API list prices, loop alerts, and searchable history.
 
 #### Rate limit Tracks
 - [WhenResets](https://whenresets.net) - Sourced public ledger of every OpenAI Codex rate-limit reset: 55 records, each linking to the original announcement. Also published as MIT-licensed CSV/JSON.
