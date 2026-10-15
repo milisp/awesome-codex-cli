@@ -328,6 +328,7 @@ In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker,
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 - [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) - Codex-native autonomous research loop with source-gated mentor critique, submission-advisor reflection, bounded execution, and GitHub delivery.
 - [trace-to-skill](https://github.com/grnbtqdbyx-create/trace-to-skill) - CLI for turning failed Codex, Claude Code, Cursor, and MCP-enabled agent runs into reusable AGENTS.md rules, SKILL.md files, eval evidence, PR comments, and SARIF code-scanning reports.
+- [Dory](https://github.com/tjqscott/dory) - Codex project-memory workflow using AGENTS.md directives, linked Markdown wiki pages, and a Python linter to preserve decisions and findings between sessions.
 
 ## Resources
 
