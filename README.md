@@ -114,6 +114,7 @@ Available models depend on your account and configuration. This overview was che
 - [Claudable](https://github.com/anymorph-ai/Claudable) - An open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.
 - [Threadlines](https://github.com/Threadlines/threadlines) - Open-source desktop app (macOS, Windows, Linux) that runs Codex CLI through `codex app-server`, with a live browser, terminal, and source control beside each thread, plus session resume after restarts and a phone client.
 - [Blave Agent](https://github.com/Blave-TW/blave-agent) - Open-source desktop app (macOS, Windows) that drives Codex CLI or Claude Code to write, backtest and run trading strategies.
+- [Lockpaw](https://github.com/sorkila/lockpaw) - macOS menu bar app that covers the screen while Codex keeps running. `lockpaw install-hook codex` adds a notify entry and a PermissionRequest hook, so the locked screen glows when Codex finishes or waits for approval.
 
 ### Mobile & Remote Access
 
