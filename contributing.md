@@ -33,7 +33,7 @@ A resource must meet **all** of the following.
    - the oldest commit on its default branch is more than 14 days old, and it has kept receiving commits since.
 2. **Codex support.** It works with Codex CLI, shown by code or documentation, not only a line in its README.
 3. **Open access.** Closed-source projects, and projects that need a sign-up or payment, are judged only on signals from other users (stars, downloads, third-party listings), not on the author's claims. A paid tier does not rule out a free, public core that works without an account.
-4. **Scope.** General MCP servers, APIs, and hosted services that suit any MCP client are out of scope. An MCP server belongs here when it has Codex-specific features or setup, such as Codex configuration management or a Codex plugin.
+4. **Scope.** The resource must be usable from Codex CLI. An MCP server qualifies when its documentation gives a working Codex setup, such as a `codex mcp add` command or a `config.toml` block. Servers that work with any MCP client qualify under this rule, provided they document that setup.
 5. **Entry style.** One resource per issue, with one entry, one section, and one factual line on what it does. Keep the tone neutral. Issues that bundle several resources must be split.
 
 Submissions that miss these criteria are not merged. Being submitted does not guarantee inclusion, and a maintainer may decline one without a full review.
