@@ -40,7 +40,7 @@ Every resource must pass the **requirements**. Then a maintainer judges it on th
 A maintainer checks these points:
 
 - **Distinct.** It adds something the same section does not already cover, or has a clear difference for Codex CLI users.
-- **Real use.** It has 100 or more GitHub stars, or outside evidence such as third-party listings, external issues or pull requests, or download records.
+- **Real use.** It has 100 or more GitHub stars, or outside evidence such as third-party listings, issues or pull requests from people outside the project, or other projects that depend on it (for example npm or PyPI dependents). Download counts and release counts alone do not count, since automated installs and frequent releases are easy to produce.
 - **Active.** Recent commits, and issues get answers.
 - **Accurate.** The one-line description matches what the project does.
 
