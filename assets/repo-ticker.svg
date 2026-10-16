@@ -36,18 +36,18 @@
   <path d="M106 71 H626" stroke="#30363d" stroke-dasharray="5 7" opacity="0.5"/>
   <g clip-path="url(#viewportClip)">
     <g class="static-card" transform="translate(114, 0)">
-    <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>microsoft/playwright-mcp — 38227 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">microsoft · ★ 38.2k</text>
+        <title>volcengine/OpenViking — 40102 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">volcengine · ★ 40.1k</text>
       </g>
     </a>
-    <a href="https://github.com/Wei-Shaw/sub2api" target="_blank">
+    <a href="https://github.com/affaan-m/ECC" target="_blank">
       <g transform="translate(0, 78)" class="project">
-        <title>Wei-Shaw/sub2api — 44195 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">sub2api</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">Wei-Shaw · ★ 44.2k</text>
+        <title>affaan-m/ECC — 281120 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">ECC</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">affaan-m · ★ 281.1k</text>
       </g>
     </a>
     </g>
@@ -60,102 +60,102 @@
         dur="50s"
         repeatCount="indefinite"
       />
-    <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>microsoft/playwright-mcp — 38227 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">microsoft · ★ 38.2k</text>
+        <title>volcengine/OpenViking — 40102 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">volcengine · ★ 40.1k</text>
       </g>
     </a>
-    <a href="https://github.com/Wei-Shaw/sub2api" target="_blank">
+    <a href="https://github.com/affaan-m/ECC" target="_blank">
       <g transform="translate(28, 78)" class="project">
-        <title>Wei-Shaw/sub2api — 44195 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">sub2api</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">Wei-Shaw · ★ 44.2k</text>
+        <title>affaan-m/ECC — 281120 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">ECC</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">affaan-m · ★ 281.1k</text>
       </g>
     </a>
-    <a href="https://github.com/avelino/awesome-go" target="_blank">
+    <a href="https://github.com/JCodesMore/ai-website-cloner-template" target="_blank">
       <g transform="translate(304, 12)" class="project">
-        <title>avelino/awesome-go — 188692 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-go</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">avelino · ★ 188.7k</text>
-      </g>
-    </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
-      <g transform="translate(332, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32240 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">BigPizzaV3 · ★ 32.2k</text>
-      </g>
-    </a>
-    <a href="https://github.com/vectorize-io/hindsight" target="_blank">
-      <g transform="translate(608, 12)" class="project">
-        <title>vectorize-io/hindsight — 50284 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">hindsight</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">vectorize-io · ★ 50.3k</text>
-      </g>
-    </a>
-    <a href="https://github.com/openai/codex-plugin-cc" target="_blank">
-      <g transform="translate(636, 78)" class="project">
-        <title>openai/codex-plugin-cc — 34280 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">codex-plugin-cc</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">openai · ★ 34.3k</text>
-      </g>
-    </a>
-    <a href="https://github.com/wshobson/agents" target="_blank">
-      <g transform="translate(912, 12)" class="project">
-        <title>wshobson/agents — 40892 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">agents</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">wshobson · ★ 40.9k</text>
-      </g>
-    </a>
-    <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank">
-      <g transform="translate(940, 78)" class="project">
-        <title>mukul975/Anthropic-Cybersecurity-Skills — 34536 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">Anthropic-Cybersecu…</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">mukul975 · ★ 34.5k</text>
+        <title>JCodesMore/ai-website-cloner-template — 36878 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">ai-website-cloner-t…</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">JCodesMore · ★ 36.9k</text>
       </g>
     </a>
     <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">
-      <g transform="translate(1216, 12)" class="project">
-        <title>hesreallyhim/awesome-claude-code — 55809 stars</title>
+      <g transform="translate(332, 78)" class="project">
+        <title>hesreallyhim/awesome-claude-code — 55831 stars</title>
         <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-code</text>
         <text x="0" y="47" fill="#8b949e" font-size="14">hesreallyhim · ★ 55.8k</text>
       </g>
     </a>
-    <a href="https://github.com/1c7/chinese-independent-developer" target="_blank">
-      <g transform="translate(1244, 78)" class="project">
-        <title>1c7/chinese-independent-developer — 61830 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">chinese-independent…</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">1c7 · ★ 61.8k</text>
+    <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank">
+      <g transform="translate(608, 12)" class="project">
+        <title>shanraisshan/claude-code-best-practice — 67634 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">claude-code-best-pr…</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">shanraisshan · ★ 67.6k</text>
+      </g>
+    </a>
+    <a href="https://github.com/apache/airflow" target="_blank">
+      <g transform="translate(636, 78)" class="project">
+        <title>apache/airflow — 47192 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">airflow</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">apache · ★ 47.2k</text>
+      </g>
+    </a>
+    <a href="https://github.com/pbakaus/impeccable" target="_blank">
+      <g transform="translate(912, 12)" class="project">
+        <title>pbakaus/impeccable — 81906 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">impeccable</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">pbakaus · ★ 81.9k</text>
       </g>
     </a>
     <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
-      <g transform="translate(1520, 12)" class="project">
-        <title>microsoft/playwright-mcp — 38227 stars</title>
+      <g transform="translate(940, 78)" class="project">
+        <title>microsoft/playwright-mcp — 38232 stars</title>
         <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
         <text x="0" y="47" fill="#8b949e" font-size="14">microsoft · ★ 38.2k</text>
       </g>
     </a>
-    <a href="https://github.com/Wei-Shaw/sub2api" target="_blank">
+    <a href="https://github.com/tt-a1i/archify" target="_blank">
+      <g transform="translate(1216, 12)" class="project">
+        <title>tt-a1i/archify — 84390 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">archify</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">tt-a1i · ★ 84.4k</text>
+      </g>
+    </a>
+    <a href="https://github.com/router-for-me/CLIProxyAPI" target="_blank">
+      <g transform="translate(1244, 78)" class="project">
+        <title>router-for-me/CLIProxyAPI — 55437 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">CLIProxyAPI</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">router-for-me · ★ 55.4k</text>
+      </g>
+    </a>
+    <a href="https://github.com/volcengine/OpenViking" target="_blank">
+      <g transform="translate(1520, 12)" class="project">
+        <title>volcengine/OpenViking — 40102 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">OpenViking</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">volcengine · ★ 40.1k</text>
+      </g>
+    </a>
+    <a href="https://github.com/affaan-m/ECC" target="_blank">
       <g transform="translate(1548, 78)" class="project">
-        <title>Wei-Shaw/sub2api — 44195 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">sub2api</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">Wei-Shaw · ★ 44.2k</text>
+        <title>affaan-m/ECC — 281120 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">ECC</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">affaan-m · ★ 281.1k</text>
       </g>
     </a>
-    <a href="https://github.com/avelino/awesome-go" target="_blank">
+    <a href="https://github.com/JCodesMore/ai-website-cloner-template" target="_blank">
       <g transform="translate(1824, 12)" class="project">
-        <title>avelino/awesome-go — 188692 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-go</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">avelino · ★ 188.7k</text>
+        <title>JCodesMore/ai-website-cloner-template — 36878 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">ai-website-cloner-t…</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">JCodesMore · ★ 36.9k</text>
       </g>
     </a>
-    <a href="https://github.com/BigPizzaV3/CodexPlusPlus" target="_blank">
+    <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">
       <g transform="translate(1852, 78)" class="project">
-        <title>BigPizzaV3/CodexPlusPlus — 32240 stars</title>
-        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">CodexPlusPlus</text>
-        <text x="0" y="47" fill="#8b949e" font-size="14">BigPizzaV3 · ★ 32.2k</text>
+        <title>hesreallyhim/awesome-claude-code — 55831 stars</title>
+        <text x="0" y="26" fill="#e6edf3" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-code</text>
+        <text x="0" y="47" fill="#8b949e" font-size="14">hesreallyhim · ★ 55.8k</text>
       </g>
     </a>
     </g>
