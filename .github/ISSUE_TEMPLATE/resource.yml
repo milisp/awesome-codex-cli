@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Submit one resource per issue. Eligible resources are free and open, work with Codex CLI, and have either
-        100+ GitHub stars or a first commit more than 14 days old. See contributing.md for details.
+        Submit one resource per issue. Eligible resources are free and open, work with Codex CLI, and have 100+ GitHub stars.
+        Resources below that are reviewed on distinctiveness and quality. See contributing.md for details.
         The automated check only confirms the form is complete; maintainers make the inclusion decision.
   - type: input
     id: project
