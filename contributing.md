@@ -7,7 +7,7 @@ External contributions are welcome through **issues only**. Pull request creatio
 3. For new resources, provide a project link, suggested section, factual description, Codex integration evidence, and verifiable external usage evidence.
 4. Maintainers review the issue and update the list if accepted. Submission does not guarantee inclusion.
 
-Resource issues receive automated field, evidence-link, and duplicate-URL checks. The bot reports GitHub stars, age of the first commit (when stars are under 100), and archive status in a summary table, and updates its result when you edit the issue. A project under 100 stars and under 14 days old gets `manual-review`; the bot never closes an issue. `validation-passed` means basic checks passed, not approval or verification of the evidence. Missing information gets `needs-evidence` or `needs-changes`; archived repositories and failed metadata queries get `manual-review`. The bot does not decide inclusion; maintainers apply the inclusion criteria below.
+Resource issues receive automated field, evidence-link, and duplicate-URL checks. The bot reports GitHub stars and archive status in a summary table, and updates its result when you edit the issue. A project under 100 stars gets `manual-review`; the bot never closes an issue. `validation-passed` means basic checks passed, not approval or verification of the evidence. Missing information gets `needs-evidence` or `needs-changes`; archived repositories and failed metadata queries get `manual-review`. The bot does not decide inclusion; maintainers apply the inclusion criteria below.
 
 ## Contribute Codex Commands, Workflows, and Templates
 
@@ -26,15 +26,25 @@ Built an MCP Server, Agent Skill, or Micro-SaaS for Codex CLI?
 
 ## Inclusion Criteria
 
-A resource must meet **all** of the following.
+Every resource must pass the **requirements**. Then a maintainer judges it on the **quality** points. Stars are one signal, not the whole test.
 
-1. **Adoption or maturity.** Either:
-   - it has at least 100 GitHub stars; or
-   - the oldest commit on its default branch is more than 14 days old, and it has kept receiving commits since.
-2. **Codex support.** It works with Codex CLI, shown by code or documentation, not only a line in its README.
-3. **Open access.** Closed-source projects, and projects that need a sign-up or payment, are judged only on signals from other users (stars, downloads, third-party listings), not on the author's claims. A paid tier does not rule out a free, public core that works without an account.
-4. **Scope.** The resource must be usable from Codex CLI. An MCP server qualifies when its documentation gives a working Codex setup, such as a `codex mcp add` command or a `config.toml` block. Servers that work with any MCP client qualify under this rule, provided they document that setup.
-5. **Entry style.** One resource per issue, with one entry, one section, and one factual line on what it does. Keep the tone neutral. Issues that bundle several resources must be split.
+### Requirements
+
+1. **Free and open.** Closed-source projects, and projects that need a sign-up or payment, count only with signals from other users (stars, downloads, third-party listings), not the author's claims. A paid tier does not rule out a free, public core that works without an account.
+2. **Works with Codex CLI.** Shown by code or documentation. An MCP server qualifies when its documentation gives a working Codex setup, such as a `codex mcp add` command or a `config.toml` block. Servers that work with any MCP client qualify under this rule, provided they document that setup.
+3. **Maintained.** Not archived, and still receiving changes.
+4. **Entry style.** One resource per issue, with one entry, one section, and one factual line on what it does. Keep the tone neutral. Issues that bundle several resources must be split.
+
+### Quality
+
+A maintainer checks these points:
+
+- **Distinct.** It adds something the same section does not already cover, or has a clear difference for Codex CLI users.
+- **Real use.** It has 100 or more GitHub stars, or outside evidence such as third-party listings, issues or pull requests from people outside the project, or other projects that depend on it (for example npm or PyPI dependents). Download counts and release counts alone do not count, since automated installs and frequent releases are easy to produce.
+- **Active.** Recent commits, and issues get answers.
+- **Accurate.** The one-line description matches what the project does.
+
+A resource with fewer than 100 stars is listed only if it passes the requirements and clearly meets at least two quality points. The submission must give the reason in the issue.
 
 Submissions that miss these criteria are not merged. Being submitted does not guarantee inclusion, and a maintainer may decline one without a full review.
 
