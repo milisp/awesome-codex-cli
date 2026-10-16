@@ -317,6 +317,7 @@ In an interactive Codex CLI session, enter `/pets` or `/pet` to open the picker,
 - [REA](https://github.com/morluto/rea) - Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies, with evidence provenance; native deep analysis needs separately installed Hopper, Ghidra, or IDA.
 - [Tapetide MCP](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp) - Indian stock market data for Codex CLI: quotes, financials, shareholding, a 326-ratio screener, FII/DII flows and option chains for about 8,200 NSE and BSE stocks. `npx -y tapetide-mcp` with a free token, or remote at `https://mcp.tapetide.com/mcp`.
 - [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp) - MCP server that lets Codex CLI publish the site it built on a free HTTPS link instead of localhost, with no account; for a .com it returns a payment link for the human, and after payment the site goes live on it with no DNS. `codex mcp add dropthehassle --url https://dropthehassle.com/mcp`, or local stdio via `npx -y dropthehassle-mcp`.
+- [Omentir](https://github.com/vanshyadav1408/Omentir) - Remote MCP server for LinkedIn prospecting and outreach: find and score leads, draft messages, run human-paced campaigns, and answer replies. Codex config: `[mcp_servers.omentir]` with `url = "https://omentir.com/api/agent/v1/mcp"` and `bearer_token_env_var = "OMENTIR_API_KEY"`. MIT, self-hostable.
 
 ### Directories & Registries
 
