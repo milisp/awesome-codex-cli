@@ -26,13 +26,25 @@ Built an MCP Server, Agent Skill, or Micro-SaaS for Codex CLI?
 
 ## Inclusion Criteria
 
-A resource must meet **all** of the following.
+Every resource must pass the **requirements**. Then a maintainer judges it on the **quality** points. Stars are one signal, not the whole test.
 
-1. **Adoption.** It has at least 100 GitHub stars. Age alone does not qualify. A resource below 100 stars is reviewed individually: the submission must explain what makes it distinct from existing entries and why Codex CLI users need it, and a maintainer decides on quality.
-2. **Codex support.** It works with Codex CLI, shown by code or documentation, not only a line in its README.
-3. **Open access.** Closed-source projects, and projects that need a sign-up or payment, are judged only on signals from other users (stars, downloads, third-party listings), not on the author's claims. A paid tier does not rule out a free, public core that works without an account.
-4. **Scope.** The resource must be usable from Codex CLI. An MCP server qualifies when its documentation gives a working Codex setup, such as a `codex mcp add` command or a `config.toml` block. Servers that work with any MCP client qualify under this rule, provided they document that setup.
-5. **Entry style.** One resource per issue, with one entry, one section, and one factual line on what it does. Keep the tone neutral. Issues that bundle several resources must be split.
+### Requirements
+
+1. **Free and open.** Closed-source projects, and projects that need a sign-up or payment, count only with signals from other users (stars, downloads, third-party listings), not the author's claims. A paid tier does not rule out a free, public core that works without an account.
+2. **Works with Codex CLI.** Shown by code or documentation. An MCP server qualifies when its documentation gives a working Codex setup, such as a `codex mcp add` command or a `config.toml` block. Servers that work with any MCP client qualify under this rule, provided they document that setup.
+3. **Maintained.** Not archived, and still receiving changes.
+4. **Entry style.** One resource per issue, with one entry, one section, and one factual line on what it does. Keep the tone neutral. Issues that bundle several resources must be split.
+
+### Quality
+
+A maintainer checks these points:
+
+- **Distinct.** It adds something the same section does not already cover, or has a clear difference for Codex CLI users.
+- **Real use.** It has 100 or more GitHub stars, or outside evidence such as third-party listings, external issues or pull requests, or download records.
+- **Active.** Recent commits, and issues get answers.
+- **Accurate.** The one-line description matches what the project does.
+
+A resource with fewer than 100 stars is listed only if it passes the requirements and clearly meets at least two quality points. The submission must give the reason in the issue.
 
 Submissions that miss these criteria are not merged. Being submitted does not guarantee inclusion, and a maintainer may decline one without a full review.
 
