@@ -36,18 +36,18 @@
   <path d="M106 71 H626" stroke="#d1d9e0" stroke-dasharray="5 7" opacity="0.5"/>
   <g clip-path="url(#viewportClip)">
     <g class="static-card" transform="translate(114, 0)">
-    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
+    <a href="https://github.com/openai/codex-plugin-cc" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>DeusData/codebase-memory-mcp — 46740 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.7k</text>
+        <title>openai/codex-plugin-cc — 34328 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codex-plugin-cc</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">openai · ★ 34.3k</text>
       </g>
     </a>
-    <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">
+    <a href="https://github.com/obra/superpowers" target="_blank">
       <g transform="translate(0, 78)" class="project">
-        <title>Yeachan-Heo/oh-my-claudecode — 39987 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-claudecode</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 40.0k</text>
+        <title>obra/superpowers — 301045 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 301.0k</text>
       </g>
     </a>
     </g>
@@ -60,102 +60,102 @@
         dur="50s"
         repeatCount="indefinite"
       />
-    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
+    <a href="https://github.com/openai/codex-plugin-cc" target="_blank">
       <g transform="translate(0, 12)" class="project">
-        <title>DeusData/codebase-memory-mcp — 46740 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.7k</text>
+        <title>openai/codex-plugin-cc — 34328 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codex-plugin-cc</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">openai · ★ 34.3k</text>
       </g>
     </a>
-    <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">
+    <a href="https://github.com/obra/superpowers" target="_blank">
       <g transform="translate(28, 78)" class="project">
-        <title>Yeachan-Heo/oh-my-claudecode — 39987 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-claudecode</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 40.0k</text>
+        <title>obra/superpowers — 301045 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 301.0k</text>
       </g>
     </a>
-    <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">
+    <a href="https://github.com/nexu-io/open-design" target="_blank">
       <g transform="translate(304, 12)" class="project">
-        <title>hesreallyhim/awesome-claude-code — 55875 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-code</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">hesreallyhim · ★ 55.9k</text>
+        <title>nexu-io/open-design — 101861 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">open-design</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">nexu-io · ★ 101.9k</text>
       </g>
     </a>
-    <a href="https://github.com/obra/superpowers" target="_blank">
+    <a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank">
       <g transform="translate(332, 78)" class="project">
-        <title>obra/superpowers — 300936 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 300.9k</text>
+        <title>ComposioHQ/awesome-claude-skills — 77288 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-skil…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">ComposioHQ · ★ 77.3k</text>
       </g>
     </a>
-    <a href="https://github.com/pbakaus/impeccable" target="_blank">
+    <a href="https://github.com/musistudio/claude-code-router" target="_blank">
       <g transform="translate(608, 12)" class="project">
-        <title>pbakaus/impeccable — 82160 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">impeccable</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">pbakaus · ★ 82.2k</text>
+        <title>musistudio/claude-code-router — 37712 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">claude-code-router</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">musistudio · ★ 37.7k</text>
       </g>
     </a>
-    <a href="https://github.com/JCodesMore/ai-website-cloner-template" target="_blank">
+    <a href="https://github.com/bytedance/deer-flow" target="_blank">
       <g transform="translate(636, 78)" class="project">
-        <title>JCodesMore/ai-website-cloner-template — 36909 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">ai-website-cloner-t…</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">JCodesMore · ★ 36.9k</text>
+        <title>bytedance/deer-flow — 84013 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">deer-flow</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">bytedance · ★ 84.0k</text>
       </g>
     </a>
-    <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" target="_blank">
+    <a href="https://github.com/career-ops-hq/career-ops" target="_blank">
       <g transform="translate(912, 12)" class="project">
-        <title>mukul975/Anthropic-Cybersecurity-Skills — 34593 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">Anthropic-Cybersecu…</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">mukul975 · ★ 34.6k</text>
+        <title>career-ops-hq/career-ops — 75326 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">career-ops</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">career-ops-hq · ★ 75.3k</text>
       </g>
     </a>
-    <a href="https://github.com/microsoft/playwright-mcp" target="_blank">
+    <a href="https://github.com/unslothai/unsloth" target="_blank">
       <g transform="translate(940, 78)" class="project">
-        <title>microsoft/playwright-mcp — 38270 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">playwright-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">microsoft · ★ 38.3k</text>
+        <title>unslothai/unsloth — 78172 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">unsloth</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">unslothai · ★ 78.2k</text>
       </g>
     </a>
-    <a href="https://github.com/colbymchenry/codegraph" target="_blank">
+    <a href="https://github.com/Twigpine/openclaude" target="_blank">
       <g transform="translate(1216, 12)" class="project">
-        <title>colbymchenry/codegraph — 74314 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codegraph</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">colbymchenry · ★ 74.3k</text>
+        <title>Twigpine/openclaude — 33960 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">openclaude</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">Twigpine · ★ 34.0k</text>
       </g>
     </a>
-    <a href="https://github.com/router-for-me/CLIProxyAPI" target="_blank">
+    <a href="https://github.com/github/github-mcp-server" target="_blank">
       <g transform="translate(1244, 78)" class="project">
-        <title>router-for-me/CLIProxyAPI — 55493 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">CLIProxyAPI</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">router-for-me · ★ 55.5k</text>
+        <title>github/github-mcp-server — 33689 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">github-mcp-server</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">github · ★ 33.7k</text>
       </g>
     </a>
-    <a href="https://github.com/DeusData/codebase-memory-mcp" target="_blank">
+    <a href="https://github.com/openai/codex-plugin-cc" target="_blank">
       <g transform="translate(1520, 12)" class="project">
-        <title>DeusData/codebase-memory-mcp — 46740 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codebase-memory-mcp</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">DeusData · ★ 46.7k</text>
-      </g>
-    </a>
-    <a href="https://github.com/Yeachan-Heo/oh-my-claudecode" target="_blank">
-      <g transform="translate(1548, 78)" class="project">
-        <title>Yeachan-Heo/oh-my-claudecode — 39987 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">oh-my-claudecode</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">Yeachan-Heo · ★ 40.0k</text>
-      </g>
-    </a>
-    <a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank">
-      <g transform="translate(1824, 12)" class="project">
-        <title>hesreallyhim/awesome-claude-code — 55875 stars</title>
-        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-code</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">hesreallyhim · ★ 55.9k</text>
+        <title>openai/codex-plugin-cc — 34328 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">codex-plugin-cc</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">openai · ★ 34.3k</text>
       </g>
     </a>
     <a href="https://github.com/obra/superpowers" target="_blank">
-      <g transform="translate(1852, 78)" class="project">
-        <title>obra/superpowers — 300936 stars</title>
+      <g transform="translate(1548, 78)" class="project">
+        <title>obra/superpowers — 301045 stars</title>
         <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">superpowers</text>
-        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 300.9k</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">obra · ★ 301.0k</text>
+      </g>
+    </a>
+    <a href="https://github.com/nexu-io/open-design" target="_blank">
+      <g transform="translate(1824, 12)" class="project">
+        <title>nexu-io/open-design — 101861 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">open-design</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">nexu-io · ★ 101.9k</text>
+      </g>
+    </a>
+    <a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank">
+      <g transform="translate(1852, 78)" class="project">
+        <title>ComposioHQ/awesome-claude-skills — 77288 stars</title>
+        <text x="0" y="26" fill="#1f2328" font-size="25" font-weight="600" letter-spacing="-0.5">awesome-claude-skil…</text>
+        <text x="0" y="47" fill="#59636e" font-size="14">ComposioHQ · ★ 77.3k</text>
       </g>
     </a>
     </g>
